@@ -144,7 +144,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 700,
+                  "charOffset": 689,
                   "snippet": {
                     "text": "Or"
                   }
@@ -184,7 +184,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 1093,
+                  "charOffset": 1070,
                   "snippet": {
                     "text": "Or"
                   }
@@ -224,7 +224,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 1599,
+                  "charOffset": 1567,
                   "snippet": {
                     "text": "Or"
                   }
@@ -264,7 +264,7 @@
                 },
                 "region": {
                   "charLength": 2,
-                  "charOffset": 2332,
+                  "charOffset": 2289,
                   "snippet": {
                     "text": "Or"
                   }
@@ -288,816 +288,6 @@
           },
           "ruleId": "app-SuggestRemoteExecutionHint-OpNotSupportedByService",
           "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-ViewRisksHamburgerMenu'.'ROS-HM-ICO-HamburgerMenuIcon_1'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-ViewRisksHamburgerMenu'.'ROS-HM-ICO-HamburgerMenuIcon_1'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-ViewRisksHamburgerMenu'.'ROS-HM-ICO-HamburgerMenuIcon_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-ViewRisksHamburgerMenu'.'ROS-HM-ICO-HamburgerMenuIcon_1'.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-ViewRisksHamburgerMenu'.'ROS-HM-ICO-HamburgerMenuIcon_1'.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-ViewRisksHamburgerMenu'.'ROS-HM-ICO-HamburgerMenuIcon_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-ViewRisksHamburgerMenu'.'ROS-HM-CON-SaveEditRiskButton_1'.'ROS-HM-SERB-ICO-SaveEditRiskButtonIcon_1'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-ViewRisksHamburgerMenu'.'ROS-HM-CON-SaveEditRiskButton_1'.'ROS-HM-SERB-ICO-SaveEditRiskButtonIcon_1'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-ViewRisksHamburgerMenu'.'ROS-HM-CON-SaveEditRiskButton_1'.'ROS-HM-SERB-ICO-SaveEditRiskButtonIcon_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-ViewRisksHamburgerMenu'.'ROS-HM-CON-SaveEditRiskButton_1'.'ROS-HM-SERB-ICO-SaveEditRiskButtonIcon_1'.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-ViewRisksHamburgerMenu'.'ROS-HM-CON-SaveEditRiskButton_1'.'ROS-HM-SERB-ICO-SaveEditRiskButtonIcon_1'.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-ViewRisksHamburgerMenu'.'ROS-HM-CON-SaveEditRiskButton_1'.'ROS-HM-SERB-ICO-SaveEditRiskButtonIcon_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-DeleteOption'.'ROS-OC-DO-LBL-Title'.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-DeleteOption'.'ROS-OC-DO-LBL-Title'.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-DeleteOption'.'ROS-OC-DO-LBL-Title'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-DeleteOption'.'ROS-OC-DO-LBL-Title'.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-DeleteOption'.'ROS-OC-DO-LBL-Title'.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-DeleteOption'.'ROS-OC-DO-LBL-Title'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SearchOption'.'ROS-OC-SO-INP-SearchInput'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SearchOption'.'ROS-OC-SO-INP-SearchInput'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SearchOption'.'ROS-OC-SO-INP-SearchInput'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria1'.'ROS-OC-SOO-C1-DD-ColumnChoice'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria1'.'ROS-OC-SOO-C1-DD-ColumnChoice'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria1'.'ROS-OC-SOO-C1-DD-ColumnChoice'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria1'.'ROS-OC-SOO-C1-DD-OrderChoice'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria1'.'ROS-OC-SOO-C1-DD-OrderChoice'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria1'.'ROS-OC-SOO-C1-DD-OrderChoice'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria2'.'ROS-OC-SOO-C2-ICO-DeleteC2'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria2'.'ROS-OC-SOO-C2-ICO-DeleteC2'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria2'.'ROS-OC-SOO-C2-ICO-DeleteC2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria2'.'ROS-OC-SOO-C2-ICO-DeleteC2'.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria2'.'ROS-OC-SOO-C2-ICO-DeleteC2'.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria2'.'ROS-OC-SOO-C2-ICO-DeleteC2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria2'.'ROS-OC-SOO-C2-DD-ColumnChoice'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria2'.'ROS-OC-SOO-C2-DD-ColumnChoice'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria2'.'ROS-OC-SOO-C2-DD-ColumnChoice'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria2'.'ROS-OC-SOO-C2-DD-OrderChoice'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria2'.'ROS-OC-SOO-C2-DD-OrderChoice'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria2'.'ROS-OC-SOO-C2-DD-OrderChoice'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria3'.'ROS-OC-SOO-C3-ICO-DeleteC3'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria3'.'ROS-OC-SOO-C3-ICO-DeleteC3'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria3'.'ROS-OC-SOO-C3-ICO-DeleteC3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria3'.'ROS-OC-SOO-C3-ICO-DeleteC3'.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria3'.'ROS-OC-SOO-C3-ICO-DeleteC3'.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria3'.'ROS-OC-SOO-C3-ICO-DeleteC3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria3'.'ROS-OC-SOO-C3-DD-ColumnChoice'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria3'.'ROS-OC-SOO-C3-DD-ColumnChoice'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria3'.'ROS-OC-SOO-C3-DD-ColumnChoice'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria3'.'ROS-OC-SOO-C3-DD-OrderChoice'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria3'.'ROS-OC-SOO-C3-DD-OrderChoice'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria3'.'ROS-OC-SOO-C3-DD-OrderChoice'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria1'.'ROS-OC-FO-C1-DD-ColumnChoiceC1'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria1'.'ROS-OC-FO-C1-DD-ColumnChoiceC1'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria1'.'ROS-OC-FO-C1-DD-ColumnChoiceC1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria1'.'ROS-OC-FO-C1-INP-InputC1'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria1'.'ROS-OC-FO-C1-INP-InputC1'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria1'.'ROS-OC-FO-C1-INP-InputC1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria2'.'ROS-OC-FO-C2-ICO-DeleteC2'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria2'.'ROS-OC-FO-C2-ICO-DeleteC2'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria2'.'ROS-OC-FO-C2-ICO-DeleteC2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria2'.'ROS-OC-FO-C2-ICO-DeleteC2'.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria2'.'ROS-OC-FO-C2-ICO-DeleteC2'.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria2'.'ROS-OC-FO-C2-ICO-DeleteC2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria2'.'ROS-OC-FO-C2-DD-ColumnChoiceC2'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria2'.'ROS-OC-FO-C2-DD-ColumnChoiceC2'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria2'.'ROS-OC-FO-C2-DD-ColumnChoiceC2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria2'.'ROS-OC-FO-C2-INP-InputC2'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria2'.'ROS-OC-FO-C2-INP-InputC2'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria2'.'ROS-OC-FO-C2-INP-InputC2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria3'.'ROS-OC-FO-C3-ICO-DeleteC3'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria3'.'ROS-OC-FO-C3-ICO-DeleteC3'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria3'.'ROS-OC-FO-C3-ICO-DeleteC3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria3'.'ROS-OC-FO-C3-ICO-DeleteC3'.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria3'.'ROS-OC-FO-C3-ICO-DeleteC3'.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria3'.'ROS-OC-FO-C3-ICO-DeleteC3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria3'.'ROS-OC-FO-C3-DD-ColumnChoiceC3'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria3'.'ROS-OC-FO-C3-DD-ColumnChoiceC3'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria3'.'ROS-OC-FO-C3-DD-ColumnChoiceC3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria3'.'ROS-OC-FO-C3-INP-InputC3'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria3'.'ROS-OC-FO-C3-INP-InputC3'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria3'.'ROS-OC-FO-C3-INP-InputC3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1974,6 +1164,816 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-ViewRisksHamburgerMenu'.'ROS-HM-ICO-HamburgerMenuIcon_1'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-ViewRisksHamburgerMenu'.'ROS-HM-ICO-HamburgerMenuIcon_1'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-ViewRisksHamburgerMenu'.'ROS-HM-ICO-HamburgerMenuIcon_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-ViewRisksHamburgerMenu'.'ROS-HM-ICO-HamburgerMenuIcon_1'.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-ViewRisksHamburgerMenu'.'ROS-HM-ICO-HamburgerMenuIcon_1'.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-ViewRisksHamburgerMenu'.'ROS-HM-ICO-HamburgerMenuIcon_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-ViewRisksHamburgerMenu'.'ROS-HM-CON-SaveEditRiskButton_1'.'ROS-HM-SERB-ICO-SaveEditRiskButtonIcon_1'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-ViewRisksHamburgerMenu'.'ROS-HM-CON-SaveEditRiskButton_1'.'ROS-HM-SERB-ICO-SaveEditRiskButtonIcon_1'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-ViewRisksHamburgerMenu'.'ROS-HM-CON-SaveEditRiskButton_1'.'ROS-HM-SERB-ICO-SaveEditRiskButtonIcon_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-ViewRisksHamburgerMenu'.'ROS-HM-CON-SaveEditRiskButton_1'.'ROS-HM-SERB-ICO-SaveEditRiskButtonIcon_1'.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-ViewRisksHamburgerMenu'.'ROS-HM-CON-SaveEditRiskButton_1'.'ROS-HM-SERB-ICO-SaveEditRiskButtonIcon_1'.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-ViewRisksHamburgerMenu'.'ROS-HM-CON-SaveEditRiskButton_1'.'ROS-HM-SERB-ICO-SaveEditRiskButtonIcon_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-DeleteOption'.'ROS-OC-DO-LBL-Title'.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-DeleteOption'.'ROS-OC-DO-LBL-Title'.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-DeleteOption'.'ROS-OC-DO-LBL-Title'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-DeleteOption'.'ROS-OC-DO-LBL-Title'.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-DeleteOption'.'ROS-OC-DO-LBL-Title'.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-DeleteOption'.'ROS-OC-DO-LBL-Title'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SearchOption'.'ROS-OC-SO-INP-SearchInput'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SearchOption'.'ROS-OC-SO-INP-SearchInput'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SearchOption'.'ROS-OC-SO-INP-SearchInput'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria1'.'ROS-OC-SOO-C1-DD-ColumnChoice'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria1'.'ROS-OC-SOO-C1-DD-ColumnChoice'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria1'.'ROS-OC-SOO-C1-DD-ColumnChoice'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria1'.'ROS-OC-SOO-C1-DD-OrderChoice'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria1'.'ROS-OC-SOO-C1-DD-OrderChoice'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria1'.'ROS-OC-SOO-C1-DD-OrderChoice'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria2'.'ROS-OC-SOO-C2-ICO-DeleteC2'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria2'.'ROS-OC-SOO-C2-ICO-DeleteC2'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria2'.'ROS-OC-SOO-C2-ICO-DeleteC2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria2'.'ROS-OC-SOO-C2-ICO-DeleteC2'.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria2'.'ROS-OC-SOO-C2-ICO-DeleteC2'.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria2'.'ROS-OC-SOO-C2-ICO-DeleteC2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria2'.'ROS-OC-SOO-C2-DD-ColumnChoice'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria2'.'ROS-OC-SOO-C2-DD-ColumnChoice'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria2'.'ROS-OC-SOO-C2-DD-ColumnChoice'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria2'.'ROS-OC-SOO-C2-DD-OrderChoice'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria2'.'ROS-OC-SOO-C2-DD-OrderChoice'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria2'.'ROS-OC-SOO-C2-DD-OrderChoice'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria3'.'ROS-OC-SOO-C3-ICO-DeleteC3'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria3'.'ROS-OC-SOO-C3-ICO-DeleteC3'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria3'.'ROS-OC-SOO-C3-ICO-DeleteC3'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria3'.'ROS-OC-SOO-C3-ICO-DeleteC3'.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria3'.'ROS-OC-SOO-C3-ICO-DeleteC3'.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria3'.'ROS-OC-SOO-C3-ICO-DeleteC3'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria3'.'ROS-OC-SOO-C3-DD-ColumnChoice'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria3'.'ROS-OC-SOO-C3-DD-ColumnChoice'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria3'.'ROS-OC-SOO-C3-DD-ColumnChoice'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria3'.'ROS-OC-SOO-C3-DD-OrderChoice'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria3'.'ROS-OC-SOO-C3-DD-OrderChoice'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-SortOption'.'ROS-OC-SOO-CON-Criteria3'.'ROS-OC-SOO-C3-DD-OrderChoice'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria1'.'ROS-OC-FO-C1-DD-ColumnChoiceC1'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria1'.'ROS-OC-FO-C1-DD-ColumnChoiceC1'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria1'.'ROS-OC-FO-C1-DD-ColumnChoiceC1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria1'.'ROS-OC-FO-C1-INP-InputC1'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria1'.'ROS-OC-FO-C1-INP-InputC1'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria1'.'ROS-OC-FO-C1-INP-InputC1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria2'.'ROS-OC-FO-C2-ICO-DeleteC2'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria2'.'ROS-OC-FO-C2-ICO-DeleteC2'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria2'.'ROS-OC-FO-C2-ICO-DeleteC2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria2'.'ROS-OC-FO-C2-ICO-DeleteC2'.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria2'.'ROS-OC-FO-C2-ICO-DeleteC2'.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria2'.'ROS-OC-FO-C2-ICO-DeleteC2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria2'.'ROS-OC-FO-C2-DD-ColumnChoiceC2'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria2'.'ROS-OC-FO-C2-DD-ColumnChoiceC2'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria2'.'ROS-OC-FO-C2-DD-ColumnChoiceC2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria2'.'ROS-OC-FO-C2-INP-InputC2'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria2'.'ROS-OC-FO-C2-INP-InputC2'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria2'.'ROS-OC-FO-C2-INP-InputC2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria3'.'ROS-OC-FO-C3-ICO-DeleteC3'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria3'.'ROS-OC-FO-C3-ICO-DeleteC3'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria3'.'ROS-OC-FO-C3-ICO-DeleteC3'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria3'.'ROS-OC-FO-C3-ICO-DeleteC3'.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria3'.'ROS-OC-FO-C3-ICO-DeleteC3'.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria3'.'ROS-OC-FO-C3-ICO-DeleteC3'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria3'.'ROS-OC-FO-C3-DD-ColumnChoiceC3'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria3'.'ROS-OC-FO-C3-DD-ColumnChoiceC3'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria3'.'ROS-OC-FO-C3-DD-ColumnChoiceC3'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria3'.'ROS-OC-FO-C3-INP-InputC3'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria3'.'ROS-OC-FO-C3-INP-InputC3'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'VIEW-RISKS'.'RMS-CON-RisksOptionContainer'.'ROS-OC-CON-FilterOption'.'ROS-OC-FO-CON-Criteria3'.'ROS-OC-FO-C3-INP-InputC3'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "RiskManagementScreen.'MOREINFO-RISKS'.'RMS-CON-ViewRisksHamburgerMenu_1'.'ROS-HM-ICO-HamburgerMenuIcon_3'.AccessibleLabel"
                 }
               ],
@@ -2034,66 +2034,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RiskManagementScreen.Icon1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Icon1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Icon1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.Icon1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Icon1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Icon1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "RiskManagementScreen.'EDIT-RISKS'.'RMS-CON-ViewRisksHamburgerMenu_2'.'ROS-HM-ICO-HamburgerMenuIcon_4'.AccessibleLabel"
                 }
               ],
@@ -2137,6 +2077,66 @@
                 "member": "TabIndex",
                 "module": "RiskManagementScreen",
                 "type": "RiskManagementScreen.'EDIT-RISKS'.'RMS-CON-ViewRisksHamburgerMenu_2'.'ROS-HM-ICO-HamburgerMenuIcon_4'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'EDIT-RISKS'.'RMS-CON-ViewRisksHamburgerMenu_2'.'ROS-HM-CON-BackButton_4'.'ROS-HM-HB-ICO-HomeButtonIcon_9'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'EDIT-RISKS'.'RMS-CON-ViewRisksHamburgerMenu_2'.'ROS-HM-CON-BackButton_4'.'ROS-HM-HB-ICO-HomeButtonIcon_9'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'EDIT-RISKS'.'RMS-CON-ViewRisksHamburgerMenu_2'.'ROS-HM-CON-BackButton_4'.'ROS-HM-HB-ICO-HomeButtonIcon_9'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.'EDIT-RISKS'.'RMS-CON-ViewRisksHamburgerMenu_2'.'ROS-HM-CON-BackButton_4'.'ROS-HM-HB-ICO-HomeButtonIcon_9'.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.'EDIT-RISKS'.'RMS-CON-ViewRisksHamburgerMenu_2'.'ROS-HM-CON-BackButton_4'.'ROS-HM-HB-ICO-HomeButtonIcon_9'.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.'EDIT-RISKS'.'RMS-CON-ViewRisksHamburgerMenu_2'.'ROS-HM-CON-BackButton_4'.'ROS-HM-HB-ICO-HomeButtonIcon_9'"
               }
             }
           ],
@@ -2214,49 +2214,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RiskManagementScreen.'EDIT-RISKS'.'RMS-CON-ViewRisksHamburgerMenu_2'.'ROS-HM-CON-BackButton_4'.'ROS-HM-HB-ICO-HomeButtonIcon_9'.TabIndex"
+                  "fullyQualifiedName": "RiskManagementScreen.Icon1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'EDIT-RISKS'.'RMS-CON-ViewRisksHamburgerMenu_2'.'ROS-HM-CON-BackButton_4'.'ROS-HM-HB-ICO-HomeButtonIcon_9'.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'EDIT-RISKS'.'RMS-CON-ViewRisksHamburgerMenu_2'.'ROS-HM-CON-BackButton_4'.'ROS-HM-HB-ICO-HomeButtonIcon_9'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'EDIT-RISKS'.'RMS-CON-ViewRisksHamburgerMenu_2'.'ROS-HM-CON-BackButton_4'.'ROS-HM-HB-ICO-HomeButtonIcon_9'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'EDIT-RISKS'.'RMS-CON-ViewRisksHamburgerMenu_2'.'ROS-HM-CON-BackButton_4'.'ROS-HM-HB-ICO-HomeButtonIcon_9'.AccessibleLabel",
+                  "fullyQualifiedName": "RiskManagementScreen.Icon1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'EDIT-RISKS'.'RMS-CON-ViewRisksHamburgerMenu_2'.'ROS-HM-CON-BackButton_4'.'ROS-HM-HB-ICO-HomeButtonIcon_9'"
+                "type": "RiskManagementScreen.Icon1"
               }
             }
           ],
@@ -2274,19 +2244,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RiskManagementScreen.Icon2.TabIndex"
+                  "fullyQualifiedName": "RiskManagementScreen.Icon1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Icon2.TabIndex",
+                  "fullyQualifiedName": "RiskManagementScreen.Icon1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Icon2"
+                "type": "RiskManagementScreen.Icon1"
               }
             }
           ],
@@ -2334,6 +2304,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "RiskManagementScreen.Icon2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Icon2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Icon2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.eGRC-FD-Background"
                 }
               ],
@@ -2358,6 +2358,66 @@
           },
           "ruleId": "app-UnusedMediaResources",
           "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.AddControl"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.AddControl",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AddControl",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.ROAddRisk"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.ROAddRisk",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "ROAddRisk",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -2467,66 +2527,6 @@
                 "member": "ROSortOption",
                 "module": "RiskManagementScreen",
                 "type": "RiskManagementScreen"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.AddControl"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.AddControl",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AddControl",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.ROAddRisk"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.ROAddRisk",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "ROAddRisk",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen"
               }
             }
           ],
