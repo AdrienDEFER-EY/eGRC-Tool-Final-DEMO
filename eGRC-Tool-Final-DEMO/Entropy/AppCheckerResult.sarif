@@ -2154,6 +2154,66 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Group_DataCard2_1'.DataCardValue30_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Group_DataCard2_1'.DataCardValue30_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "DashboardScreen",
+                "type": "DashboardScreen.Form1_1.'Risk Group_DataCard2_1'.DataCardValue30_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Cause_DataCard1_1'.DataCardValue6_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Cause_DataCard1_1'.DataCardValue6_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "DashboardScreen",
+                "type": "DashboardScreen.Form1_1.'Risk Cause_DataCard1_1'.DataCardValue6_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "RiskManagementScreen.'CREATE-RISKS'.'RMS-CON-ViewRisksHamburgerMenu_3'.'ROS-HM-ICO-HamburgerMenuIcon_5'.AccessibleLabel"
                 }
               ],
@@ -2214,19 +2274,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RiskManagementScreen.'EDIT-RISKS'.'RMS-CON-ViewRisksHamburgerMenu_2'.'ROS-HM-CON-BackButton_4'.'ROS-HM-HB-ICO-HomeButtonIcon_9'.TabIndex"
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Department Level I_DataCard2_1'.DataCardValue29_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'EDIT-RISKS'.'RMS-CON-ViewRisksHamburgerMenu_2'.'ROS-HM-CON-BackButton_4'.'ROS-HM-HB-ICO-HomeButtonIcon_9'.TabIndex",
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Department Level I_DataCard2_1'.DataCardValue29_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "TabIndex",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'EDIT-RISKS'.'RMS-CON-ViewRisksHamburgerMenu_2'.'ROS-HM-CON-BackButton_4'.'ROS-HM-HB-ICO-HomeButtonIcon_9'"
+                "member": "AccessibleLabel",
+                "module": "DashboardScreen",
+                "type": "DashboardScreen.Form1_1.'Risk Department Level I_DataCard2_1'.DataCardValue29_1"
               }
             }
           ],
@@ -2236,27 +2296,597 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RiskManagementScreen.'EDIT-RISKS'.'RMS-CON-ViewRisksHamburgerMenu_2'.'ROS-HM-CON-BackButton_4'.'ROS-HM-HB-ICO-HomeButtonIcon_9'.AccessibleLabel"
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Owner_DataCard1_1'.DataCardValue5_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'EDIT-RISKS'.'RMS-CON-ViewRisksHamburgerMenu_2'.'ROS-HM-CON-BackButton_4'.'ROS-HM-HB-ICO-HomeButtonIcon_9'.AccessibleLabel",
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Owner_DataCard1_1'.DataCardValue5_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "DashboardScreen",
+                "type": "DashboardScreen.Form1_1.'Risk Owner_DataCard1_1'.DataCardValue5_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Confidentiality_DataCard2_1'.DataCardValue28_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Confidentiality_DataCard2_1'.DataCardValue28_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "DashboardScreen",
+                "type": "DashboardScreen.Form1_1.'Risk Confidentiality_DataCard2_1'.DataCardValue28_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Description_DataCard2_1'.DataCardValue51_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Description_DataCard2_1'.DataCardValue51_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "DashboardScreen",
+                "type": "DashboardScreen.Form1_1.'Risk Description_DataCard2_1'.DataCardValue51_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Residual Risk Severity_DataCard2'.DataCardValue37.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Residual Risk Severity_DataCard2'.DataCardValue37.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'EDIT-RISKS'.'RMS-CON-ViewRisksHamburgerMenu_2'.'ROS-HM-CON-BackButton_4'.'ROS-HM-HB-ICO-HomeButtonIcon_9'"
+                "type": "RiskManagementScreen.Form1.'Residual Risk Severity_DataCard2'.DataCardValue37"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Name_DataCard1_1'.DataCardValue1_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Name_DataCard1_1'.DataCardValue1_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "DashboardScreen",
+                "type": "DashboardScreen.Form1_1.'Risk Name_DataCard1_1'.DataCardValue1_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Type Level I_DataCard2_1'.DataCardValue31_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Type Level I_DataCard2_1'.DataCardValue31_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "DashboardScreen",
+                "type": "DashboardScreen.Form1_1.'Risk Type Level I_DataCard2_1'.DataCardValue31_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Type Level II_DataCard2_1'.DataCardValue32_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Type Level II_DataCard2_1'.DataCardValue32_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "DashboardScreen",
+                "type": "DashboardScreen.Form1_1.'Risk Type Level II_DataCard2_1'.DataCardValue32_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Confidentiality_DataCard2'.DataCardValue28.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Confidentiality_DataCard2'.DataCardValue28.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Confidentiality_DataCard2'.DataCardValue28"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Department Level I_DataCard2'.DataCardValue29.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Department Level I_DataCard2'.DataCardValue29.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Department Level I_DataCard2'.DataCardValue29"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Group_DataCard2'.DataCardValue30.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Group_DataCard2'.DataCardValue30.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Group_DataCard2'.DataCardValue30"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Type Level I_DataCard2'.DataCardValue31.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Type Level I_DataCard2'.DataCardValue31.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Type Level I_DataCard2'.DataCardValue31"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Type Level II_DataCard2'.DataCardValue32.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Type Level II_DataCard2'.DataCardValue32.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Type Level II_DataCard2'.DataCardValue32"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Inherent Risk Likelihood_DataCard2'.DataCardValue33.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Inherent Risk Likelihood_DataCard2'.DataCardValue33.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Inherent Risk Likelihood_DataCard2'.DataCardValue33"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Inherent Risk Severity_DataCard2'.DataCardValue34.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Inherent Risk Severity_DataCard2'.DataCardValue34.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Inherent Risk Severity_DataCard2'.DataCardValue34"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Cause_DataCard1'.DataCardValue6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Cause_DataCard1'.DataCardValue6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Cause_DataCard1'.DataCardValue6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Owner_DataCard1'.DataCardValue5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Owner_DataCard1'.DataCardValue5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Owner_DataCard1'.DataCardValue5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Inherent Risk Likelihood_DataCard2_1'.DataCardValue33_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Inherent Risk Likelihood_DataCard2_1'.DataCardValue33_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "DashboardScreen",
+                "type": "DashboardScreen.Form1_1.'Inherent Risk Likelihood_DataCard2_1'.DataCardValue33_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Residual Risk Likelihood_DataCard2'.DataCardValue36.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Residual Risk Likelihood_DataCard2'.DataCardValue36.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Residual Risk Likelihood_DataCard2'.DataCardValue36"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Name_DataCard1'.DataCardValue1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Name_DataCard1'.DataCardValue1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Name_DataCard1'.DataCardValue1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Description_DataCard2'.DataCardValue51.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Description_DataCard2'.DataCardValue51.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Description_DataCard2'.DataCardValue51"
               }
             }
           ],
@@ -2334,6 +2964,576 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Flow RO_DataCard2_1'.DataCardValue45_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Flow RO_DataCard2_1'.DataCardValue45_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "DashboardScreen",
+                "type": "DashboardScreen.Form1_1.'Risk Flow RO_DataCard2_1'.DataCardValue45_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Flow SPOC_DataCard2_1'.DataCardValue44_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Flow SPOC_DataCard2_1'.DataCardValue44_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "DashboardScreen",
+                "type": "DashboardScreen.Form1_1.'Risk Flow SPOC_DataCard2_1'.DataCardValue44_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Flow BO_DataCard2_1'.DataCardValue43_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Flow BO_DataCard2_1'.DataCardValue43_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "DashboardScreen",
+                "type": "DashboardScreen.Form1_1.'Risk Flow BO_DataCard2_1'.DataCardValue43_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Taxonomy Level III_DataCard2_1'.DataCardValue42_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Taxonomy Level III_DataCard2_1'.DataCardValue42_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "DashboardScreen",
+                "type": "DashboardScreen.Form1_1.'Risk Taxonomy Level III_DataCard2_1'.DataCardValue42_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Taxonomy Level II_DataCard2_1'.DataCardValue41_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Taxonomy Level II_DataCard2_1'.DataCardValue41_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "DashboardScreen",
+                "type": "DashboardScreen.Form1_1.'Risk Taxonomy Level II_DataCard2_1'.DataCardValue41_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Taxonomy Level I_DataCard2_1'.DataCardValue40_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Taxonomy Level I_DataCard2_1'.DataCardValue40_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "DashboardScreen",
+                "type": "DashboardScreen.Form1_1.'Risk Taxonomy Level I_DataCard2_1'.DataCardValue40_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Reason for Risk Closure_DataCard2_1'.DataCardValue50_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Reason for Risk Closure_DataCard2_1'.DataCardValue50_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "DashboardScreen",
+                "type": "DashboardScreen.Form1_1.'Reason for Risk Closure_DataCard2_1'.DataCardValue50_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Status_DataCard2_1'.DataCardValue39_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Status_DataCard2_1'.DataCardValue39_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "DashboardScreen",
+                "type": "DashboardScreen.Form1_1.'Risk Status_DataCard2_1'.DataCardValue39_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Residual Risk Severity_DataCard2_1'.DataCardValue37_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Residual Risk Severity_DataCard2_1'.DataCardValue37_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "DashboardScreen",
+                "type": "DashboardScreen.Form1_1.'Residual Risk Severity_DataCard2_1'.DataCardValue37_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Residual Risk Likelihood_DataCard2_1'.DataCardValue36_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Residual Risk Likelihood_DataCard2_1'.DataCardValue36_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "DashboardScreen",
+                "type": "DashboardScreen.Form1_1.'Residual Risk Likelihood_DataCard2_1'.DataCardValue36_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Status_DataCard2'.DataCardValue39.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Status_DataCard2'.DataCardValue39.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Status_DataCard2'.DataCardValue39"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Taxonomy Level I_DataCard2'.DataCardValue40.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Taxonomy Level I_DataCard2'.DataCardValue40.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Taxonomy Level I_DataCard2'.DataCardValue40"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Taxonomy Level II_DataCard2'.DataCardValue41.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Taxonomy Level II_DataCard2'.DataCardValue41.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Taxonomy Level II_DataCard2'.DataCardValue41"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Taxonomy Level III_DataCard2'.DataCardValue42.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Taxonomy Level III_DataCard2'.DataCardValue42.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Taxonomy Level III_DataCard2'.DataCardValue42"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Flow BO_DataCard2'.DataCardValue43.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Flow BO_DataCard2'.DataCardValue43.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Flow BO_DataCard2'.DataCardValue43"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Flow SPOC_DataCard2'.DataCardValue44.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Flow SPOC_DataCard2'.DataCardValue44.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Flow SPOC_DataCard2'.DataCardValue44"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Flow RO_DataCard2'.DataCardValue45.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Flow RO_DataCard2'.DataCardValue45.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Flow RO_DataCard2'.DataCardValue45"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Reason for Risk Closure_DataCard2'.DataCardValue50.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Reason for Risk Closure_DataCard2'.DataCardValue50.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Reason for Risk Closure_DataCard2'.DataCardValue50"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Inherent Risk Severity_DataCard2_1'.DataCardValue34_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DashboardScreen.Form1_1.'Inherent Risk Severity_DataCard2_1'.DataCardValue34_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "DashboardScreen",
+                "type": "DashboardScreen.Form1_1.'Inherent Risk Severity_DataCard2_1'.DataCardValue34_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.eGRC-FD-Background"
                 }
               ],
@@ -2364,6 +3564,35 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "RiskManagementScreen"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-ScreenHasManyControls",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "RiskManagementScreen.RODeleteOption"
                 }
               ],
@@ -2387,7 +3616,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 6
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -2417,7 +3646,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 6
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -2447,7 +3676,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 6
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -2477,7 +3706,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 6
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -2507,7 +3736,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 6
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -2537,7 +3766,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 6
+          "ruleIndex": 7
         }
       ],
       "tool": {
@@ -2649,6 +3878,27 @@
                 "level": "Medium",
                 "primaryCategory": "performance",
                 "whyFix": "This media file is not referenced by any control formulas so it is not needed. Removing it will improve performance."
+              }
+            },
+            {
+              "id": "app-ScreenHasManyControls",
+              "messageStrings": {
+                "issue": {
+                  "text": "Too many controls on a screen"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Reduce the number of controls on the screen.",
+                  "Break the app into more screens to reduce the per-screen complexity.",
+                  "Use components to unify grouped controls that are identical across screens, reducing duplication.",
+                  "Use galleries to represent a series of repeated similar controls.",
+                  "Break the app into multiple apps so that each app is small and performant."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "Each control consumes resources, and an app may become slow or unresponsive if a screen has too many controls. The estimated complexity of \"RiskManagementScreen\" is 301, which exceeds the maximum threshold recommended (300)."
               }
             },
             {
