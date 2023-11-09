@@ -1,0 +1,1786 @@
+RiskManagementScreen As screen:
+    OnVisible: |-
+        =// Close the hamburger menu when the page is loaded
+        UpdateContext({OpenMenu: false});
+        
+        // Close all the hamburger menu option windows when the page is loaded
+        UpdateContext({ROAddRisk: false});
+        UpdateContext({ROFilterOption: false});
+        UpdateContext({ROSortOption: false});
+        UpdateContext({ROSearchOption: false});
+        UpdateContext({RODeleteOption: false});
+        
+        // Close the window showing the information and the modification of a selected record
+        UpdateContext({MoreInformationRequested: false});
+        UpdateContext({EditOption: false});
+        UpdateContext({ViewOption: true});
+
+    "'VIEW-RISKS' As groupContainer.manualLayoutContainer":
+        Height: =768
+        Visible: =ViewOption
+        Width: =1366
+        ZIndex: =1
+
+        "'RMS-CON-ViewRisksScreenHeader' As groupContainer.manualLayoutContainer":
+            BorderThickness: =2
+            Height: =76
+            Width: =1278 - 'RMS-CON-ViewRisksHamburgerMenu'.Width + 88
+            X: ='RMS-CON-ViewRisksHamburgerMenu'.Width
+            ZIndex: =1
+
+            "'ROS-CON-SHA-YellowRectangleHeader_1' As rectangle":
+                Fill: =RGBA(255, 230, 0, 1)
+                Height: =76
+                Width: =Parent.Width
+                ZIndex: =1
+
+            "'ROS-CON-LBL-RiskOverviewTitle_1' As label":
+                Align: =Align.Center
+                Font: =Font.Georgia
+                Height: =76
+                Size: =30
+                Text: ="RISK MANAGEMENT - OVERVIEW"
+                Width: =Parent.Width
+                ZIndex: =2
+
+        "'RMS-CON-ViewRisksHamburgerMenu' As groupContainer.manualLayoutContainer":
+            BorderThickness: =2
+            Height: =768
+            Width: =If(OpenMenu, Max(App.Width, App.DesignWidth)/7, 88)
+            ZIndex: =2
+
+            "'ROS-HM-SHA-HamburgerMenuYellowBackground_1' As rectangle":
+                Fill: =RGBA(255, 230, 0, 1)
+                Height: =Parent.Height
+                Width: =If(OpenMenu, Max(App.Width, App.DesignWidth)/7, 88)
+                ZIndex: =1
+
+            "'ROS-HM-ICO-HamburgerMenuIcon_1' As icon.Hamburger":
+                Icon: =Icon.Hamburger
+                OnSelect: |
+                    =// Extend/Hide the hamburger menu
+                    UpdateContext({OpenMenu: !OpenMenu});
+                    
+                    // Close all the hamburger menu windows
+                    If(AddRisk, UpdateContext({AddRisk: !AddRisk}));
+                    If(FilterOption, UpdateContext({FilterOption: !FilterOption}));
+                    If(SortOption, UpdateContext({SortOption: !SortOption}));
+                    If(SearchOption, UpdateContext({SearchOption: !SearchOption}));
+                    If(DeleteOption, UpdateContext({DeleteOption: !DeleteOption}));
+                    If(EditOption, UpdateContext({EditOption: !EditOption}));
+                    If(MoreInformationRequested, UpdateContext({MoreInformationRequested: !MoreInformationRequested}));
+                X: =12
+                ZIndex: =2
+
+            "'ROS-HM-CON-HomeButton_1' As groupContainer.manualLayoutContainer":
+                Height: =67
+                Width: =Parent.Width
+                Y: =76
+                ZIndex: =3
+
+                "'ROS-HM-HB-ICO-HomeButtonIcon_1' As icon.Home":
+                    Height: =67
+                    Icon: =Icon.Home
+                    PaddingBottom: =10
+                    PaddingLeft: =10
+                    PaddingRight: =10
+                    PaddingTop: =10
+                    X: =12
+                    ZIndex: =1
+
+                "'ROS-HM-HB-LBL-HomeButtonLabel_1' As label":
+                    Height: =64
+                    Text: ="Home"
+                    Width: =Parent.Width - 88
+                    X: =88
+                    Y: =3
+                    ZIndex: =2
+
+                "'ROS-HM-HB-BTN-HomeButton_1' As button":
+                    Fill: =RGBA(255, 255, 255, 0)
+                    Height: =67
+                    HoverFill: =
+                    OnSelect: |-
+                        =// Navigate to the home screen
+                        Navigate(HomeScreen)
+                    Text: =
+                    Width: =Parent.Width
+                    ZIndex: =3
+
+            "'ROS-HM-CON-AddButton_1' As groupContainer.manualLayoutContainer":
+                Height: =67
+                Width: =Parent.Width
+                Y: =155
+                ZIndex: =4
+
+                "'ROS-HM-AB-ICO-AddButtonIcon_1' As icon.Add":
+                    Height: =67
+                    Icon: =Icon.Add
+                    PaddingBottom: =10
+                    PaddingLeft: =10
+                    PaddingRight: =10
+                    PaddingTop: =10
+                    X: =12
+                    ZIndex: =1
+
+                "'ROS-HM-AB-LBL-AddButtonLabel_1' As label":
+                    Height: =67
+                    Text: ="Add"
+                    Width: =Parent.Width - 88
+                    X: =88
+                    ZIndex: =2
+
+                "'ROS-HM-AB-BTN-AddButton_1' As button":
+                    Fill: =RGBA(255, 255, 255, 0)
+                    Height: =67
+                    HoverFill: =
+                    OnSelect: =
+                    Text: =
+                    Width: =Parent.Width
+                    ZIndex: =3
+
+            "'ROS-HM-CON-FilterButton_1' As groupContainer.manualLayoutContainer":
+                Height: =67
+                Width: =Parent.Width
+                Y: =234
+                ZIndex: =5
+
+                "'ROS-HM-FB-ICO-FilterButtonIcon_1' As icon.Filter":
+                    Height: =67
+                    Icon: =Icon.Filter
+                    PaddingBottom: =10
+                    PaddingLeft: =10
+                    PaddingRight: =10
+                    PaddingTop: =10
+                    X: =12
+                    ZIndex: =1
+
+                "'ROS-HM-FB-LBL-FilterButtonLabel_1' As label":
+                    Height: =67
+                    Text: ="Filter"
+                    Width: =Parent.Width - 88
+                    X: =88
+                    ZIndex: =2
+
+                "'ROS-HM-FB-BTN-FilterButton_1' As button":
+                    Fill: =RGBA(255, 255, 255, 0)
+                    Height: =67
+                    HoverFill: =
+                    OnSelect: |-
+                        =// Open the hamburger menu to let the "Clear" and the "Add Criteria" buttons visible
+                        UpdateContext({OpenMenu: true});
+                        
+                        // Open/Close the "Filter" option menu
+                        UpdateContext({FilterOption: !FilterOption});
+                        
+                        // Close all the other hamburger menu option windows
+                        UpdateContext({SortOption: false});
+                        UpdateContext({SearchOption: false});
+                        UpdateContext({DeleteOption: false});
+                        UpdateContext({AddRisk: false});
+                        
+                        // Close the window showing the information and the modification of a selected record
+                        UpdateContext({MoreInformationRequested: false});
+                        UpdateContext({EditOption: false});
+                        
+                        // Set the number of filter criteria to 1
+                        UpdateContext({NumberOfSelectedFilterCriteria: 1});
+                    Text: =
+                    Width: =Parent.Width
+                    ZIndex: =3
+
+            "'ROS-HM-CON-SortButton_1' As groupContainer.manualLayoutContainer":
+                Height: =67
+                Width: =Parent.Width
+                Y: =313
+                ZIndex: =6
+
+                "'ROS-HM-SB-ICO-SortButtonIcon_1' As icon.ArrowsUpDown":
+                    Height: =67
+                    Icon: =Icon.Sort
+                    PaddingBottom: =10
+                    PaddingLeft: =10
+                    PaddingRight: =10
+                    PaddingTop: =10
+                    X: =12
+                    ZIndex: =1
+
+                "'ROS-HM-SB-LBL-SortButtonLabel_1' As label":
+                    Height: =67
+                    Text: ="Sort"
+                    Width: =Parent.Width - 88
+                    X: =88
+                    ZIndex: =2
+
+                "'ROS-HM-SB-BTN-SortButton_1' As button":
+                    Fill: =RGBA(255, 255, 255, 0)
+                    Height: =67
+                    HoverFill: =
+                    OnSelect: |-
+                        =// Open the hamburger menu to let the "Clear" and the "Add Criteria" buttons visible
+                        UpdateContext({OpenMenu: true});
+                        
+                        // Open/Close the "Filter" option menu
+                        UpdateContext({SortOption: !SortOption});
+                        
+                        // Close all the other hamburger menu option windows
+                        UpdateContext({SearchOption: false});
+                        UpdateContext({DeleteOption: false});
+                        UpdateContext({AddRisk: false});
+                        UpdateContext({FilterOption: false});
+                        
+                        // Close the window showing the information and the modification of a selected record
+                        UpdateContext({MoreInformationRequested: false});
+                        UpdateContext({EditOption: false});
+                        
+                        // Set the number of filter criteria to 1
+                        UpdateContext({NumberOfSelectedSortingCriteria: 1});
+                    Text: =
+                    Width: =Parent.Width
+                    ZIndex: =3
+
+            "'ROS-HM-CON-SearchButton_1' As groupContainer.manualLayoutContainer":
+                Height: =67
+                Width: =Parent.Width
+                Y: =392
+                ZIndex: =7
+
+                "'ROS-HM-SB-ICO-SearchButtonIcon_1' As icon.Search":
+                    Height: =67
+                    Icon: =Icon.Search
+                    PaddingBottom: =10
+                    PaddingLeft: =10
+                    PaddingRight: =10
+                    PaddingTop: =10
+                    X: =12
+                    ZIndex: =1
+
+                "'ROS-HM-SB-LBL-SearchButtonLabel_1' As label":
+                    Height: =67
+                    Text: ="Search"
+                    Width: =Parent.Width - 88
+                    X: =88
+                    ZIndex: =2
+
+                "'ROS-HM-SB-BTN-SearchButton_1' As button":
+                    Fill: =RGBA(255, 255, 255, 0)
+                    Height: =67
+                    HoverFill: =
+                    OnSelect: |-
+                        =// No need to open the open the hamburger menu
+                        
+                        // Open/Close the "Search" option menu
+                        UpdateContext({SearchOption: !SearchOption});
+                        
+                        // Close all the other hamburger menu option windows
+                        UpdateContext({DeleteOption: false});
+                        UpdateContext({AddRisk: false});
+                        UpdateContext({FilterOption: false});
+                        UpdateContext({SortOption: false});
+                        
+                        // Close the window showing the information and the modification of a selected record
+                        UpdateContext({MoreInformationRequested: false});
+                        UpdateContext({EditOption: false})
+                    Text: =
+                    Width: =Parent.Width
+                    ZIndex: =3
+
+            "'ROS-HM-CON-DeleteButton_1' As groupContainer.manualLayoutContainer":
+                Height: =67
+                Width: =Parent.Width
+                Y: =471
+                ZIndex: =8
+
+                "'ROS-HM-DB-ICO-DeleteButtonIcon_1' As icon.Trash":
+                    Height: =67
+                    Icon: =Icon.Trash
+                    PaddingBottom: =10
+                    PaddingLeft: =10
+                    PaddingRight: =10
+                    PaddingTop: =10
+                    X: =12
+                    ZIndex: =1
+
+                "'ROS-HM-DB-LBL-DeleteButtonLabel_1' As label":
+                    Height: =67
+                    Text: ="Delete"
+                    Width: =Parent.Width - 88
+                    X: =88
+                    ZIndex: =2
+
+                "'ROS-HM-DB-BTN-DeleteButton_1' As button":
+                    Fill: =RGBA(255, 255, 255, 0)
+                    Height: =67
+                    HoverFill: =
+                    OnSelect: |-
+                        =// No need to open the open the hamburger menu
+                        
+                        // Open/Close the "Delete" option menu
+                        UpdateContext({DeleteOption: !DeleteOption});
+                        
+                        // Close all the other hamburger menu option windows
+                        UpdateContext({AddRisk: false});
+                        UpdateContext({FilterOption: false});
+                        UpdateContext({SortOption: false});
+                        UpdateContext({SearchOption: false});
+                        
+                        // Close the window showing the information and the modification of a selected record
+                        UpdateContext({MoreInformationRequested: false});
+                        UpdateContext({EditOption: false})
+                    Text: =
+                    Width: =Parent.Width
+                    ZIndex: =3
+
+            "'ROS-HM-CON-LinkToControlsButton_1' As groupContainer.manualLayoutContainer":
+                Height: =67
+                Width: =Parent.Width
+                Y: =550
+                ZIndex: =9
+
+                "'ROS_HM-LTCB-ICO-LinkToControlsIcon_1' As icon.Controller":
+                    Height: =67
+                    Icon: =Icon.Controller
+                    PaddingBottom: =10
+                    PaddingLeft: =10
+                    PaddingRight: =10
+                    PaddingTop: =10
+                    X: =12
+                    ZIndex: =1
+
+                "'ROS_HM-LTCB-LBL-LinkToControlsLabel_1' As label":
+                    Height: =67
+                    Text: ="Controls"
+                    Width: =Parent.Width - 88
+                    X: =88
+                    ZIndex: =2
+
+                "'ROS_HM-LTCB-BTN-LinkToControlsButton_1' As button":
+                    Fill: =RGBA(255, 255, 255, 0)
+                    Height: =67
+                    HoverFill: =
+                    OnSelect: |-
+                        =// Navigate to the risk overview screen
+                        Navigate(ControlManagementScreen)
+                    Text: =
+                    Width: =Parent.Width
+                    ZIndex: =3
+
+            "'ROS-HM-CON-SortRiskAddCriteriaButton_1' As groupContainer.manualLayoutContainer":
+                Height: =50
+                Visible: =If(SortOption, true, false)
+                Width: =Parent.Width
+                Y: =656
+                ZIndex: =12
+
+                "'ROS-HM-SRACB-ICO-SortRiskAddCriteriaButtonIcon_1' As icon.Add":
+                    Height: =50
+                    Icon: =Icon.Add
+                    OnSelect: =
+                    PaddingBottom: =10
+                    PaddingLeft: =10
+                    PaddingRight: =10
+                    PaddingTop: =10
+                    X: =12
+                    ZIndex: =1
+
+                "'ROS-HM-SRACB-LBL-SortRiskAddCriteriaButtonLabel_1' As label":
+                    Height: =50
+                    Text: ="Add Criteria"
+                    Width: =Parent.Width - 88
+                    X: =88
+                    ZIndex: =2
+
+                "'ROS-HM-SRACB-BTN-SortRiskAddCriteriaButton_1' As button":
+                    Fill: =RGBA(255, 255, 255, 0)
+                    Height: =50
+                    HoverFill: =
+                    OnSelect: |-
+                        =If(NumberOfSelectedSortingCriteria < 3, UpdateContext({NumberOfSelectedSortingCriteria: NumberOfSelectedSortingCriteria + 1}))
+                    Text: =
+                    Width: =Parent.Width
+                    ZIndex: =3
+
+            "'ROS-HM-CON-SortRiskClearCriteriaButton_1' As groupContainer.manualLayoutContainer":
+                Height: =50
+                Visible: =If(SortOption, true, false)
+                Width: =Parent.Width
+                Y: =718
+                ZIndex: =13
+
+                "'ROS-HM-SRCCB-ICO-SortRiskCancelCriteriaButtonIcon_1' As icon.Reset":
+                    Height: =50
+                    Icon: =Icon.Reset
+                    OnSelect: =
+                    PaddingBottom: =10
+                    PaddingLeft: =10
+                    PaddingRight: =10
+                    PaddingTop: =10
+                    X: =12
+                    ZIndex: =1
+
+                "'ROS-HM-SRCCB-LBL-SortRiskCancelCriteriaButtonLabel_1' As label":
+                    Height: =50
+                    Text: ="Clear"
+                    Width: =Parent.Width - 88
+                    X: =88
+                    ZIndex: =2
+
+                "'ROS-HM-SRCCB-BTN-SortRiskCancelCriteriaButton_1' As button":
+                    Fill: =RGBA(255, 255, 255, 0)
+                    Height: =50
+                    HoverFill: =
+                    OnSelect: |-
+                        =/*Reset('COS-OC-SOO-C1-DD-ColumnChoice');
+                        Reset('COS-OC-SOO-C1-DD-OrderChoice');
+                        Reset('COS-OC-SOO-C2-DD-ColumnChoice');
+                        Reset('COS-OC-SOO-C2-DD-OrderChoice');
+                        Reset('COS-OC-SOO-C3-DD-ColumnChoice');
+                        Reset('COS-OC-SOO-C3-DD-OrderChoice')*/
+                    Text: =
+                    Width: =Parent.Width
+                    ZIndex: =3
+
+            "'ROS-HM-CON-SaveEditRiskButton_1' As groupContainer.manualLayoutContainer":
+                Height: =50
+                Visible: =EditOption
+                Width: =Parent.Width
+                Y: =150
+                ZIndex: =14
+
+                "'ROS-HM-SERB-ICO-SaveEditRiskButtonIcon_1' As icon.Save":
+                    Height: =50
+                    Icon: =Icon.Save
+                    OnSelect: |-
+                        =UpdateContext({EditOption: false});
+                        //SubmitForm('COS-ER-FOR-EditControl');
+                        //Patch(ControlDatabaseFD, LookUp(ControlDatabaseFD, ControlID = 'GAL-ROGallery_1'.Selected.ControlID), {'Date Last Modified': Now(), 'Who Last Modified': User().FullName}); 
+                        //Notify("Control is successfully modified")
+                    PaddingBottom: =10
+                    PaddingLeft: =10
+                    PaddingRight: =10
+                    PaddingTop: =10
+                    X: =12
+                    ZIndex: =1
+
+                "'ROS-HM-SERB-BTN-SaveEditRiskButton_1' As button":
+                    Fill: =RGBA(255, 255, 255, 0)
+                    Height: =50
+                    HoverFill: =
+                    OnSelect: |-
+                        =UpdateContext({DeleteOption: false});
+                        UpdateContext({EditOption: false});
+                        UpdateContext({SearchOption: false});
+                        UpdateContext({SortOption: false});
+                        UpdateContext({FilterOption: false});
+                        UpdateContext({ROAddRisk: false});
+                        UpdateContext({MoreInformationRequested: false})
+                    Text: =
+                    Width: =Parent.Width
+                    ZIndex: =3
+
+            "'ROS-HM-CON-CancelEditRiskButton_1' As groupContainer.manualLayoutContainer":
+                Height: =50
+                Visible: =EditOption
+                Width: =Parent.Width
+                Y: =150
+                ZIndex: =15
+
+                "'ROS-HM-CERB-ICO-CancelEditRiskButtonIcon_1' As icon.CancelBadge":
+                    Height: =50
+                    Icon: =Icon.CancelBadge
+                    PaddingBottom: =10
+                    PaddingLeft: =10
+                    PaddingRight: =10
+                    PaddingTop: =10
+                    X: =12
+                    ZIndex: =1
+
+                "'ROS-HM-CERB-BTN-CancelEditRiskButton_1' As button":
+                    Fill: =RGBA(255, 255, 255, 0)
+                    Height: =50
+                    HoverFill: =
+                    OnSelect: |-
+                        =UpdateContext({DeleteOption: false});
+                        UpdateContext({EditOption: false});
+                        UpdateContext({SearchOption: false});
+                        UpdateContext({SortOption: false});
+                        UpdateContext({FilterOption: false});
+                        UpdateContext({ROAddRisk: false});
+                        UpdateContext({MoreInformationRequested: false})
+                    Text: =
+                    Width: =Parent.Width
+                    ZIndex: =3
+
+            "'ROS-HM-CON-FilterRiskAddCriteriaButton_1' As groupContainer.manualLayoutContainer":
+                Height: =50
+                Visible: =If(FilterOption, true, false)
+                Width: =Parent.Width
+                Y: =656
+                ZIndex: =16
+
+                "'ROS-HM-FRACB-ICO-FilterRiskAddCriteriaButtonIcon_1' As icon.Add":
+                    Height: =50
+                    Icon: =Icon.Add
+                    OnSelect: =
+                    PaddingBottom: =10
+                    PaddingLeft: =10
+                    PaddingRight: =10
+                    PaddingTop: =10
+                    X: =12
+                    ZIndex: =1
+
+                "'ROS-HM-FRACB-LBL-FilterRiskAddCriteriaButtonLabel_1' As label":
+                    Height: =50
+                    Text: ="Add Criteria"
+                    Width: =Parent.Width - 88
+                    X: =88
+                    ZIndex: =2
+
+                "'ROS-HM-FRACB-BTN-FilterRiskAddCriteriaButton_1' As button":
+                    Fill: =RGBA(255, 255, 255, 0)
+                    Height: =50
+                    HoverFill: =
+                    OnSelect: |-
+                        =If(NumberOfSelectedFilterCriteria < 3, UpdateContext({NumberOfSelectedFilterCriteria: NumberOfSelectedFilterCriteria + 1}))
+                    Text: =
+                    Width: =Parent.Width
+                    ZIndex: =3
+
+            "'ROS-HM-CON-FilterRiskClearCriteriaButton_1' As groupContainer.manualLayoutContainer":
+                Height: =50
+                Visible: =If(FilterOption, true, false)
+                Width: =Parent.Width
+                Y: =718
+                ZIndex: =17
+
+                "'ROS-HM-FRCCB-ICO-FilterRiskClearCriteriaButtonIcon_1' As icon.Reset":
+                    Height: =50
+                    Icon: =Icon.Reset
+                    OnSelect: =
+                    PaddingBottom: =10
+                    PaddingLeft: =10
+                    PaddingRight: =10
+                    PaddingTop: =10
+                    X: =12
+                    ZIndex: =1
+
+                "'ROS-HM-FRCCB-LBL-FilterRiskClearCriteriaButtonLabel_1' As label":
+                    Height: =50
+                    Text: ="Clear"
+                    Width: =Parent.Width - 88
+                    X: =88
+                    ZIndex: =2
+
+                "'ROS-HM-FRCCB-BTN-FilterRiskClearCriteriaButton_1' As button":
+                    Fill: =RGBA(255, 255, 255, 0)
+                    Height: =50
+                    HoverFill: =
+                    OnSelect: |-
+                        =/*Reset('COS-OC-FO-C1-DD-ColumnChoiceC1');
+                        Reset('COS-OC-FO-C2-DD-ColumnChoiceC2');
+                        Reset('COS-OC-FO-C3-DD-ColumnChoiceC3');
+                        Reset('COS-OC-FO-C1-INP-InputC1');
+                        Reset('COS-OC-FO-C2-INP-InputC2');
+                        Reset('COS-OC-FO-C3-INP-InputC3')*/
+                    Text: =
+                    Width: =Parent.Width
+                    ZIndex: =3
+
+            "'ROS-HM-CON-ExitMoreInformationButton_1' As groupContainer.manualLayoutContainer":
+                Height: =50
+                Visible: =MoreInformationRequested
+                Width: =Parent.Width
+                Y: =150
+                ZIndex: =18
+
+                "'ROS-HM-EMIB-ICO-MoreInformationExitIcon_1' As icon.CancelBadge":
+                    Height: =50
+                    Icon: =Icon.CancelBadge
+                    PaddingBottom: =10
+                    PaddingLeft: =10
+                    PaddingRight: =10
+                    PaddingTop: =10
+                    X: =12
+                    ZIndex: =1
+
+                "'ROS-HM-EMIB-BTN-MoreInformationExitButton_1' As button":
+                    Fill: =RGBA(255, 255, 255, 0)
+                    Height: =50
+                    HoverFill: =
+                    OnSelect: |-
+                        =// Close the more information requested window
+                        UpdateContext({MoreInformationRequested: false});
+                    Text: =
+                    Width: =Parent.Width
+                    ZIndex: =2
+
+        "'RMS-CON-RisksOptionContainer' As groupContainer.manualLayoutContainer":
+            Height: =If(SortOption, 'ROS-OC-CON-SortOption'.Height, 692)
+            Width: =If(Or(FilterOption, SortOption, SearchOption, DeleteOption), 300, 0)
+            X: ='RMS-CON-ViewRisksHamburgerMenu'.Width
+            Y: =76
+            ZIndex: =3
+
+            "'ROS-OC-CON-DeleteOption' As groupContainer.manualLayoutContainer":
+                Height: =692
+                Width: =If(DeleteOption, Parent.Width - 1, 0)
+                ZIndex: =1
+
+                "'ROS-OC-DO-SHA-YellowBackground' As rectangle":
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderThickness: =1
+                    Fill: =RGBA(255, 230, 0, 1)
+                    Height: =Parent.Height
+                    Width: =Parent.Width - 1
+                    ZIndex: =1
+
+                "'ROS-OC-DO-LBL-Title' As label":
+                    Align: =Align.Center
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderThickness: =1
+                    Font: =Font.Georgia
+                    FontWeight: =FontWeight.Bold
+                    Height: =56
+                    OnSelect: =ClearCollect(SelectedRecords, {})
+                    Size: =15
+                    Text: ="Delete Option"
+                    Width: =Parent.Width - 1
+                    ZIndex: =2
+
+                "'ROS-OC-DO-BTN-DeleteRecords' As button":
+                    Font: =Font.Georgia
+                    OnSelect: |-
+                        =//RemoveIf(RiskDatabaseFD, RiskID in SelectedRecords.RiskID); ClearCollect(SelectedRecords, {});
+                        //Refresh(RiskDatabaseFD); Notify("The records are successfully deleted")
+                    Text: ="Delete"
+                    Width: =259
+                    X: =21
+                    Y: =75
+                    ZIndex: =3
+
+            "'ROS-OC-CON-SearchOption' As groupContainer.manualLayoutContainer":
+                Height: =692
+                Width: =If(SearchOption, Parent.Width - 1, 0)
+                ZIndex: =2
+
+                "'ROS-OC-SO-SHA-YellowBackground' As rectangle":
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderThickness: =1
+                    Fill: =RGBA(255, 230, 0, 1)
+                    Height: =Parent.Height
+                    Width: =Parent.Width - 1
+                    ZIndex: =1
+
+                "'ROS-OC-SO-LBL-Title' As label":
+                    Align: =Align.Center
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderThickness: =1
+                    Font: =Font.Georgia
+                    FontWeight: =FontWeight.Bold
+                    Height: =56
+                    Size: =15
+                    Text: ="Search Option"
+                    Width: =Parent.Width - 1
+                    ZIndex: =2
+
+                "'ROS-OC-SO-INP-SearchInput' As text":
+                    Default: =""
+                    HintText: ="Search"
+                    Width: =259
+                    X: =21
+                    Y: =75
+                    ZIndex: =3
+
+            "'ROS-OC-CON-SortOption' As groupContainer.manualLayoutContainer":
+                Height: =692
+                RadiusBottomLeft: =1
+                RadiusBottomRight: =1
+                RadiusTopLeft: =1
+                RadiusTopRight: =1
+                Width: =If(SortOption, Parent.Width - 1, 0)
+                ZIndex: =3
+
+                "'ROS-OC-SOO-SHA-YellowBackground' As rectangle":
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderThickness: =1
+                    Fill: =RGBA(255, 230, 0, 1)
+                    Height: =Parent.Height
+                    Width: =Parent.Width - 1
+                    X: =1
+                    ZIndex: =1
+
+                "'ROS-OC-SOO-CON-Criteria1' As groupContainer.manualLayoutContainer":
+                    Fill: =RGBA(255, 230, 0, 1)
+                    Height: =190
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Width: =Parent.Width - 1
+                    X: =1
+                    Y: =56
+                    ZIndex: =3
+
+                    "'ROS-OC-SOO-C1-DD-ColumnChoice' As dropdown":
+                        Font: =Font.Georgia
+                        Height: =39
+                        Items: =["Risk ID", "Risk Taxonomy Level I", "Risk Taxonomy Level II", "Risk Taxonomy Level III", "Risk Name", "Risk Owner", "Inherent Risk Level of Concern","Residual Risk Level of Concern"]
+                        Width: =259
+                        X: =21
+                        Y: =60
+                        ZIndex: =1
+
+                    "'ROS-OC-SOO-C1-DD-OrderChoice' As dropdown":
+                        Font: =Font.Georgia
+                        Height: =39
+                        Items: =["Ascending", "Descending"]
+                        Width: =259
+                        X: =21
+                        Y: =135
+                        ZIndex: =2
+
+                    "'ROS-OC-SOO-C1-LBL-TitleC1' As label":
+                        Font: =Font.Georgia
+                        FontWeight: =FontWeight.Bold
+                        Height: =30
+                        Text: |-
+                            ="Sorting Criteria I : "
+                        Width: =256
+                        ZIndex: =3
+
+                    "'ROS-OC-SOO-C1-LBL-ColumnChoiceText' As label":
+                        Font: =Font.Georgia
+                        Height: =30
+                        Text: |-
+                            ="Column Choice :"
+                        Width: =256
+                        X: =21
+                        Y: =30
+                        ZIndex: =4
+
+                    "'ROS-OC-SOO-C1-LBL-SearchBarText' As label":
+                        Font: =Font.Georgia
+                        Height: =30
+                        Text: |-
+                            ="Order Choice :"
+                        Width: =256
+                        X: =21
+                        Y: =105
+                        ZIndex: =5
+
+                "'ROS-OC-SOO-CON-Criteria2' As groupContainer.manualLayoutContainer":
+                    Fill: =RGBA(255, 230, 0, 1)
+                    Height: =190
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Visible: =If(NumberOfSelectedSortingCriteria >= 2, true, false)
+                    Width: =Parent.Width - 1
+                    X: =1
+                    Y: =246
+                    ZIndex: =4
+
+                    "'ROS-OC-SOO-C2-DD-ColumnChoice' As dropdown":
+                        Font: =Font.Georgia
+                        Height: =39
+                        Items: =["Risk ID", "Risk Taxonomy Level I", "Risk Taxonomy Level II", "Risk Taxonomy Level III", "Risk Name", "Risk Owner", "Inherent Risk Level of Concern","Residual Risk Level of Concern"]
+                        Width: =259
+                        X: =21
+                        Y: =60
+                        ZIndex: =1
+
+                    "'ROS-OC-SOO-C2-DD-OrderChoice' As dropdown":
+                        Font: =Font.Georgia
+                        Height: =39
+                        Items: =["Ascending", "Descending"]
+                        Width: =259
+                        X: =21
+                        Y: =135
+                        ZIndex: =2
+
+                    "'ROS-OC-SOO-C2-LBL-TitleC2' As label":
+                        Font: =Font.Georgia
+                        FontWeight: =FontWeight.Bold
+                        Height: =30
+                        Text: |-
+                            ="Sorting Criteria II : "
+                        Width: =256
+                        ZIndex: =3
+
+                    "'ROS-OC-SOO-C2-LBL-ColumnChoiceText' As label":
+                        Font: =Font.Georgia
+                        Height: =30
+                        Text: |-
+                            ="Column Choice :"
+                        Width: =256
+                        X: =21
+                        Y: =30
+                        ZIndex: =4
+
+                    "'ROS-OC-SOO-C2-LBL-SearchBarText' As label":
+                        Font: =Font.Georgia
+                        Height: =30
+                        Text: |-
+                            ="Order Choice :"
+                        Width: =256
+                        X: =21
+                        Y: =105
+                        ZIndex: =5
+
+                    "'ROS-OC-SOO-C2-ICO-DeleteC2' As icon.Cancel":
+                        Color: =RGBA(255, 0, 0, 1)
+                        Height: =50
+                        Icon: =Icon.Cancel
+                        OnSelect: |-
+                            =If(NumberOfSelectedSortingCriteria = 2, UpdateContext({NumberOfSelectedSortingCriteria: 1}))
+                        PaddingBottom: =10
+                        PaddingLeft: =10
+                        PaddingRight: =10
+                        PaddingTop: =10
+                        Visible: =If('ROS-OC-SOO-C3-ICO-DeleteC3'.Visible, false, true)
+                        Width: =50
+                        X: =248
+                        ZIndex: =6
+
+                "'ROS-OC-SOO-CON-Criteria3' As groupContainer.manualLayoutContainer":
+                    Fill: =RGBA(255, 230, 0, 1)
+                    Height: =190
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Visible: =If(NumberOfSelectedSortingCriteria = 3, true, false)
+                    Width: =Parent.Width - 1
+                    X: =1
+                    Y: =436
+                    ZIndex: =5
+
+                    "'ROS-OC-SOO-C3-DD-ColumnChoice' As dropdown":
+                        Font: =Font.Georgia
+                        Height: =39
+                        Items: =["Risk ID", "Risk Taxonomy Level I", "Risk Taxonomy Level II", "Risk Taxonomy Level III", "Risk Name", "Risk Owner", "Inherent Risk Level of Concern","Residual Risk Level of Concern"]
+                        Width: =259
+                        X: =21
+                        Y: =60
+                        ZIndex: =1
+
+                    "'ROS-OC-SOO-C3-DD-OrderChoice' As dropdown":
+                        Font: =Font.Georgia
+                        Height: =39
+                        Items: =["Ascending", "Descending"]
+                        Width: =259
+                        X: =21
+                        Y: =135
+                        ZIndex: =2
+
+                    "'ROS-OC-SOO-C3-LBL-TitleC3' As label":
+                        Font: =Font.Georgia
+                        FontWeight: =FontWeight.Bold
+                        Height: =30
+                        Text: |-
+                            ="Sorting Criteria III : "
+                        Width: =256
+                        ZIndex: =3
+
+                    "'ROS-OC-SOO-C3-LBL-ColumnChoiceText' As label":
+                        Font: =Font.Georgia
+                        Height: =30
+                        Text: |-
+                            ="Column Choice :"
+                        Width: =256
+                        X: =21
+                        Y: =30
+                        ZIndex: =4
+
+                    "'ROS-OC-SOO-C3-LBL-SearchBarText' As label":
+                        Font: =Font.Georgia
+                        Height: =30
+                        Text: |-
+                            ="Order Choice :"
+                        Width: =256
+                        X: =21
+                        Y: =105
+                        ZIndex: =5
+
+                    "'ROS-OC-SOO-C3-ICO-DeleteC3' As icon.Cancel":
+                        Color: =RGBA(255, 0, 0, 1)
+                        Height: =50
+                        Icon: =Icon.Cancel
+                        OnSelect: |-
+                            =If(NumberOfSelectedSortingCriteria = 3, UpdateContext({NumberOfSelectedSortingCriteria: 2}))
+                        PaddingBottom: =10
+                        PaddingLeft: =10
+                        PaddingRight: =10
+                        PaddingTop: =10
+                        Visible: =If('ROS-OC-SOO-CON-Criteria3'.Visible, true, false)
+                        Width: =50
+                        X: =248
+                        ZIndex: =6
+
+                "'ROS-OC-SOO-BTN-SortingChoiceValidation' As button":
+                    FontWeight: =FontWeight.Bold
+                    OnSelect: |-
+                        =UpdateContext({SortingButtonPressed: true});
+                        UpdateContext({SelectedColumnCriteria1: 'ROS-OC-SOO-C1-DD-ColumnChoice'.Selected.Value});
+                        UpdateContext({SelectedOrderCriteria1: 'ROS-OC-SOO-C1-DD-OrderChoice'.Selected.Value});
+                        UpdateContext({SelectedColumnCriteria2: 'ROS-OC-SOO-C2-DD-ColumnChoice'.Selected.Value});
+                        UpdateContext({SelectedOrderCriteria2: 'ROS-OC-SOO-C2-DD-OrderChoice'.Selected.Value});
+                        UpdateContext({SelectedColumnCriteria3: 'ROS-OC-SOO-C3-DD-ColumnChoice'.Selected.Value});
+                        UpdateContext({SelectedOrderCriteria3: 'ROS-OC-SOO-C3-DD-OrderChoice'.Selected.Value});
+                        If(NumberOfSelectedSortingCriteria = 1, ClearCollect(SortedData, SortByColumns(RiskManagementTable, SelectedColumnCriteria1, SelectedOrderCriteria1)));
+                        If(NumberOfSelectedSortingCriteria = 2, ClearCollect(SortedData, SortByColumns(RiskManagementTable, SelectedColumnCriteria1, SelectedOrderCriteria1, SelectedColumnCriteria2, SelectedOrderCriteria2)));
+                        If(NumberOfSelectedSortingCriteria = 3, ClearCollect(SortedData, SortByColumns(RiskManagementTable, SelectedColumnCriteria1, SelectedOrderCriteria1, SelectedColumnCriteria2, SelectedOrderCriteria2, SelectedColumnCriteria3, SelectedOrderCriteria3)))
+                    Text: ="Apply Sorting"
+                    Width: =251
+                    X: =24
+                    Y: =If('ROS-OC-SOO-CON-Criteria3'.Visible, (3 * 190) + 66, If('ROS-OC-SOO-CON-Criteria2'.Visible, (2 * 190) + 66, If('ROS-OC-SOO-CON-Criteria1'.Visible, (1 * 190) + 66)))
+                    ZIndex: =7
+
+                "'ROS-OC-SOO-LBL-Title' As label":
+                    Align: =Align.Center
+                    BorderThickness: =1
+                    Font: =Font.Georgia
+                    FontWeight: =FontWeight.Bold
+                    Height: =56
+                    Size: =15
+                    Text: ="Sorting Option"
+                    Width: =299
+                    ZIndex: =8
+
+            "'ROS-OC-CON-FilterOption' As groupContainer.manualLayoutContainer":
+                Height: =692
+                Width: =If(FilterOption, Parent.Width - 1, 0)
+                ZIndex: =4
+
+                "'ROS-OC-SHA-YellowBackground' As rectangle":
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderThickness: =1
+                    Fill: =RGBA(255, 230, 0, 1)
+                    Height: =Parent.Height
+                    Width: =Parent.Width
+                    ZIndex: =1
+
+                "'ROS-OC-LBL-Title' As label":
+                    Align: =Align.Center
+                    BorderThickness: =1
+                    Font: =Font.Georgia
+                    FontWeight: =FontWeight.Bold
+                    Height: =56
+                    Size: =15
+                    Text: ="Filter Option"
+                    Width: =299
+                    ZIndex: =2
+
+                "'ROS-OC-FO-CON-Criteria3' As groupContainer.manualLayoutContainer":
+                    Height: =190
+                    Visible: =If(NumberOfSelectedFilterCriteria = 3, true, false)
+                    Width: =299
+                    Y: =436
+                    ZIndex: =3
+
+                    "'ROS-OC-FO-C3-LBL-ColumnChoiceText' As label":
+                        Font: =Font.Georgia
+                        Height: =30
+                        Text: |-
+                            ="Column Choice :"
+                        Width: =256
+                        X: =21
+                        Y: =30
+                        ZIndex: =1
+
+                    "'ROS-OC-FO-C3-LBL-TitleC3' As label":
+                        Font: =Font.Georgia
+                        FontWeight: =FontWeight.Bold
+                        Height: =30
+                        Text: |-
+                            ="Filter Criteria III : "
+                        Width: =256
+                        ZIndex: =2
+
+                    "'ROS-OC-FO-C3-DD-ColumnChoiceC3' As dropdown":
+                        Height: =35
+                        Items: =["Risk ID", "Risk Taxonomy Level I", "Risk Taxonomy Level II", "Risk Taxonomy Level III", "Risk Name", "Risk Owner", "Inherent Risk Level of Concern","Residual Risk Level of Concern"]
+                        Width: =259
+                        X: =21
+                        Y: =60
+                        ZIndex: =3
+
+                    "'ROS-OC-FO-C3-LBL-SearchInputText' As label":
+                        Font: =Font.Georgia
+                        Height: =30
+                        Text: |-
+                            ="Search Bar :"
+                        Width: =256
+                        X: =21
+                        Y: =105
+                        ZIndex: =4
+
+                    "'ROS-OC-FO-C3-INP-InputC3' As text":
+                        Default: =""
+                        Font: =Font.Georgia
+                        Height: =39
+                        HintText: ="Search"
+                        Width: =259
+                        X: =21
+                        Y: =135
+                        ZIndex: =5
+
+                    "'ROS-OC-FO-C3-ICO-DeleteC3' As icon.Cancel":
+                        Color: =RGBA(255, 0, 0, 1)
+                        Height: =50
+                        Icon: =Icon.Cancel
+                        OnSelect: |-
+                            =If(NumberOfSelectedFilterCriteria = 3, UpdateContext({NumberOfSelectedFilterCriteria: 2}))
+                        PaddingBottom: =10
+                        PaddingLeft: =10
+                        PaddingRight: =10
+                        PaddingTop: =10
+                        Visible: =If('ROS-OC-FO-CON-Criteria3'.Visible, true, false)
+                        Width: =50
+                        X: =249
+                        ZIndex: =6
+
+                "'ROS-OC-FO-CON-Criteria2' As groupContainer.manualLayoutContainer":
+                    Height: =190
+                    Visible: =If(NumberOfSelectedFilterCriteria >= 2, true, false)
+                    Width: =299
+                    Y: =246
+                    ZIndex: =4
+
+                    "'ROS-OC-FO-C2-LBL-ColumnChoiceText' As label":
+                        Font: =Font.Georgia
+                        Height: =30
+                        Text: |-
+                            ="Column Choice :"
+                        Width: =256
+                        X: =21
+                        Y: =30
+                        ZIndex: =1
+
+                    "'ROS-OC-FO-C2-LBL-TitleC2' As label":
+                        Font: =Font.Georgia
+                        FontWeight: =FontWeight.Bold
+                        Height: =30
+                        Text: |-
+                            ="Filter Criteria II : "
+                        Width: =256
+                        ZIndex: =2
+
+                    "'ROS-OC-FO-C2-DD-ColumnChoiceC2' As dropdown":
+                        Height: =35
+                        Items: =["Risk ID", "Risk Taxonomy Level I", "Risk Taxonomy Level II", "Risk Taxonomy Level III", "Risk Name", "Risk Owner", "Inherent Risk Level of Concern","Residual Risk Level of Concern"]
+                        Width: =259
+                        X: =21
+                        Y: =60
+                        ZIndex: =3
+
+                    "'ROS-OC-FO-C2-LBL-SearchInputText' As label":
+                        Font: =Font.Georgia
+                        Height: =30
+                        Text: |-
+                            ="Search Bar :"
+                        Width: =256
+                        X: =21
+                        Y: =105
+                        ZIndex: =4
+
+                    "'ROS-OC-FO-C2-INP-InputC2' As text":
+                        Default: =""
+                        Font: =Font.Georgia
+                        Height: =39
+                        HintText: ="Search"
+                        Width: =259
+                        X: =21
+                        Y: =135
+                        ZIndex: =5
+
+                    "'ROS-OC-FO-C2-ICO-DeleteC2' As icon.Cancel":
+                        Color: =RGBA(255, 0, 0, 1)
+                        Height: =50
+                        Icon: =Icon.Cancel
+                        OnSelect: |-
+                            =If(NumberOfSelectedFilterCriteria = 2, UpdateContext({NumberOfSelectedFilterCriteria: 1}))
+                        PaddingBottom: =10
+                        PaddingLeft: =10
+                        PaddingRight: =10
+                        PaddingTop: =10
+                        Visible: =If('ROS-OC-FO-C3-ICO-DeleteC3'.Visible, false, true)
+                        Width: =50
+                        X: =249
+                        ZIndex: =6
+
+                "'ROS-OC-FO-CON-Criteria1' As groupContainer.manualLayoutContainer":
+                    Height: =190
+                    Width: =299
+                    Y: =56
+                    ZIndex: =5
+
+                    "'ROS-OC-FO-C1-LBL-ColumnChoiceText' As label":
+                        Font: =Font.Georgia
+                        Height: =30
+                        Text: |-
+                            ="Column Choice :"
+                        Width: =256
+                        X: =21
+                        Y: =30
+                        ZIndex: =1
+
+                    "'ROS-OC-FO-C1-LBL-TitleC1' As label":
+                        Font: =Font.Georgia
+                        FontWeight: =FontWeight.Bold
+                        Height: =30
+                        Text: |-
+                            ="Filter Criteria I : "
+                        Width: =256
+                        ZIndex: =2
+
+                    "'ROS-OC-FO-C1-DD-ColumnChoiceC1' As dropdown":
+                        Height: =35
+                        Items: =["Risk ID", "Risk Taxonomy Level I", "Risk Taxonomy Level II", "Risk Taxonomy Level III", "Risk Name", "Risk Owner", "Inherent Risk Level of Concern","Residual Risk Level of Concern"]
+                        Width: =259
+                        X: =21
+                        Y: =60
+                        ZIndex: =3
+
+                    "'ROS-OC-FO-C1-LBL-SearchInputText' As label":
+                        Font: =Font.Georgia
+                        Height: =30
+                        Text: |-
+                            ="Search Bar :"
+                        Width: =256
+                        X: =21
+                        Y: =105
+                        ZIndex: =4
+
+                    "'ROS-OC-FO-C1-INP-InputC1' As text":
+                        Default: =""
+                        Height: =39
+                        HintText: ="Search"
+                        Width: =259
+                        X: =21
+                        Y: =135
+                        ZIndex: =5
+
+    "'MOREINFO-RISKS' As groupContainer.manualLayoutContainer":
+        Height: =768
+        Visible: =MoreInformationRequested
+        Width: =1366
+        ZIndex: =2
+
+        "'RMS-CON-ViewRisksScreenHeader_1' As groupContainer.manualLayoutContainer":
+            BorderThickness: =2
+            Height: =76
+            Width: =1278 - 'RMS-CON-ViewRisksHamburgerMenu_1'.Width + 88
+            X: ='RMS-CON-ViewRisksHamburgerMenu_1'.Width
+            ZIndex: =1
+
+            "'ROS-CON-SHA-YellowRectangleHeader_3' As rectangle":
+                Fill: =RGBA(255, 230, 0, 1)
+                Height: =76
+                Width: =Parent.Width
+                ZIndex: =1
+
+            "'ROS-CON-LBL-RiskOverviewTitle_3' As label":
+                Align: =Align.Center
+                Font: =Font.Georgia
+                Height: =76
+                Size: =30
+                Text: ="RISK MANAGEMENT - SELECTED RISK INFORMATION"
+                Width: =Parent.Width
+                ZIndex: =2
+
+        "'RMS-CON-ViewRisksHamburgerMenu_1' As groupContainer.manualLayoutContainer":
+            BorderThickness: =2
+            Height: =768
+            Width: =If(OpenMenu, Max(App.Width, App.DesignWidth)/7, 88)
+            ZIndex: =2
+
+            "'ROS-HM-SHA-HamburgerMenuYellowBackground_3' As rectangle":
+                Fill: =RGBA(255, 230, 0, 1)
+                Height: =Parent.Height
+                Width: =If(OpenMenu, Max(App.Width, App.DesignWidth)/7, 88)
+                ZIndex: =1
+
+            "'ROS-HM-ICO-HamburgerMenuIcon_3' As icon.Hamburger":
+                Icon: =Icon.Hamburger
+                OnSelect: |
+                    =// Extend/Hide the hamburger menu
+                    UpdateContext({OpenMenu: !OpenMenu});
+                    
+                    // Close all the hamburger menu windows
+                    If(AddRisk, UpdateContext({AddRisk: !AddRisk}));
+                    If(FilterOption, UpdateContext({FilterOption: !FilterOption}));
+                    If(SortOption, UpdateContext({SortOption: !SortOption}));
+                    If(SearchOption, UpdateContext({SearchOption: !SearchOption}));
+                    If(DeleteOption, UpdateContext({DeleteOption: !DeleteOption}));
+                    If(EditOption, UpdateContext({EditOption: !EditOption}));
+                    If(MoreInformationRequested, UpdateContext({MoreInformationRequested: !MoreInformationRequested}));
+                X: =12
+                ZIndex: =2
+
+            "'ROS-HM-CON-HomeButton_3' As groupContainer.manualLayoutContainer":
+                Height: =67
+                Width: =Parent.Width
+                Y: =76
+                ZIndex: =3
+
+                "'ROS-HM-HB-ICO-HomeButtonIcon_3' As icon.Home":
+                    Height: =67
+                    Icon: =Icon.Home
+                    PaddingBottom: =10
+                    PaddingLeft: =10
+                    PaddingRight: =10
+                    PaddingTop: =10
+                    X: =12
+                    ZIndex: =1
+
+                "'ROS-HM-HB-LBL-HomeButtonLabel_3' As label":
+                    Height: =64
+                    Text: ="Home"
+                    Width: =Parent.Width - 88
+                    X: =88
+                    Y: =3
+                    ZIndex: =2
+
+                "'ROS-HM-HB-BTN-HomeButton_3' As button":
+                    Fill: =RGBA(255, 255, 255, 0)
+                    Height: =67
+                    HoverFill: =
+                    OnSelect: |-
+                        =// Navigate to the home screen
+                        Navigate(HomeScreen)
+                    Text: =
+                    Width: =Parent.Width
+                    ZIndex: =3
+
+            "'ROS-HM-CON-BackButton_6' As groupContainer.manualLayoutContainer":
+                Height: =67
+                Width: =Parent.Width
+                Y: =155
+                ZIndex: =4
+
+                "'ROS-HM-HB-LBL-HomeButtonLabel_6' As label":
+                    Height: =64
+                    Text: ="Home"
+                    Width: =Parent.Width - 88
+                    X: =88
+                    Y: =3
+                    ZIndex: =2
+
+                "'ROS-HM-HB-BTN-HomeButton_6' As button":
+                    Fill: =RGBA(255, 255, 255, 0)
+                    Height: =67
+                    HoverFill: =
+                    OnSelect: |-
+                        =// Navigate to the home screen
+                        Back()
+                    Text: =
+                    Width: =Parent.Width
+                    ZIndex: =3
+
+                "'ROS-HM-HB-ICO-HomeButtonIcon_10' As icon.BackArrow":
+                    Height: =67
+                    Icon: =Icon.BackArrow
+                    PaddingBottom: =10
+                    PaddingLeft: =10
+                    PaddingRight: =10
+                    PaddingTop: =10
+                    X: =12
+                    ZIndex: =4
+
+    "'EDIT-RISKS' As groupContainer.manualLayoutContainer":
+        Height: =768
+        Visible: =EditOption
+        Width: =1366
+        ZIndex: =3
+
+        "'RMS-CON-ViewRisksScreenHeader_2' As groupContainer.manualLayoutContainer":
+            BorderThickness: =2
+            Height: =76
+            Width: =1278 - 'RMS-CON-ViewRisksHamburgerMenu_2'.Width + 88
+            X: ='RMS-CON-ViewRisksHamburgerMenu_2'.Width
+            ZIndex: =1
+
+            "'ROS-CON-SHA-YellowRectangleHeader_4' As rectangle":
+                Fill: =RGBA(255, 230, 0, 1)
+                Height: =76
+                Width: =Parent.Width
+                ZIndex: =1
+
+            "'ROS-CON-LBL-RiskOverviewTitle_4' As label":
+                Align: =Align.Center
+                Font: =Font.Georgia
+                Height: =76
+                Size: =30
+                Text: ="RISK MANAGEMENT - SELECTED RISK EDITION"
+                Width: =Parent.Width
+                ZIndex: =2
+
+        "'RMS-CON-ViewRisksHamburgerMenu_2' As groupContainer.manualLayoutContainer":
+            BorderThickness: =2
+            Height: =768
+            Width: =If(OpenMenu, Max(App.Width, App.DesignWidth)/7, 88)
+            ZIndex: =2
+
+            "'ROS-HM-SHA-HamburgerMenuYellowBackground_4' As rectangle":
+                Fill: =RGBA(255, 230, 0, 1)
+                Height: =Parent.Height
+                Width: =If(OpenMenu, Max(App.Width, App.DesignWidth)/7, 88)
+                ZIndex: =1
+
+            "'ROS-HM-ICO-HamburgerMenuIcon_4' As icon.Hamburger":
+                Icon: =Icon.Hamburger
+                OnSelect: |
+                    =// Extend/Hide the hamburger menu
+                    UpdateContext({OpenMenu: !OpenMenu});
+                    
+                    // Close all the hamburger menu windows
+                    If(AddRisk, UpdateContext({AddRisk: !AddRisk}));
+                    If(FilterOption, UpdateContext({FilterOption: !FilterOption}));
+                    If(SortOption, UpdateContext({SortOption: !SortOption}));
+                    If(SearchOption, UpdateContext({SearchOption: !SearchOption}));
+                    If(DeleteOption, UpdateContext({DeleteOption: !DeleteOption}));
+                    If(EditOption, UpdateContext({EditOption: !EditOption}));
+                    If(MoreInformationRequested, UpdateContext({MoreInformationRequested: !MoreInformationRequested}));
+                X: =12
+                ZIndex: =2
+
+            "'ROS-HM-CON-HomeButton_4' As groupContainer.manualLayoutContainer":
+                Height: =67
+                Width: =Parent.Width
+                Y: =76
+                ZIndex: =3
+
+                "'ROS-HM-HB-ICO-HomeButtonIcon_4' As icon.Home":
+                    Height: =67
+                    Icon: =Icon.Home
+                    PaddingBottom: =10
+                    PaddingLeft: =10
+                    PaddingRight: =10
+                    PaddingTop: =10
+                    X: =12
+                    ZIndex: =1
+
+                "'ROS-HM-HB-LBL-HomeButtonLabel_4' As label":
+                    Height: =64
+                    Text: ="Home"
+                    Width: =Parent.Width - 88
+                    X: =88
+                    Y: =3
+                    ZIndex: =2
+
+                "'ROS-HM-HB-BTN-HomeButton_4' As button":
+                    Fill: =RGBA(255, 255, 255, 0)
+                    Height: =67
+                    HoverFill: =
+                    OnSelect: |-
+                        =// Navigate to the home screen
+                        Navigate(HomeScreen)
+                    Text: =
+                    Width: =Parent.Width
+                    ZIndex: =3
+
+            "'ROS-HM-CON-BackButton_4' As groupContainer.manualLayoutContainer":
+                Height: =67
+                Width: =Parent.Width
+                Y: =155
+                ZIndex: =4
+
+                "'ROS-HM-HB-LBL-HomeButtonLabel_7' As label":
+                    Height: =64
+                    Text: ="Home"
+                    Width: =Parent.Width - 88
+                    X: =88
+                    Y: =3
+                    ZIndex: =2
+
+                "'ROS-HM-HB-BTN-HomeButton_7' As button":
+                    Fill: =RGBA(255, 255, 255, 0)
+                    Height: =67
+                    HoverFill: =
+                    OnSelect: |-
+                        =// Navigate to the home screen
+                        Back()
+                    Text: =
+                    Width: =Parent.Width
+                    ZIndex: =3
+
+                "'ROS-HM-HB-ICO-HomeButtonIcon_9' As icon.BackArrow":
+                    Height: =67
+                    Icon: =Icon.BackArrow
+                    OnSelect: =Back()
+                    PaddingBottom: =10
+                    PaddingLeft: =10
+                    PaddingRight: =10
+                    PaddingTop: =10
+                    X: =12
+                    ZIndex: =4
+
+    "'CREATE-RISKS' As groupContainer.manualLayoutContainer":
+        Height: =768
+        Visible: =ROAddRisk
+        Width: =1366
+        ZIndex: =4
+
+        "'RMS-CON-ViewRisksScreenHeader_3' As groupContainer.manualLayoutContainer":
+            BorderThickness: =2
+            Height: =76
+            Width: =1278 - 'RMS-CON-ViewRisksHamburgerMenu_3'.Width + 88
+            X: ='RMS-CON-ViewRisksHamburgerMenu_3'.Width
+            ZIndex: =1
+
+            "'ROS-CON-SHA-YellowRectangleHeader_5' As rectangle":
+                Fill: =RGBA(255, 230, 0, 1)
+                Height: =76
+                Width: =Parent.Width
+                ZIndex: =1
+
+            "'ROS-CON-LBL-RiskOverviewTitle_5' As label":
+                Align: =Align.Center
+                Font: =Font.Georgia
+                Height: =76
+                Size: =30
+                Text: ="RISK MANAGEMENT - RISK CREATION"
+                Width: =Parent.Width
+                ZIndex: =2
+
+        "'RMS-CON-ViewRisksHamburgerMenu_3' As groupContainer.manualLayoutContainer":
+            BorderThickness: =2
+            Height: =768
+            Width: =If(OpenMenu, Max(App.Width, App.DesignWidth)/7, 88)
+            ZIndex: =2
+
+            "'ROS-HM-SHA-HamburgerMenuYellowBackground_5' As rectangle":
+                Fill: =RGBA(255, 230, 0, 1)
+                Height: =Parent.Height
+                Width: =If(OpenMenu, Max(App.Width, App.DesignWidth)/7, 88)
+                ZIndex: =1
+
+            "'ROS-HM-ICO-HamburgerMenuIcon_5' As icon.Hamburger":
+                Icon: =Icon.Hamburger
+                OnSelect: |
+                    =// Extend/Hide the hamburger menu
+                    UpdateContext({OpenMenu: !OpenMenu});
+                    
+                    // Close all the hamburger menu windows
+                    If(AddRisk, UpdateContext({AddRisk: !AddRisk}));
+                    If(FilterOption, UpdateContext({FilterOption: !FilterOption}));
+                    If(SortOption, UpdateContext({SortOption: !SortOption}));
+                    If(SearchOption, UpdateContext({SearchOption: !SearchOption}));
+                    If(DeleteOption, UpdateContext({DeleteOption: !DeleteOption}));
+                    If(EditOption, UpdateContext({EditOption: !EditOption}));
+                    If(MoreInformationRequested, UpdateContext({MoreInformationRequested: !MoreInformationRequested}));
+                X: =12
+                ZIndex: =2
+
+            "'ROS-HM-CON-HomeButton_5' As groupContainer.manualLayoutContainer":
+                Height: =67
+                Width: =Parent.Width
+                Y: =76
+                ZIndex: =3
+
+                "'ROS-HM-HB-ICO-HomeButtonIcon_5' As icon.Home":
+                    Height: =67
+                    Icon: =Icon.Home
+                    PaddingBottom: =10
+                    PaddingLeft: =10
+                    PaddingRight: =10
+                    PaddingTop: =10
+                    X: =12
+                    ZIndex: =1
+
+                "'ROS-HM-HB-LBL-HomeButtonLabel_5' As label":
+                    Height: =64
+                    Text: ="Home"
+                    Width: =Parent.Width - 88
+                    X: =88
+                    Y: =3
+                    ZIndex: =2
+
+                "'ROS-HM-HB-BTN-HomeButton_5' As button":
+                    Fill: =RGBA(255, 255, 255, 0)
+                    Height: =67
+                    HoverFill: =
+                    OnSelect: |-
+                        =// Navigate to the home screen
+                        Navigate(HomeScreen)
+                    Text: =
+                    Width: =Parent.Width
+                    ZIndex: =3
+
+            "'ROS-HM-CON-BackButton_5' As groupContainer.manualLayoutContainer":
+                Height: =67
+                Width: =Parent.Width
+                Y: =155
+                ZIndex: =4
+
+                "'ROS-HM-HB-LBL-HomeButtonLabel_8' As label":
+                    Height: =64
+                    Text: ="Home"
+                    Width: =Parent.Width - 88
+                    X: =88
+                    Y: =3
+                    ZIndex: =2
+
+                "'ROS-HM-HB-BTN-HomeButton_8' As button":
+                    Fill: =RGBA(255, 255, 255, 0)
+                    Height: =67
+                    HoverFill: =
+                    OnSelect: |-
+                        =// Navigate to the home screen
+                        Back()
+                    Text: =
+                    Width: =Parent.Width
+                    ZIndex: =3
+
+                "'ROS-HM-HB-ICO-HomeButtonIcon_8' As icon.BackArrow":
+                    Height: =67
+                    Icon: =Icon.BackArrow
+                    PaddingBottom: =10
+                    PaddingLeft: =10
+                    PaddingRight: =10
+                    PaddingTop: =10
+                    X: =12
+                    ZIndex: =4
+
+    RiskDataTable As dataTable.datatable:
+        BorderStyle: =BorderStyle.Solid
+        BorderThickness: =2
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Font: =Font.Georgia
+        HeadingColor: =RGBA(0, 0, 0, 1)
+        HeadingFill: =RGBA(255, 230, 0, 1)
+        HeadingFont: =Font.Georgia
+        Height: =692
+        Items: |-
+            =//AddColumns(RiskManagementTable, "Option(s)");
+            If(
+            	SearchOption,
+            	Filter(
+                    RiskManagementTable, 
+                    StartsWith(Text('Risk ID'), 'ROS-OC-SO-INP-SearchInput'.Text) Or 
+                    StartsWith(Text('Risk Taxonomy Level I'), 'ROS-OC-SO-INP-SearchInput'.Text) Or 
+                    StartsWith(Text('Risk Taxonomy Level II'), 'ROS-OC-SO-INP-SearchInput'.Text) Or
+                    StartsWith(Text('Risk Taxonomy Level III'), 'ROS-OC-SO-INP-SearchInput'.Text) Or
+                    StartsWith(Text('Risk Name'), 'ROS-OC-SO-INP-SearchInput'.Text) Or
+                    StartsWith(Text('Risk Owner'), 'ROS-OC-SO-INP-SearchInput'.Text) Or
+                    StartsWith(Text('Inherent Risk Level of Concern'), 'ROS-OC-SO-INP-SearchInput'.Text) Or
+                    StartsWith(Text('Residual Risk Level of Concern'), 'ROS-OC-SO-INP-SearchInput'.Text)
+                ),
+            	If(
+            		SortingButtonPressed,
+            		SortedData,
+            		If(
+            			FilterOption,
+            			If(
+            				'ROS-OC-FO-CON-Criteria1'.Visible,
+            				Filter(
+                                RiskManagementTable,
+                                StartsWith('ROS-OC-FO-C1-DD-ColumnChoiceC1'.Selected.Value, 'ROS-OC-FO-C1-INP-InputC1'.Text) Or
+                                Len('ROS-OC-FO-C1-INP-InputC1'.Text) = 0
+                            ),
+            				If(
+            					'ROS-OC-FO-CON-Criteria2'.Visible,
+            					Filter(
+                                    RiskManagementTable, 
+                                    StartsWith('ROS-OC-FO-C1-DD-ColumnChoiceC1'.Selected.Value, 'ROS-OC-FO-C1-INP-InputC1'.Text) And 
+                                    StartsWith('ROS-OC-FO-C2-DD-ColumnChoiceC2'.Selected.Value, 'ROS-OC-FO-C2-INP-InputC2'.Text) Or
+                                    Len('ROS-OC-FO-C1-INP-InputC1'.Text) = 0 Or
+                                    Len('ROS-OC-FO-C2-INP-InputC2'.Text) = 0
+                                ),
+            					If(
+            						'ROS-OC-FO-CON-Criteria3'.Visible,
+            						Filter(
+                                        RiskManagementTable, 
+                                        StartsWith('ROS-OC-FO-C1-DD-ColumnChoiceC1'.Selected.Value, 'ROS-OC-FO-C1-INP-InputC1'.Text) And 
+                                        StartsWith('ROS-OC-FO-C2-DD-ColumnChoiceC2'.Selected.Value, 'ROS-OC-FO-C2-INP-InputC2'.Text) And 
+                                        StartsWith('ROS-OC-FO-C3-DD-ColumnChoiceC3'.Selected.Value, 'ROS-OC-FO-C3-INP-InputC3'.Text) Or
+                                        Len('ROS-OC-FO-C1-INP-InputC1'.Text) = 0 Or
+                                        Len('ROS-OC-FO-C2-INP-InputC2'.Text) = 0 Or
+                                        Len('ROS-OC-FO-C3-INP-InputC3'.Text) = 0
+                                    )
+            					)
+            				)
+            			),
+            			RiskManagementTable
+            		)
+            	)
+            )
+        NoDataText: ="No data to display."
+        Visible: =ViewOption
+        Width: =1278 - 'RMS-CON-ViewRisksHamburgerMenu'.Width + 88  - 'RMS-CON-RisksOptionContainer'.Width
+        X: ='RMS-CON-ViewRisksHamburgerMenu'.Width + 'RMS-CON-RisksOptionContainer'.Width
+        Y: =76
+        ZIndex: =5
+
+        "'Risk ID_Column1' As dataTableColumn.textualColumn":
+            AutoWidth: =false
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Risk ID"
+            FieldName: ="Risk ID"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            OnSelect: =false
+            Order: =1
+            Text: =ThisItem.'Risk ID'
+            Width: =105
+            X: =0
+            Y: =0
+            ZIndex: =19
+
+        "'Risk Taxonomy Level I_Column1' As dataTableColumn.textualColumn":
+            AutoWidth: =false
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Risk Taxonomy Level I"
+            FieldName: ="Risk Taxonomy Level I"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =2
+            Text: =ThisItem.'Risk Taxonomy Level I'
+            Width: =205
+            X: =163
+            Y: =0
+            ZIndex: =20
+
+        "'Risk Taxonomy Level II_Column1' As dataTableColumn.textualColumn":
+            AutoWidth: =false
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Risk Taxonomy Level II"
+            FieldName: ="Risk Taxonomy Level II"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =3
+            Text: =ThisItem.'Risk Taxonomy Level II'
+            Width: =208
+            X: =0
+            Y: =0
+            ZIndex: =21
+
+        "'Risk Taxonomy Level III_Column1' As dataTableColumn.textualColumn":
+            AutoWidth: =false
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Risk Taxonomy Level III"
+            FieldName: ="Risk Taxonomy Level III"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =4
+            Text: =ThisItem.'Risk Taxonomy Level III'
+            Width: =205
+            X: =0
+            Y: =0
+            ZIndex: =22
+
+        "'Risk Name_Column1' As dataTableColumn.textualColumn":
+            AutoWidth: =false
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Risk Name"
+            FieldName: ="Risk Name"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =5
+            Text: =ThisItem.'Risk Name'
+            Width: =133
+            X: =0
+            Y: =0
+            ZIndex: =23
+
+        "'Risk Owner_Column1' As dataTableColumn.textualColumn":
+            AutoWidth: =false
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Risk Owner"
+            FieldName: ="Risk Owner"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =6
+            Text: =ThisItem.'Risk Owner'
+            Width: =131
+            X: =0
+            Y: =0
+            ZIndex: =24
+
+        "'Inherent Risk Level of Concern_Column1' As dataTableColumn.textualColumn":
+            AutoWidth: =false
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Inherent Risk Level of Concern"
+            FieldName: ="Inherent Risk Level of Concern"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =7
+            Text: =ThisItem.'Inherent Risk Level of Concern'
+            Width: =257
+            X: =0
+            Y: =0
+            ZIndex: =25
+
+        "'Residual Risk Level of Concern_Column1' As dataTableColumn.textualColumn":
+            AutoWidth: =false
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Residual Risk Level of Concern"
+            FieldName: ="Residual Risk Level of Concern"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =8
+            Text: =ThisItem.'Residual Risk Level of Concern'
+            Width: =257
+            X: =0
+            Y: =0
+            ZIndex: =26
+
+    Circle1 As circle:
+        Height: =70
+        Width: =70
+        X: =1286
+        Y: =688
+        ZIndex: =6
+
+    Circle1_1 As circle:
+        Height: =70
+        Width: =70
+        X: =1286
+        Y: =608
+        ZIndex: =7
+
+    Icon1 As icon.Edit:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Icon: =Icon.Edit
+        OnSelect: |-
+            =UpdateContext({MoreInformationRequested: false});
+            UpdateContext({EditOption: true});
+            UpdateContext({ViewOption: false});
+        PaddingBottom: =15
+        PaddingLeft: =15
+        PaddingRight: =15
+        PaddingTop: =15
+        Width: =70
+        X: =1286
+        Y: =608
+        ZIndex: =8
+
+    Icon2 As icon.More:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =70
+        Icon: =Icon.More
+        OnSelect: |-
+            =UpdateContext({MoreInformationRequested: true});
+            UpdateContext({EditOption: false});
+            UpdateContext({ViewOption: false});
+        PaddingBottom: =15
+        PaddingLeft: =15
+        PaddingRight: =15
+        PaddingTop: =15
+        Width: =70
+        X: =1286
+        Y: =688
+        ZIndex: =9
+

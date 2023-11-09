@@ -1,0 +1,34 @@
+{
+  "ee67edaa-3fc7-4382-9bb5-060f568d03d7": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Excel Online (Business)",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1658/1.0.1658.3452/excelonlinebusiness/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_excelonlinebusiness",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "groups%252F6f9fb1eb-cf47-4470-855e-1f879ef2da6d,b%2521SB3J51AQIkKygVmxTMv3P1nZKZhJIhZOoZutaQesbofCH3fw1JOLRKQrEmLn7qmy,01V6XVCTPHNY7BQBBZGJD3KNS2BLTP5NCO": {
+        "dataSources": {
+          "ControlManagementTable": {
+            "tableName": "{44119412-A8A8-4404-89D1-BE6A140B16D9}"
+          },
+          "RiskManagementTable": {
+            "tableName": "{BB637BD2-A8FB-43C5-95FD-A4D5D9034679}"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "RiskManagementTable",
+      "ControlManagementTable"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "ee67edaa-3fc7-4382-9bb5-060f568d03d7"
+  }
+}

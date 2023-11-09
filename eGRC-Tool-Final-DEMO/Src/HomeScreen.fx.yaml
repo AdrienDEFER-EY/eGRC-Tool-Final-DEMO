@@ -1,0 +1,174 @@
+HomeScreen As screen:
+    BackgroundImage: =eGRCBackground
+    ImagePosition: =ImagePosition.Fill
+
+    "'HS-MB-SHA-TransparentRectangle' As rectangle":
+        Fill: =RGBA(77, 77, 77, 0.42)
+        Height: =768
+        Width: =683
+        ZIndex: =1
+
+    "'HS-CON-MainButtons' As groupContainer.manualLayoutContainer":
+        Height: =349
+        Width: =683
+        Y: =419
+        ZIndex: =2
+
+        "'HS-MB-CON-Settings' As groupContainer.manualLayoutContainer":
+            Height: =70
+            Width: =658
+            X: =12
+            Y: =264
+            ZIndex: =1
+
+            "'HS-MB-BTN-Settings' As button":
+                Color: =RGBA(0, 0, 0, 1)
+                Fill: =RGBA(255, 230, 0, 1)
+                Font: =Font.Georgia
+                FontWeight: =FontWeight.Bold
+                Height: =Parent.Height
+                HoverColor: =Color.Black
+                HoverFill: =ColorFade(Color.Yellow, -10%)
+                OnSelect: =Navigate(SettingsScreen)
+                Size: =18
+                Text: ="Settings"
+                Width: =Parent.Width
+                ZIndex: =1
+
+            "'HS-MB-ICO-SettingsIcon' As icon.Settings":
+                Color: =RGBA(0, 0, 0, 1)
+                Height: =Parent.Height
+                Icon: =Icon.Settings
+                PaddingBottom: =5
+                PaddingLeft: =5
+                PaddingRight: =5
+                PaddingTop: =5
+                Width: =Parent.Height
+                ZIndex: =2
+
+        "'HS-MB-CON-Dashboard' As groupContainer.manualLayoutContainer":
+            Height: =70
+            Width: =658
+            X: =12
+            Y: =179
+            ZIndex: =2
+
+            "'HS-MB-BTN-Dashboard' As button":
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =Color.Transparent
+                DisabledFill: =Color.Transparent
+                Fill: =RGBA(255, 230, 0, 1)
+                Font: =Font.Georgia
+                FontWeight: =FontWeight.Bold
+                Height: =Parent.Height
+                HoverColor: =Color.Black
+                HoverFill: =ColorFade(Color.Yellow, -10%)
+                OnSelect: =Navigate(DashboardScreen)
+                Size: =18
+                Text: ="Dashboard"
+                Width: =Parent.Width
+                ZIndex: =1
+
+            "'HS-MB-ICO-DashboardIcon' As icon.Trending":
+                Color: =RGBA(0, 0, 0, 1)
+                Height: =Parent.Height
+                Icon: =Icon.Trending
+                PaddingBottom: =5
+                PaddingLeft: =5
+                PaddingRight: =5
+                PaddingTop: =5
+                Width: =Parent.Height
+                ZIndex: =2
+
+        "'HS-MB-CON-ControlOverview' As groupContainer.manualLayoutContainer":
+            Height: =70
+            Width: =658
+            X: =12
+            Y: =94
+            ZIndex: =3
+
+            "'HS-MB-BTN-ControlOverview' As button":
+                Color: =RGBA(0, 0, 0, 1)
+                Fill: =RGBA(255, 230, 0, 1)
+                Font: =Font.Georgia
+                FontWeight: =FontWeight.Bold
+                Height: =Parent.Height
+                HoverColor: =Color.Black
+                HoverFill: =ColorFade(Color.Yellow, -10%)
+                OnSelect: =Navigate(ControlManagementScreen)
+                Size: =18
+                Text: ="Control Management"
+                Width: =Parent.Width
+                ZIndex: =1
+
+            "'HS-MB-ICO-ControlOverviewIcon' As icon.Controller":
+                Color: =RGBA(0, 0, 0, 1)
+                Height: =Parent.Height
+                Icon: =Icon.Controller
+                PaddingBottom: =5
+                PaddingLeft: =5
+                PaddingRight: =5
+                PaddingTop: =5
+                Width: =Parent.Height
+                ZIndex: =2
+
+        "'HS-MB-CON-RiskOverview' As groupContainer.manualLayoutContainer":
+            Height: =70
+            Width: =658
+            X: =12
+            Y: =12
+            ZIndex: =4
+
+            "'HS-MB-BTN-RiskOverview' As button":
+                Color: =RGBA(0, 0, 0, 1)
+                Fill: =RGBA(255, 230, 0, 1)
+                Font: =Font.Georgia
+                FontWeight: =FontWeight.Bold
+                Height: =Parent.Height
+                HoverColor: =Color.Black
+                HoverFill: =ColorFade(Color.Yellow, -10%)
+                OnSelect: =Navigate(RiskManagementScreen)
+                Size: =18
+                Text: ="Risk Management"
+                Width: =Parent.Width
+                ZIndex: =1
+
+            "'HS-MB-ICO-RiskOverviewIcon' As icon.Database":
+                Color: =RGBA(0, 0, 0, 1)
+                Height: =Parent.Height
+                Icon: =Icon.Database
+                PaddingBottom: =5
+                PaddingLeft: =5
+                PaddingRight: =5
+                PaddingTop: =5
+                Width: =Parent.Height
+                ZIndex: =2
+
+    "'HS-CON-Welcome' As groupContainer.manualLayoutContainer":
+        Height: =372
+        Width: =683
+        ZIndex: =3
+
+        "'HS-MB-LBL-Username' As label":
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.Georgia
+            Height: =58
+            Size: =35
+            Text: =User().FullName
+            Width: =683
+            Y: =97
+            ZIndex: =1
+
+        "'HS-MB-LBL-Welcome' As label":
+            Align: =Align.Center
+            Color: =RGBA(255, 230, 0, 1)
+            Font: =Font.Georgia
+            FontWeight: =FontWeight.Bold
+            Height: =70
+            Size: =60
+            Text: ="Welcome,"
+            Width: =683
+            Y: =12
+            ZIndex: =2
+
