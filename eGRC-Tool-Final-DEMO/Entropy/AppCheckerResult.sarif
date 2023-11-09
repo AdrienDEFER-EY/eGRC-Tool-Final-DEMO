@@ -3204,19 +3204,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Status_DataCard2'.DataCardValue49.AccessibleLabel"
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Status_DataCard1'.DataCardValue10.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Status_DataCard2'.DataCardValue49.AccessibleLabel",
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Status_DataCard1'.DataCardValue10.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Form1.'Risk Status_DataCard2'.DataCardValue49"
+                "type": "RiskManagementScreen.Form1.'Risk Status_DataCard1'.DataCardValue10"
               }
             }
           ],
