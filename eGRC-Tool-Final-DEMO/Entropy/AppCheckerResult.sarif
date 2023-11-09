@@ -294,2956 +294,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 16,
-                  "charOffset": 1069,
-                  "snippet": {
-                    "text": "DataCardValue8_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue8_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 1085,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 1122,
-                  "snippet": {
-                    "text": "DataCardValue55"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue55"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 1137,
-                  "snippet": {
-                    "text": ".Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 1146,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 1195,
-                  "snippet": {
-                    "text": "DataCardValue11_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue11_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 1212,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 1465,
-                  "snippet": {
-                    "text": "DataCardValue16_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue16_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 1482,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 1531,
-                  "snippet": {
-                    "text": "DataCardValue16_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue16_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 1548,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 1655,
-                  "snippet": {
-                    "text": "DataCardValue50"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue50"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 1670,
-                  "snippet": {
-                    "text": ".Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 1679,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 1725,
-                  "snippet": {
-                    "text": "DataCardValue51"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue51"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 1740,
-                  "snippet": {
-                    "text": ".Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 1749,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 18,
-                  "charOffset": 1798,
-                  "snippet": {
-                    "text": "Dropdown_taxLevel0"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Dropdown_taxLevel0"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 1816,
-                  "snippet": {
-                    "text": ".Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 1825,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 18,
-                  "charOffset": 1875,
-                  "snippet": {
-                    "text": "Dropdown_taxLevel1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Dropdown_taxLevel1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 1893,
-                  "snippet": {
-                    "text": ".Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 1902,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 18,
-                  "charOffset": 1953,
-                  "snippet": {
-                    "text": "Dropdown_taxLevel2"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Dropdown_taxLevel2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 1971,
-                  "snippet": {
-                    "text": ".Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 1980,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 2020,
-                  "snippet": {
-                    "text": "'RO-InputEmail_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "RO-InputEmail_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 2037,
-                  "snippet": {
-                    "text": ".Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 2046,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 2088,
-                  "snippet": {
-                    "text": "'SPOC-InputEmail_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "SPOC-InputEmail_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 2107,
-                  "snippet": {
-                    "text": ".Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 2116,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 2156,
-                  "snippet": {
-                    "text": "'BO-InputEmail_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "BO-InputEmail_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 2173,
-                  "snippet": {
-                    "text": ".Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 2182,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1885,
-                  "charOffset": 533,
-                  "snippet": {
-                    "text": "Patch(\n            RiskManagementTable,\n            Defaults(RiskManagementTable),// Retain existing values in the record\n            {\n                'Risk ID': \"ID\" & GeneratedID,\n                'Risk Name': DataCardValue12.Text,\n                'Risk Department Level I': DataCardValue46.Selected.Value,\n                'Reason for Risk Closure': DataCardValue5_1.Text,\n                'Risk Cause': DataCardValue6_1.Text,\n                'Risk Confidentiality': DataCardValue42.Selected.Value,\n                'Risk Description': DataCardValue8_1.Text,\n                'Risk Group': DataCardValue55.Selected.Value,\n                'Risk Level of Concern': DataCardValue11_1.Text,\n                'Inherent Risk Likelihood': DataCardValue43.Selected.Value,\n                'Residual Risk Likelihood': DataCardValue43.Selected.Value,\n                'Risk Owner': DataCardValue11.Text,\n                'Inherent Risk Severity': DataCardValue16_1.Text,\n                'Residual Risk Severity': DataCardValue16_1.Text,\n                'Risk Status': DataCardValue44.Selected.Value,\n                'Risk Type Level I': DataCardValue50.Selected.Value,\n                'Risk Type Level II': DataCardValue51.Selected.Value,\n                'Risk Taxonomy Level I': Dropdown_taxLevel0.Selected.Value,\n                'Risk Taxonomy Level II': Dropdown_taxLevel1.Selected.Value,\n                'Risk Taxonomy Level III': Dropdown_taxLevel2.Selected.Value,\n                'Risk Flow BO': 'RO-InputEmail_1'.Selected.Value,\n                'Risk Flow SPOC': 'SPOC-InputEmail_1'.Selected.Value,\n                'Risk Flow RO': 'BO-InputEmail_1'.Selected.Value,\n                'Risk Date of Creation': Now(),\n                'Risk Date of Last Modification': Now(),\n                'Risk Who Last Modifier': User().FullName,\n                'Risk Flow Status': \"BO\"\n            }\n        )"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Patch"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1741,
-                  "charOffset": 667,
-                  "snippet": {
-                    "text": "{\n                'Risk ID': \"ID\" & GeneratedID,\n                'Risk Name': DataCardValue12.Text,\n                'Risk Department Level I': DataCardValue46.Selected.Value,\n                'Reason for Risk Closure': DataCardValue5_1.Text,\n                'Risk Cause': DataCardValue6_1.Text,\n                'Risk Confidentiality': DataCardValue42.Selected.Value,\n                'Risk Description': DataCardValue8_1.Text,\n                'Risk Group': DataCardValue55.Selected.Value,\n                'Risk Level of Concern': DataCardValue11_1.Text,\n                'Inherent Risk Likelihood': DataCardValue43.Selected.Value,\n                'Residual Risk Likelihood': DataCardValue43.Selected.Value,\n                'Risk Owner': DataCardValue11.Text,\n                'Inherent Risk Severity': DataCardValue16_1.Text,\n                'Residual Risk Severity': DataCardValue16_1.Text,\n                'Risk Status': DataCardValue44.Selected.Value,\n                'Risk Type Level I': DataCardValue50.Selected.Value,\n                'Risk Type Level II': DataCardValue51.Selected.Value,\n                'Risk Taxonomy Level I': Dropdown_taxLevel0.Selected.Value,\n                'Risk Taxonomy Level II': Dropdown_taxLevel1.Selected.Value,\n                'Risk Taxonomy Level III': Dropdown_taxLevel2.Selected.Value,\n                'Risk Flow BO': 'RO-InputEmail_1'.Selected.Value,\n                'Risk Flow SPOC': 'SPOC-InputEmail_1'.Selected.Value,\n                'Risk Flow RO': 'BO-InputEmail_1'.Selected.Value,\n                'Risk Date of Creation': Now(),\n                'Risk Date of Last Modification': Now(),\n                'Risk Who Last Modifier': User().FullName,\n                'Risk Flow Status': \"BO\"\n            }"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Inherent Risk Severity",
-              "Text",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrTypeError-Arg-Expected-Found",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 22,
-                  "charOffset": 2437,
-                  "snippet": {
-                    "text": "'Risk Overview Screen'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Risk Overview Screen"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 2952,
-                  "snippet": {
-                    "text": "DataCardValue14_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue14_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 2969,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 16,
-                  "charOffset": 3268,
-                  "snippet": {
-                    "text": "DataCardValue8_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue8_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 3284,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 3321,
-                  "snippet": {
-                    "text": "DataCardValue55"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue55"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 3336,
-                  "snippet": {
-                    "text": ".Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 3345,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 3394,
-                  "snippet": {
-                    "text": "DataCardValue11_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue11_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 3411,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 3570,
-                  "snippet": {
-                    "text": "DataCardValue16_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue16_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 3587,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 3694,
-                  "snippet": {
-                    "text": "DataCardValue50"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue50"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 3709,
-                  "snippet": {
-                    "text": ".Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 3718,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 15,
-                  "charOffset": 3764,
-                  "snippet": {
-                    "text": "DataCardValue51"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "DataCardValue51"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 3779,
-                  "snippet": {
-                    "text": ".Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 3788,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 18,
-                  "charOffset": 3832,
-                  "snippet": {
-                    "text": "Dropdown_taxLevel0"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Dropdown_taxLevel0"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 3850,
-                  "snippet": {
-                    "text": ".Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 3859,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 18,
-                  "charOffset": 3903,
-                  "snippet": {
-                    "text": "Dropdown_taxLevel1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Dropdown_taxLevel1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 3921,
-                  "snippet": {
-                    "text": ".Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 3930,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 18,
-                  "charOffset": 3974,
-                  "snippet": {
-                    "text": "Dropdown_taxLevel2"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Dropdown_taxLevel2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 3992,
-                  "snippet": {
-                    "text": ".Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 4001,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 4037,
-                  "snippet": {
-                    "text": "'RO-InputEmail_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "RO-InputEmail_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 4054,
-                  "snippet": {
-                    "text": ".Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 4063,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 4097,
-                  "snippet": {
-                    "text": "'SPOC-InputEmail_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "SPOC-InputEmail_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 4116,
-                  "snippet": {
-                    "text": ".Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 4125,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 4168,
-                  "snippet": {
-                    "text": "'BO-InputEmail_1'"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "BO-InputEmail_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 4185,
-                  "snippet": {
-                    "text": ".Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 4194,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1654,
-                  "charOffset": 2743,
-                  "snippet": {
-                    "text": "Patch(\n            RiskManagementTable,\n            Defaults(RiskManagementTable),// Retain existing values in the record\n            {\n                RiskID: \"ID\" & GeneratedID,\n                'Risk Name': DataCardValue14_1.Text,\n                'Department L1': DataCardValue46.Selected.Value,\n                'Reason for Risk Closure': DataCardValue5_1.Text,\n                'Risk Cause': DataCardValue6_1.Text,\n                'Risk Confidentiality': DataCardValue42.Selected.Value,\n                'Risk Description': DataCardValue8_1.Text,\n                'Risk Group': DataCardValue55.Selected.Value,\n                'Risk Level of Concern': DataCardValue11_1.Text,\n                'Risk Likelihood': DataCardValue43.Selected.Value,\n                'Risk Owner': DataCardValue11.Text,\n                'Risk Severity': DataCardValue16_1.Text,\n                'Risk Status': DataCardValue44.Selected.Value,\n                'Risk Type Level I': DataCardValue50.Selected.Value,\n                'Risk Type Level II': DataCardValue51.Selected.Value,\n                RiskTaxonomyLevel1: Dropdown_taxLevel0.Selected.Value,\n                RiskTaxonomyLevel2: Dropdown_taxLevel1.Selected.Value,\n                RiskTaxonomyLevel3: Dropdown_taxLevel2.Selected.Value,\n                RiskOwner2: 'RO-InputEmail_1'.Selected.Value,\n                RiskSPOC: 'SPOC-InputEmail_1'.Selected.Value,\n                RiskBusinessOwner: 'BO-InputEmail_1'.Selected.Value,\n                'Date Created': Now(),\n                'Date Last Modified': Now(),\n                'Who Last Modified': User().FullName,\n                RiskStatus2: \"BO\"\n            }\n        )"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Patch"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1510,
-                  "charOffset": 2877,
-                  "snippet": {
-                    "text": "{\n                RiskID: \"ID\" & GeneratedID,\n                'Risk Name': DataCardValue14_1.Text,\n                'Department L1': DataCardValue46.Selected.Value,\n                'Reason for Risk Closure': DataCardValue5_1.Text,\n                'Risk Cause': DataCardValue6_1.Text,\n                'Risk Confidentiality': DataCardValue42.Selected.Value,\n                'Risk Description': DataCardValue8_1.Text,\n                'Risk Group': DataCardValue55.Selected.Value,\n                'Risk Level of Concern': DataCardValue11_1.Text,\n                'Risk Likelihood': DataCardValue43.Selected.Value,\n                'Risk Owner': DataCardValue11.Text,\n                'Risk Severity': DataCardValue16_1.Text,\n                'Risk Status': DataCardValue44.Selected.Value,\n                'Risk Type Level I': DataCardValue50.Selected.Value,\n                'Risk Type Level II': DataCardValue51.Selected.Value,\n                RiskTaxonomyLevel1: Dropdown_taxLevel0.Selected.Value,\n                RiskTaxonomyLevel2: Dropdown_taxLevel1.Selected.Value,\n                RiskTaxonomyLevel3: Dropdown_taxLevel2.Selected.Value,\n                RiskOwner2: 'RO-InputEmail_1'.Selected.Value,\n                RiskSPOC: 'SPOC-InputEmail_1'.Selected.Value,\n                RiskBusinessOwner: 'BO-InputEmail_1'.Selected.Value,\n                'Date Created': Now(),\n                'Date Last Modified': Now(),\n                'Who Last Modified': User().FullName,\n                RiskStatus2: \"BO\"\n            }"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Date Created"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrColDNE-Name",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 552,
-                  "snippet": {
-                    "text": "RiskManagementTable"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Patch"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrWriteToReadOnlyDataSource",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 19,
-                  "charOffset": 2762,
-                  "snippet": {
-                    "text": "RiskManagementTable"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.'CNRS-HM-CON-ContinueWithoutCS'.'ROS-HM-AB-BTN-AddButton_3'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Patch"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrWriteToReadOnlyDataSource",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-ICO-HamburgerMenuIcon_2'.AccessibleLabel"
                 }
               ],
@@ -3267,7 +317,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -3297,7 +347,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -3327,7 +377,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -3357,7 +407,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -3387,7 +437,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -3417,7 +467,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -3447,7 +497,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 10
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -3477,7 +527,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -3507,7 +557,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -3537,7 +587,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -3567,7 +617,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -3597,7 +647,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -3627,7 +677,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -3657,7 +707,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -3687,7 +737,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -3717,7 +767,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -3747,7 +797,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -3777,7 +827,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -3807,7 +857,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -3837,7 +887,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -3867,7 +917,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -3897,7 +947,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -3927,7 +977,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -3957,7 +1007,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -3987,7 +1037,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4017,7 +1067,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4047,7 +1097,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -4077,7 +1127,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4107,7 +1157,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4137,7 +1187,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4167,7 +1217,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4197,7 +1247,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4227,7 +1277,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4257,7 +1307,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4287,7 +1337,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4317,7 +1367,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4347,7 +1397,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4377,7 +1427,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4407,7 +1457,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4437,7 +1487,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4467,7 +1517,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4497,7 +1547,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4527,7 +1577,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4557,7 +1607,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4587,7 +1637,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4617,7 +1667,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4647,7 +1697,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4677,7 +1727,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4707,7 +1757,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4737,7 +1787,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4767,7 +1817,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4797,7 +1847,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -4827,7 +1877,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4857,7 +1907,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -4887,7 +1937,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 10
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -4917,7 +1967,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -4947,7 +1997,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -4977,7 +2027,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5007,7 +2057,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5037,7 +2087,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5067,7 +2117,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -5097,7 +2147,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5127,7 +2177,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5157,7 +2207,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5187,7 +2237,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -5217,7 +2267,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5247,7 +2297,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5277,7 +2327,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5307,7 +2357,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5337,7 +2387,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5367,7 +2417,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -5397,7 +2447,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5427,7 +2477,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5457,7 +2507,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5487,7 +2537,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -5517,7 +2567,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5547,7 +2597,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5577,7 +2627,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5607,7 +2657,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -5637,7 +2687,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5667,7 +2717,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -5697,7 +2747,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -5727,487 +2777,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Taxonomy Level III_DataCard2'.DataCardValue36.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Taxonomy Level III_DataCard2'.DataCardValue36.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Form1.'Risk Taxonomy Level III_DataCard2'.DataCardValue36"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Taxonomy Level II_DataCard2'.DataCardValue37.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Taxonomy Level II_DataCard2'.DataCardValue37.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Form1.'Risk Taxonomy Level II_DataCard2'.DataCardValue37"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Flow Status_DataCard2'.DataCardValue40.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Flow Status_DataCard2'.DataCardValue40.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Form1.'Risk Flow Status_DataCard2'.DataCardValue40"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Status_DataCard2'.DataCardValue49.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Status_DataCard2'.DataCardValue49.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Form1.'Risk Status_DataCard2'.DataCardValue49"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Flow SPOC_DataCard2'.DataCardValue41.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Flow SPOC_DataCard2'.DataCardValue41.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Form1.'Risk Flow SPOC_DataCard2'.DataCardValue41"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Flow RO_DataCard2'.DataCardValue42.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Flow RO_DataCard2'.DataCardValue42.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Form1.'Risk Flow RO_DataCard2'.DataCardValue42"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Flow BO_DataCard2'.DataCardValue43.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Flow BO_DataCard2'.DataCardValue43.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Form1.'Risk Flow BO_DataCard2'.DataCardValue43"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Department Level I_DataCard2'.DataCardValue44.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Department Level I_DataCard2'.DataCardValue44.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Form1.'Risk Department Level I_DataCard2'.DataCardValue44"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Confidentiality_DataCard2'.DataCardValue45.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Confidentiality_DataCard2'.DataCardValue45.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Form1.'Risk Confidentiality_DataCard2'.DataCardValue45"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Residual Risk Severity_DataCard2'.DataCardValue46.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Residual Risk Severity_DataCard2'.DataCardValue46.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Form1.'Residual Risk Severity_DataCard2'.DataCardValue46"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Residual Risk Likelihood_DataCard2'.DataCardValue47.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Residual Risk Likelihood_DataCard2'.DataCardValue47.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Form1.'Residual Risk Likelihood_DataCard2'.DataCardValue47"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Inherent Risk Likelihood_DataCard2'.DataCardValue48.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Inherent Risk Likelihood_DataCard2'.DataCardValue48.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Form1.'Inherent Risk Likelihood_DataCard2'.DataCardValue48"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Owner_DataCard1'.DataCardValue11.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Owner_DataCard1'.DataCardValue11.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Form1.'Risk Owner_DataCard1'.DataCardValue11"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Name_DataCard3'.DataCardValue12.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Name_DataCard3'.DataCardValue12.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Form1.'Risk Name_DataCard3'.DataCardValue12"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Description_DataCard1'.DataCardValue19.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Description_DataCard1'.DataCardValue19.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Form1.'Risk Description_DataCard1'.DataCardValue19"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Cause_DataCard1'.DataCardValue22.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Cause_DataCard1'.DataCardValue22.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Form1.'Risk Cause_DataCard1'.DataCardValue22"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -6237,26 +2807,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Reason for Risk Closure_DataCard1'.DataCardValue26.AccessibleLabel"
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Type Level I_DataCard2'.DataCardValue35.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Reason for Risk Closure_DataCard1'.DataCardValue26.AccessibleLabel",
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Type Level I_DataCard2'.DataCardValue35.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Form1.'Reason for Risk Closure_DataCard1'.DataCardValue26"
+                "type": "RiskManagementScreen.Form1.'Risk Type Level I_DataCard2'.DataCardValue35"
               }
             }
           ],
@@ -6267,26 +2837,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Inherent Risk Level of Concern_DataCard1'.DataCardValue29.AccessibleLabel"
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Taxonomy Level III_DataCard2'.DataCardValue36.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Inherent Risk Level of Concern_DataCard1'.DataCardValue29.AccessibleLabel",
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Taxonomy Level III_DataCard2'.DataCardValue36.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Form1.'Inherent Risk Level of Concern_DataCard1'.DataCardValue29"
+                "type": "RiskManagementScreen.Form1.'Risk Taxonomy Level III_DataCard2'.DataCardValue36"
               }
             }
           ],
@@ -6297,7 +2867,517 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Cause_DataCard1'.DataCardValue22.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Cause_DataCard1'.DataCardValue22.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Cause_DataCard1'.DataCardValue22"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Taxonomy Level II_DataCard2'.DataCardValue37.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Taxonomy Level II_DataCard2'.DataCardValue37.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Taxonomy Level II_DataCard2'.DataCardValue37"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Taxonomy Level I_DataCard2'.DataCardValue38.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Taxonomy Level I_DataCard2'.DataCardValue38.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Taxonomy Level I_DataCard2'.DataCardValue38"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Description_DataCard1'.DataCardValue19.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Description_DataCard1'.DataCardValue19.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Description_DataCard1'.DataCardValue19"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Group_DataCard2'.DataCardValue39.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Group_DataCard2'.DataCardValue39.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Group_DataCard2'.DataCardValue39"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Flow Status_DataCard2'.DataCardValue40.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Flow Status_DataCard2'.DataCardValue40.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Flow Status_DataCard2'.DataCardValue40"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Flow SPOC_DataCard2'.DataCardValue41.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Flow SPOC_DataCard2'.DataCardValue41.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Flow SPOC_DataCard2'.DataCardValue41"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Flow RO_DataCard2'.DataCardValue42.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Flow RO_DataCard2'.DataCardValue42.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Flow RO_DataCard2'.DataCardValue42"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Flow BO_DataCard2'.DataCardValue43.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Flow BO_DataCard2'.DataCardValue43.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Flow BO_DataCard2'.DataCardValue43"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Name_DataCard3'.DataCardValue12.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Name_DataCard3'.DataCardValue12.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Name_DataCard3'.DataCardValue12"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Owner_DataCard1'.DataCardValue11.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Owner_DataCard1'.DataCardValue11.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Owner_DataCard1'.DataCardValue11"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Status_DataCard1'.DataCardValue10.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Status_DataCard1'.DataCardValue10.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Status_DataCard1'.DataCardValue10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Department Level I_DataCard2'.DataCardValue44.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Department Level I_DataCard2'.DataCardValue44.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Department Level I_DataCard2'.DataCardValue44"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Confidentiality_DataCard2'.DataCardValue45.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Confidentiality_DataCard2'.DataCardValue45.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Risk Confidentiality_DataCard2'.DataCardValue45"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Residual Risk Severity_DataCard2'.DataCardValue46.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Residual Risk Severity_DataCard2'.DataCardValue46.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Residual Risk Severity_DataCard2'.DataCardValue46"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Residual Risk Likelihood_DataCard2'.DataCardValue47.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Residual Risk Likelihood_DataCard2'.DataCardValue47.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Residual Risk Likelihood_DataCard2'.DataCardValue47"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Inherent Risk Likelihood_DataCard2'.DataCardValue48.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Inherent Risk Likelihood_DataCard2'.DataCardValue48.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RiskManagementScreen",
+                "type": "RiskManagementScreen.Form1.'Inherent Risk Likelihood_DataCard2'.DataCardValue48"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -6327,7 +3407,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -6357,7 +3437,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -6387,7 +3467,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -6417,26 +3497,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 9
+          "ruleIndex": 3
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Group_DataCard2'.DataCardValue17.AccessibleLabel"
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Inherent Risk Level of Concern_DataCard1'.DataCardValue29.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Group_DataCard2'.DataCardValue17.AccessibleLabel",
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Inherent Risk Level of Concern_DataCard1'.DataCardValue29.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Form1.'Risk Group_DataCard2'.DataCardValue17"
+                "type": "RiskManagementScreen.Form1.'Inherent Risk Level of Concern_DataCard1'.DataCardValue29"
               }
             }
           ],
@@ -6447,26 +3527,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Type Level I_DataCard2'.DataCardValue24.AccessibleLabel"
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Type Level II_DataCard2'.DataCardValue34.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Type Level I_DataCard2'.DataCardValue24.AccessibleLabel",
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Type Level II_DataCard2'.DataCardValue34.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Form1.'Risk Type Level I_DataCard2'.DataCardValue24"
+                "type": "RiskManagementScreen.Form1.'Risk Type Level II_DataCard2'.DataCardValue34"
               }
             }
           ],
@@ -6477,26 +3557,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Taxonomy Level I_DataCard2'.DataCardValue15.AccessibleLabel"
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Inherent Risk Severity_DataCard1'.DataCardValue27.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Taxonomy Level I_DataCard2'.DataCardValue15.AccessibleLabel",
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Inherent Risk Severity_DataCard1'.DataCardValue27.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Form1.'Risk Taxonomy Level I_DataCard2'.DataCardValue15"
+                "type": "RiskManagementScreen.Form1.'Inherent Risk Severity_DataCard1'.DataCardValue27"
               }
             }
           ],
@@ -6507,26 +3587,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
+          "ruleIndex": 2
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Inherent Risk Severity_DataCard2'.DataCardValue20.AccessibleLabel"
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Reason for Risk Closure_DataCard1'.DataCardValue26.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Inherent Risk Severity_DataCard2'.DataCardValue20.AccessibleLabel",
+                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Reason for Risk Closure_DataCard1'.DataCardValue26.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Form1.'Inherent Risk Severity_DataCard2'.DataCardValue20"
+                "type": "RiskManagementScreen.Form1.'Reason for Risk Closure_DataCard1'.DataCardValue26"
               }
             }
           ],
@@ -6537,67 +3617,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Type Level II_DataCard12'.DataCardValue23.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "RiskManagementScreen.Form1.'Risk Type Level II_DataCard12'.DataCardValue23.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "RiskManagementScreen",
-                "type": "RiskManagementScreen.Form1.'Risk Type Level II_DataCard12'.DataCardValue23"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.NewRiskID"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.NewRiskID",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "NewRiskID",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 11
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -6627,7 +3647,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 12
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -6657,7 +3677,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 11
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -6687,7 +3707,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 11
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -6716,7 +3736,7 @@
             "level": "Medium"
           },
           "ruleId": "app-ScreenHasManyControls",
-          "ruleIndex": 13
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -6746,7 +3766,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 11
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -6776,7 +3796,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 11
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -6806,7 +3826,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 11
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -6836,7 +3856,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 11
+          "ruleIndex": 6
         }
       ],
       "tool": {
@@ -6878,97 +3898,6 @@
                   "Try moving your data to a different data source."
                 ],
                 "level": "Medium",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidName",
-              "messageStrings": {
-                "issue": {
-                  "text": "Name isn't valid. '{0}' isn't recognized."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove or correct the reference to the name that isn't valid."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidDot",
-              "messageStrings": {
-                "issue": {
-                  "text": "Invalid use of '.'"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidArgs-Func",
-              "messageStrings": {
-                "issue": {
-                  "text": "The function '{0}' has some invalid arguments."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrTypeError-Arg-Expected-Found",
-              "messageStrings": {
-                "issue": {
-                  "text": "The type of this argument '{0}' does not match the expected type '{1}'. Found type '{2}'."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrColDNE-Name",
-              "messageStrings": {
-                "issue": {
-                  "text": "The specified column '{0}' does not exist."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrWriteToReadOnlyDataSource",
-              "messageStrings": {
-                "issue": {
-                  "text": "The data source is either read-only or has no primary key, so the function {0} can’t write to it. "
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Confirm that the data source isn’t read-only and that you have write access to it. ",
-                  "If this data source is a SQL table, ensure that it has a primary key. For write operations, Power Apps requires SQL tables to have a primary key."
-                ],
-                "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
               }
@@ -7025,23 +3954,6 @@
               }
             },
             {
-              "id": "app-UnusedVariables",
-              "messageStrings": {
-                "issue": {
-                  "text": "Unused variable"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove the unused variable."
-                ],
-                "level": "Medium",
-                "primaryCategory": "performance",
-                "whyFix": "This variable is declared but is not referenced by any control, so it is not needed."
-              }
-            },
-            {
               "id": "app-UnusedMediaResources",
               "messageStrings": {
                 "issue": {
@@ -7056,6 +3968,23 @@
                 "level": "Medium",
                 "primaryCategory": "performance",
                 "whyFix": "This media file is not referenced by any control formulas so it is not needed. Removing it will improve performance."
+              }
+            },
+            {
+              "id": "app-UnusedVariables",
+              "messageStrings": {
+                "issue": {
+                  "text": "Unused variable"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove the unused variable."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "This variable is declared but is not referenced by any control, so it is not needed."
               }
             },
             {
@@ -7076,7 +4005,7 @@
                 ],
                 "level": "Medium",
                 "primaryCategory": "performance",
-                "whyFix": "Each control consumes resources, and an app may become slow or unresponsive if a screen has too many controls. The estimated complexity of \"RiskManagementScreen\" is 303, which exceeds the maximum threshold recommended (300)."
+                "whyFix": "Each control consumes resources, and an app may become slow or unresponsive if a screen has too many controls. The estimated complexity of \"RiskManagementScreen\" is 307, which exceeds the maximum threshold recommended (300)."
               }
             }
           ],
