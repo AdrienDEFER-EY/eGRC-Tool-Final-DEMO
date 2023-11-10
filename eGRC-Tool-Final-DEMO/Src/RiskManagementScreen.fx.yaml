@@ -1761,22 +1761,6 @@ RiskManagementScreen As screen:
         Y: =76
         ZIndex: =6
 
-        "'Risk ID_Column1' As dataTableColumn.textualColumn":
-            AutoWidth: =false
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Risk ID"
-            FieldName: ="Risk ID"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            OnSelect: =false
-            Order: =1
-            Text: =ThisItem.RiskID
-            Width: =105
-            X: =0
-            Y: =0
-            ZIndex: =19
-
         "'Risk Taxonomy Level I_Column1' As dataTableColumn.textualColumn":
             AutoWidth: =false
             DisplayMode: =DisplayMode.Edit
@@ -1785,7 +1769,7 @@ RiskManagementScreen As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =2
+            Order: =3
             Text: =ThisItem.'Risk Taxonomy Level I'
             Width: =205
             X: =163
@@ -1800,7 +1784,7 @@ RiskManagementScreen As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =3
+            Order: =4
             Text: =ThisItem.'Risk Taxonomy Level II'
             Width: =208
             X: =0
@@ -1815,7 +1799,7 @@ RiskManagementScreen As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =4
+            Order: =5
             Text: =ThisItem.'Risk Taxonomy Level III'
             Width: =205
             X: =0
@@ -1830,7 +1814,7 @@ RiskManagementScreen As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =5
+            Order: =6
             Text: =ThisItem.'Risk Name'
             Width: =133
             X: =0
@@ -1845,7 +1829,7 @@ RiskManagementScreen As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =6
+            Order: =7
             Text: =ThisItem.'Risk Owner'
             Width: =131
             X: =0
@@ -1860,7 +1844,7 @@ RiskManagementScreen As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =7
+            Order: =8
             Text: =ThisItem.'Inherent Risk Level of Concern'
             Width: =257
             X: =0
@@ -1875,12 +1859,26 @@ RiskManagementScreen As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =8
+            Order: =9
             Text: =ThisItem.'Residual Risk Level of Concern'
             Width: =257
             X: =0
             Y: =0
             ZIndex: =26
+
+        RiskID_Column2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="RiskID"
+            FieldName: ="RiskID"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =2
+            Text: =ThisItem.RiskID
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =27
 
     Circle1 As circle:
         Height: =70
@@ -2190,7 +2188,7 @@ RiskManagementScreen As screen:
             Required: =false
             Update: =RStatus_DC.Selected.Value
             Width: =426
-            X: =1
+            X: =2
             Y: =1
             ZIndex: =1
 
@@ -2252,8 +2250,8 @@ RiskManagementScreen As screen:
             Required: =false
             Update: =ROwner_DC.Text
             Width: =426
-            X: =2
-            Y: =1
+            X: =0
+            Y: =2
             ZIndex: =1
 
             DataCardKey11 As label:
@@ -2320,8 +2318,8 @@ RiskManagementScreen As screen:
             Required: =false
             Update: =RName_DC.Text
             Width: =426
-            X: =0
-            Y: =2
+            X: =1
+            Y: =1
             ZIndex: =1
 
             DataCardKey12 As label:
@@ -3144,7 +3142,7 @@ RiskManagementScreen As screen:
             Required: =false
             Update: =InherentRiskLikelihood_DC.Selected.Value
             Width: =426
-            X: =1
+            X: =0
             Y: =7
             ZIndex: =1
 
@@ -3182,7 +3180,7 @@ RiskManagementScreen As screen:
             Update: =ReasonForRiskClosure_DC.Text
             Visible: =If(RStatus_DC.Selected.Value = "Closed", true, false)
             Width: =426
-            X: =0
+            X: =1
             Y: =7
             ZIndex: =1
 
