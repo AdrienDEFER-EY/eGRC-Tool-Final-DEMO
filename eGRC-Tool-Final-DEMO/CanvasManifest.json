@@ -96,7 +96,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 77,
+    "BindingErrorCount": 82,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -109,13 +109,13 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "959e25b0-3304-47cb-9060-f3419f07724f",
-    "Id": "0640cea8-a29f-4675-b97c-0cdc3703c061",
+    "Id": "483c875f-7827-4dfc-9172-a05a07e9cd41",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
     "Name": "eGRC%2BTool%2BDEMO%2B-%2BAdrien.msapp",
     "OriginatingVersion": "1.335",
-    "ParserErrorCount": 0,
+    "ParserErrorCount": 1,
     "ShowStatusBar": false
   },
   "PublishInfo": {
