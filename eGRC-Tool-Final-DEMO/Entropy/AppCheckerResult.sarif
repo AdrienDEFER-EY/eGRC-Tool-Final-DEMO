@@ -732,876 +732,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-ICO-HamburgerMenuIcon_2'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-ICO-HamburgerMenuIcon_2'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-ICO-HamburgerMenuIcon_2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-ICO-HamburgerMenuIcon_2'.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-ICO-HamburgerMenuIcon_2'.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-ICO-HamburgerMenuIcon_2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-CON-SaveEditRiskButton_2'.'ROS-HM-SERB-ICO-SaveEditRiskButtonIcon_2'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-CON-SaveEditRiskButton_2'.'ROS-HM-SERB-ICO-SaveEditRiskButtonIcon_2'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-CON-SaveEditRiskButton_2'.'ROS-HM-SERB-ICO-SaveEditRiskButtonIcon_2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-CON-SaveEditRiskButton_2'.'ROS-HM-SERB-ICO-SaveEditRiskButtonIcon_2'.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-CON-SaveEditRiskButton_2'.'ROS-HM-SERB-ICO-SaveEditRiskButtonIcon_2'.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-CON-SaveEditRiskButton_2'.'ROS-HM-SERB-ICO-SaveEditRiskButtonIcon_2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-CON-LinkToControlsButton_2'.'ROS_HM-LTCB-ICO-LinkToControlsIcon_2'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-CON-LinkToControlsButton_2'.'ROS_HM-LTCB-ICO-LinkToControlsIcon_2'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-CON-LinkToControlsButton_2'.'ROS_HM-LTCB-ICO-LinkToControlsIcon_2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-CON-LinkToControlsButton_2'.'ROS_HM-LTCB-ICO-LinkToControlsIcon_2'.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-CON-LinkToControlsButton_2'.'ROS_HM-LTCB-ICO-LinkToControlsIcon_2'.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-CON-LinkToControlsButton_2'.'ROS_HM-LTCB-ICO-LinkToControlsIcon_2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-DeleteOption_1'.'ROS-OC-DO-LBL-Title_1'.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-DeleteOption_1'.'ROS-OC-DO-LBL-Title_1'.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-DeleteOption_1'.'ROS-OC-DO-LBL-Title_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-DeleteOption_1'.'ROS-OC-DO-LBL-Title_1'.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-DeleteOption_1'.'ROS-OC-DO-LBL-Title_1'.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-DeleteOption_1'.'ROS-OC-DO-LBL-Title_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SearchOption_1'.'ROS-OC-SO-INP-SearchInput_1'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SearchOption_1'.'ROS-OC-SO-INP-SearchInput_1'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SearchOption_1'.'ROS-OC-SO-INP-SearchInput_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria1_1'.'ROS-OC-SOO-C1-DD-ColumnChoice_1'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria1_1'.'ROS-OC-SOO-C1-DD-ColumnChoice_1'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria1_1'.'ROS-OC-SOO-C1-DD-ColumnChoice_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria1_1'.'ROS-OC-SOO-C1-DD-OrderChoice_1'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria1_1'.'ROS-OC-SOO-C1-DD-OrderChoice_1'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria1_1'.'ROS-OC-SOO-C1-DD-OrderChoice_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria2_1'.'ROS-OC-SOO-C2-ICO-DeleteC2_1'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria2_1'.'ROS-OC-SOO-C2-ICO-DeleteC2_1'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria2_1'.'ROS-OC-SOO-C2-ICO-DeleteC2_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria2_1'.'ROS-OC-SOO-C2-ICO-DeleteC2_1'.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria2_1'.'ROS-OC-SOO-C2-ICO-DeleteC2_1'.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria2_1'.'ROS-OC-SOO-C2-ICO-DeleteC2_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria2_1'.'ROS-OC-SOO-C2-DD-ColumnChoice_1'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria2_1'.'ROS-OC-SOO-C2-DD-ColumnChoice_1'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria2_1'.'ROS-OC-SOO-C2-DD-ColumnChoice_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria2_1'.'ROS-OC-SOO-C2-DD-OrderChoice_1'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria2_1'.'ROS-OC-SOO-C2-DD-OrderChoice_1'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria2_1'.'ROS-OC-SOO-C2-DD-OrderChoice_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria3_1'.'ROS-OC-SOO-C3-ICO-DeleteC3_1'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria3_1'.'ROS-OC-SOO-C3-ICO-DeleteC3_1'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria3_1'.'ROS-OC-SOO-C3-ICO-DeleteC3_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria3_1'.'ROS-OC-SOO-C3-ICO-DeleteC3_1'.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria3_1'.'ROS-OC-SOO-C3-ICO-DeleteC3_1'.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria3_1'.'ROS-OC-SOO-C3-ICO-DeleteC3_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria3_1'.'ROS-OC-SOO-C3-DD-ColumnChoice_1'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria3_1'.'ROS-OC-SOO-C3-DD-ColumnChoice_1'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria3_1'.'ROS-OC-SOO-C3-DD-ColumnChoice_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria3_1'.'ROS-OC-SOO-C3-DD-OrderChoice_1'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria3_1'.'ROS-OC-SOO-C3-DD-OrderChoice_1'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria3_1'.'ROS-OC-SOO-C3-DD-OrderChoice_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria1_1'.'ROS-OC-FO-C1-DD-ColumnChoiceC1_1'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria1_1'.'ROS-OC-FO-C1-DD-ColumnChoiceC1_1'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria1_1'.'ROS-OC-FO-C1-DD-ColumnChoiceC1_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria1_1'.'ROS-OC-FO-C1-INP-InputC1_1'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria1_1'.'ROS-OC-FO-C1-INP-InputC1_1'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria1_1'.'ROS-OC-FO-C1-INP-InputC1_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria2_1'.'ROS-OC-FO-C2-ICO-DeleteC2_1'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria2_1'.'ROS-OC-FO-C2-ICO-DeleteC2_1'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria2_1'.'ROS-OC-FO-C2-ICO-DeleteC2_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria2_1'.'ROS-OC-FO-C2-ICO-DeleteC2_1'.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria2_1'.'ROS-OC-FO-C2-ICO-DeleteC2_1'.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria2_1'.'ROS-OC-FO-C2-ICO-DeleteC2_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria2_1'.'ROS-OC-FO-C2-DD-ColumnChoiceC2_1'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria2_1'.'ROS-OC-FO-C2-DD-ColumnChoiceC2_1'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria2_1'.'ROS-OC-FO-C2-DD-ColumnChoiceC2_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria2_1'.'ROS-OC-FO-C2-INP-InputC2_1'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria2_1'.'ROS-OC-FO-C2-INP-InputC2_1'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria2_1'.'ROS-OC-FO-C2-INP-InputC2_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria3_1'.'ROS-OC-FO-C3-ICO-DeleteC3_1'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria3_1'.'ROS-OC-FO-C3-ICO-DeleteC3_1'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria3_1'.'ROS-OC-FO-C3-ICO-DeleteC3_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria3_1'.'ROS-OC-FO-C3-ICO-DeleteC3_1'.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria3_1'.'ROS-OC-FO-C3-ICO-DeleteC3_1'.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria3_1'.'ROS-OC-FO-C3-ICO-DeleteC3_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria3_1'.'ROS-OC-FO-C3-DD-ColumnChoiceC3_1'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria3_1'.'ROS-OC-FO-C3-DD-ColumnChoiceC3_1'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria3_1'.'ROS-OC-FO-C3-DD-ColumnChoiceC3_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria3_1'.'ROS-OC-FO-C3-INP-InputC3_1'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria3_1'.'ROS-OC-FO-C3-INP-InputC3_1'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria3_1'.'ROS-OC-FO-C3-INP-InputC3_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "DashboardScreen.Form1_1.'Risk Name_DataCard1_1'.DataCardValue1_1.AccessibleLabel"
                 }
               ],
@@ -3942,6 +3072,876 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-ICO-HamburgerMenuIcon_2'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-ICO-HamburgerMenuIcon_2'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-ICO-HamburgerMenuIcon_2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-ICO-HamburgerMenuIcon_2'.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-ICO-HamburgerMenuIcon_2'.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-ICO-HamburgerMenuIcon_2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-CON-SaveEditRiskButton_2'.'ROS-HM-SERB-ICO-SaveEditRiskButtonIcon_2'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-CON-SaveEditRiskButton_2'.'ROS-HM-SERB-ICO-SaveEditRiskButtonIcon_2'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-CON-SaveEditRiskButton_2'.'ROS-HM-SERB-ICO-SaveEditRiskButtonIcon_2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-CON-SaveEditRiskButton_2'.'ROS-HM-SERB-ICO-SaveEditRiskButtonIcon_2'.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-CON-SaveEditRiskButton_2'.'ROS-HM-SERB-ICO-SaveEditRiskButtonIcon_2'.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-CON-SaveEditRiskButton_2'.'ROS-HM-SERB-ICO-SaveEditRiskButtonIcon_2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-CON-LinkToControlsButton_2'.'ROS_HM-LTCB-ICO-LinkToControlsIcon_2'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-CON-LinkToControlsButton_2'.'ROS_HM-LTCB-ICO-LinkToControlsIcon_2'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-CON-LinkToControlsButton_2'.'ROS_HM-LTCB-ICO-LinkToControlsIcon_2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-CON-LinkToControlsButton_2'.'ROS_HM-LTCB-ICO-LinkToControlsIcon_2'.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-CON-LinkToControlsButton_2'.'ROS_HM-LTCB-ICO-LinkToControlsIcon_2'.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ViewControlsHamburgerMenu'.'ROS-HM-CON-LinkToControlsButton_2'.'ROS_HM-LTCB-ICO-LinkToControlsIcon_2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-DeleteOption_1'.'ROS-OC-DO-LBL-Title_1'.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-DeleteOption_1'.'ROS-OC-DO-LBL-Title_1'.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-DeleteOption_1'.'ROS-OC-DO-LBL-Title_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 8
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-DeleteOption_1'.'ROS-OC-DO-LBL-Title_1'.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-DeleteOption_1'.'ROS-OC-DO-LBL-Title_1'.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-DeleteOption_1'.'ROS-OC-DO-LBL-Title_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SearchOption_1'.'ROS-OC-SO-INP-SearchInput_1'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SearchOption_1'.'ROS-OC-SO-INP-SearchInput_1'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SearchOption_1'.'ROS-OC-SO-INP-SearchInput_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria1_1'.'ROS-OC-SOO-C1-DD-ColumnChoice_1'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria1_1'.'ROS-OC-SOO-C1-DD-ColumnChoice_1'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria1_1'.'ROS-OC-SOO-C1-DD-ColumnChoice_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria1_1'.'ROS-OC-SOO-C1-DD-OrderChoice_1'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria1_1'.'ROS-OC-SOO-C1-DD-OrderChoice_1'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria1_1'.'ROS-OC-SOO-C1-DD-OrderChoice_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria2_1'.'ROS-OC-SOO-C2-ICO-DeleteC2_1'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria2_1'.'ROS-OC-SOO-C2-ICO-DeleteC2_1'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria2_1'.'ROS-OC-SOO-C2-ICO-DeleteC2_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria2_1'.'ROS-OC-SOO-C2-ICO-DeleteC2_1'.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria2_1'.'ROS-OC-SOO-C2-ICO-DeleteC2_1'.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria2_1'.'ROS-OC-SOO-C2-ICO-DeleteC2_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria2_1'.'ROS-OC-SOO-C2-DD-ColumnChoice_1'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria2_1'.'ROS-OC-SOO-C2-DD-ColumnChoice_1'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria2_1'.'ROS-OC-SOO-C2-DD-ColumnChoice_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria2_1'.'ROS-OC-SOO-C2-DD-OrderChoice_1'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria2_1'.'ROS-OC-SOO-C2-DD-OrderChoice_1'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria2_1'.'ROS-OC-SOO-C2-DD-OrderChoice_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria3_1'.'ROS-OC-SOO-C3-ICO-DeleteC3_1'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria3_1'.'ROS-OC-SOO-C3-ICO-DeleteC3_1'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria3_1'.'ROS-OC-SOO-C3-ICO-DeleteC3_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria3_1'.'ROS-OC-SOO-C3-ICO-DeleteC3_1'.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria3_1'.'ROS-OC-SOO-C3-ICO-DeleteC3_1'.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria3_1'.'ROS-OC-SOO-C3-ICO-DeleteC3_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria3_1'.'ROS-OC-SOO-C3-DD-ColumnChoice_1'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria3_1'.'ROS-OC-SOO-C3-DD-ColumnChoice_1'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria3_1'.'ROS-OC-SOO-C3-DD-ColumnChoice_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria3_1'.'ROS-OC-SOO-C3-DD-OrderChoice_1'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria3_1'.'ROS-OC-SOO-C3-DD-OrderChoice_1'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-SortOption_1'.'ROS-OC-SOO-CON-Criteria3_1'.'ROS-OC-SOO-C3-DD-OrderChoice_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria1_1'.'ROS-OC-FO-C1-DD-ColumnChoiceC1_1'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria1_1'.'ROS-OC-FO-C1-DD-ColumnChoiceC1_1'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria1_1'.'ROS-OC-FO-C1-DD-ColumnChoiceC1_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria1_1'.'ROS-OC-FO-C1-INP-InputC1_1'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria1_1'.'ROS-OC-FO-C1-INP-InputC1_1'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria1_1'.'ROS-OC-FO-C1-INP-InputC1_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria2_1'.'ROS-OC-FO-C2-ICO-DeleteC2_1'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria2_1'.'ROS-OC-FO-C2-ICO-DeleteC2_1'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria2_1'.'ROS-OC-FO-C2-ICO-DeleteC2_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria2_1'.'ROS-OC-FO-C2-ICO-DeleteC2_1'.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria2_1'.'ROS-OC-FO-C2-ICO-DeleteC2_1'.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria2_1'.'ROS-OC-FO-C2-ICO-DeleteC2_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria2_1'.'ROS-OC-FO-C2-DD-ColumnChoiceC2_1'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria2_1'.'ROS-OC-FO-C2-DD-ColumnChoiceC2_1'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria2_1'.'ROS-OC-FO-C2-DD-ColumnChoiceC2_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria2_1'.'ROS-OC-FO-C2-INP-InputC2_1'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria2_1'.'ROS-OC-FO-C2-INP-InputC2_1'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria2_1'.'ROS-OC-FO-C2-INP-InputC2_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria3_1'.'ROS-OC-FO-C3-ICO-DeleteC3_1'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria3_1'.'ROS-OC-FO-C3-ICO-DeleteC3_1'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria3_1'.'ROS-OC-FO-C3-ICO-DeleteC3_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria3_1'.'ROS-OC-FO-C3-ICO-DeleteC3_1'.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria3_1'.'ROS-OC-FO-C3-ICO-DeleteC3_1'.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria3_1'.'ROS-OC-FO-C3-ICO-DeleteC3_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria3_1'.'ROS-OC-FO-C3-DD-ColumnChoiceC3_1'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria3_1'.'ROS-OC-FO-C3-DD-ColumnChoiceC3_1'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria3_1'.'ROS-OC-FO-C3-DD-ColumnChoiceC3_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria3_1'.'ROS-OC-FO-C3-INP-InputC3_1'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria3_1'.'ROS-OC-FO-C3-INP-InputC3_1'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen.'VIEW-CONTROLS'.'CMS-CON-ControlsOptionContainer'.'ROS-OC-CON-FilterOption_1'.'ROS-OC-FO-CON-Criteria3_1'.'ROS-OC-FO-C3-INP-InputC3_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "RiskManagementScreen_1.'VIEW-RISKS_1'.'RMS-CON-ViewRisksHamburgerMenu_4'.'ROS-HM-ICO-HamburgerMenuIcon_6'.AccessibleLabel"
                 }
               ],
@@ -5832,66 +5832,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ControlManagementScreen.AddControl"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.AddControl",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AddControl",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ControlManagementScreen.ROAddRisk"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ControlManagementScreen.ROAddRisk",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "ROAddRisk",
-                "module": "ControlManagementScreen",
-                "type": "ControlManagementScreen"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 9
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "RiskManagementScreen"
                 }
               ],
@@ -6024,6 +5964,66 @@
                 "member": "ROSortOption",
                 "module": "RiskManagementScreen",
                 "type": "RiskManagementScreen"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.AddControl"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.AddControl",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AddControl",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ControlManagementScreen.ROAddRisk"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ControlManagementScreen.ROAddRisk",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "ROAddRisk",
+                "module": "ControlManagementScreen",
+                "type": "ControlManagementScreen"
               }
             }
           ],

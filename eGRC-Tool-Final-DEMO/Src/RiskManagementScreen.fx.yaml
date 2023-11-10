@@ -1571,14 +1571,13 @@ RiskManagementScreen As screen:
                     Width: =Parent.Width
                     ZIndex: =3
 
-            "'ROS-HM-CON-ContinueWithoutCS_2' As groupContainer.manualLayoutContainer":
+            "'ROS-HM-CON-ContinueWithoutCS' As groupContainer.manualLayoutContainer":
                 Height: =67
-                Visible: =If(ROAddRisk, true, false)
                 Width: =Parent.Width
                 Y: =701
-                ZIndex: =6
+                ZIndex: =5
 
-                "'CNRS-HM-AB-ICO-ContinueWithoutCSButtonIcon_2' As icon.CheckBadge":
+                "'CNRS-HM-AB-ICO-ContinueWithoutCSButtonIcon' As icon.CheckBadge":
                     Height: =67
                     Icon: =Icon.CheckBadge
                     PaddingBottom: =10
@@ -1588,14 +1587,14 @@ RiskManagementScreen As screen:
                     X: =12
                     ZIndex: =1
 
-                "'ROS-HM-AB-LBL-AddButtonLabel_6' As label":
+                "'ROS-HM-AB-LBL-AddButtonLabel_3' As label":
                     Height: =67
                     Text: ="Continue without Control Selection"
                     Width: =Parent.Width - 88
                     X: =88
                     ZIndex: =2
 
-                "'ROS-HM-AB-BTN-AddButton_6' As button":
+                "'ROS-HM-AB-BTN-AddButton_3' As button":
                     Fill: =RGBA(255, 255, 255, 0)
                     Height: =67
                     HoverFill: =
@@ -1703,7 +1702,6 @@ RiskManagementScreen As screen:
                         )
                     Text: =
                     Width: =Parent.Width
-                    Y: =200
                     ZIndex: =3
 
     RiskDataTable As dataTable.datatable:
