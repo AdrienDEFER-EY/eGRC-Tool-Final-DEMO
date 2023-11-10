@@ -1608,7 +1608,7 @@ RiskManagementScreen As screen:
                                     RiskManagementTable,
                                     Defaults(RiskManagementTable),// Retain existing values in the record
                                     {
-                                        'RiskID': "ID" & GeneratedID,
+                                        RiskID: "ID" & GeneratedID,
                                         'Risk Name': RName_DC.Text,
                                         'Risk Description': RDescription_DC.Text,
                                         'Risk Confidentiality': RConfidentiality_DC.Selected.Value,
@@ -1650,7 +1650,7 @@ RiskManagementScreen As screen:
                                     RiskManagementTable,
                                     Defaults(RiskManagementTable),// Retain existing values in the record
                                     {
-                                       'RiskID': "ID" & GeneratedID,
+                                       RiskID: "ID" & GeneratedID,
                                         'Risk Name': RName_DC.Text,
                                         'Risk Description': RDescription_DC.Text,
                                         'Risk Confidentiality': RConfidentiality_DC.Selected.Value,
@@ -1706,7 +1706,7 @@ RiskManagementScreen As screen:
             	SearchOption,
             	Filter(
                     RiskManagementTable, 
-                    StartsWith(Text('RiskID'), 'ROS-OC-SO-INP-SearchInput'.Text) Or 
+                    StartsWith(Text(RiskID), 'ROS-OC-SO-INP-SearchInput'.Text) Or 
                     StartsWith(Text('Risk Taxonomy Level I'), 'ROS-OC-SO-INP-SearchInput'.Text) Or 
                     StartsWith(Text('Risk Taxonomy Level II'), 'ROS-OC-SO-INP-SearchInput'.Text) Or
                     StartsWith(Text('Risk Taxonomy Level III'), 'ROS-OC-SO-INP-SearchInput'.Text) Or
@@ -1771,7 +1771,7 @@ RiskManagementScreen As screen:
             LayoutHeight: =Parent.Height
             OnSelect: =false
             Order: =1
-            Text: =ThisItem.'RiskID'
+            Text: =ThisItem.RiskID
             Width: =105
             X: =0
             Y: =0
@@ -2600,7 +2600,7 @@ RiskManagementScreen As screen:
         "'Risk ID_DataCard3' As typedDataCard.textualViewCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Risk ID"
-            Default: =ThisItem.'RiskID'
+            Default: =ThisItem.RiskID
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@RiskManagementTable],DataSourceInfo.DisplayName,"RiskID")
             Fill: =RGBA(0, 0, 0, 0)
