@@ -15469,7 +15469,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "Form1",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -16380,7 +16380,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Inherent Risk Likelihood_DataCard2",
-      "ParentIndex": 22,
+      "ParentIndex": 21,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -19087,7 +19087,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Reason for Risk Closure_DataCard1",
-      "ParentIndex": 21,
+      "ParentIndex": 22,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -26121,7 +26121,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Risk Type Level I_DataCard2",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -26433,7 +26433,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Risk Who Last Modifier_DataCard2",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -26634,7 +26634,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "RiskDataTable",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
