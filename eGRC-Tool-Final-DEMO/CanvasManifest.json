@@ -132,6 +132,7 @@
   "ScreenOrder": [
     "HomeScreen",
     "RiskManagementScreen",
+    "RiskManagementScreen_1",
     "ControlManagementScreen",
     "DashboardScreen",
     "SettingsScreen"
