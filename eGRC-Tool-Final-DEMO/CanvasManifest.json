@@ -96,7 +96,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 3,
+    "BindingErrorCount": 82,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -109,13 +109,13 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "959e25b0-3304-47cb-9060-f3419f07724f",
-    "Id": "25372a7e-2ad1-499f-9d99-49e4f2868ea3",
+    "Id": "483c875f-7827-4dfc-9172-a05a07e9cd41",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
     "Name": "eGRC Tool DEMO - Adrien",
     "OriginatingVersion": "1.335",
-    "ParserErrorCount": 0,
+    "ParserErrorCount": 1,
     "ShowStatusBar": false
   },
   "PublishInfo": {

@@ -1189,7 +1189,7 @@ RiskManagementScreen As screen:
                 Align: =Align.Center
                 Font: =Font.Georgia
                 Height: =76
-                Size: =30
+                Size: =25
                 Text: ="RISK MANAGEMENT - SELECTED RISK INFORMATION"
                 Width: =Parent.Width
                 ZIndex: =2
@@ -1197,13 +1197,13 @@ RiskManagementScreen As screen:
         "'RMS-CON-ViewRisksHamburgerMenu_1' As groupContainer.manualLayoutContainer":
             BorderThickness: =2
             Height: =768
-            Width: =If(OpenMenu, Max(App.Width, App.DesignWidth)/7, 88)
+            Width: =If(OpenMenu, Max(App.Width, App.DesignWidth)/4, 88)
             ZIndex: =2
 
             "'ROS-HM-SHA-HamburgerMenuYellowBackground_3' As rectangle":
                 Fill: =RGBA(255, 230, 0, 1)
                 Height: =Parent.Height
-                Width: =If(OpenMenu, Max(App.Width, App.DesignWidth)/7, 88)
+                Width: =If(OpenMenu, Max(App.Width, App.DesignWidth)/4, 88)
                 ZIndex: =1
 
             "'ROS-HM-ICO-HamburgerMenuIcon_3' As icon.Hamburger":
@@ -1211,15 +1211,6 @@ RiskManagementScreen As screen:
                 OnSelect: |
                     =// Extend/Hide the hamburger menu
                     UpdateContext({OpenMenu: !OpenMenu});
-                    
-                    // Close all the hamburger menu windows
-                    If(AddRisk, UpdateContext({AddRisk: !AddRisk}));
-                    If(FilterOption, UpdateContext({FilterOption: !FilterOption}));
-                    If(SortOption, UpdateContext({SortOption: !SortOption}));
-                    If(SearchOption, UpdateContext({SearchOption: !SearchOption}));
-                    If(DeleteOption, UpdateContext({DeleteOption: !DeleteOption}));
-                    If(EditOption, UpdateContext({EditOption: !EditOption}));
-                    If(MoreInformationRequested, UpdateContext({MoreInformationRequested: !MoreInformationRequested}));
                 X: =12
                 ZIndex: =2
 
@@ -1277,7 +1268,7 @@ RiskManagementScreen As screen:
 
                 "'ROS-HM-HB-LBL-HomeButtonLabel_6' As label":
                     Height: =64
-                    Text: ="Home"
+                    Text: ="Back"
                     Width: =Parent.Width - 88
                     X: =88
                     Y: =3
@@ -1295,6 +1286,30 @@ RiskManagementScreen As screen:
                     Text: =
                     Width: =Parent.Width
                     ZIndex: =3
+
+            "'ROS-HM-CON-RiskState' As groupContainer.manualLayoutContainer":
+                Height: =67
+                Width: =Parent.Width
+                Y: =234
+                ZIndex: =5
+
+            "'ROS-HM-CON-SendToSPOC' As groupContainer.manualLayoutContainer":
+                Height: =67
+                Width: =Parent.Width
+                Y: =313
+                ZIndex: =6
+
+            "'ROS-HM-CON-SendBackToBO' As groupContainer.manualLayoutContainer":
+                Height: =67
+                Width: =Parent.Width
+                Y: =313
+                ZIndex: =7
+
+            "'ROS-HM-CON-SendToRO' As groupContainer.manualLayoutContainer":
+                Height: =67
+                Width: =Parent.Width
+                Y: =392
+                ZIndex: =8
 
     "'EDIT-RISKS' As groupContainer.manualLayoutContainer":
         Height: =768
@@ -1563,133 +1578,6 @@ RiskManagementScreen As screen:
                 Y: =701
                 ZIndex: =5
 
-                "'CNRS-HM-AB-ICO-ContinueWithoutCSButtonIcon' As icon.CheckBadge":
-                    Height: =67
-                    Icon: =Icon.CheckBadge
-                    PaddingBottom: =10
-                    PaddingLeft: =10
-                    PaddingRight: =10
-                    PaddingTop: =10
-                    X: =12
-                    ZIndex: =1
-
-                "'ROS-HM-AB-LBL-AddButtonLabel_3' As label":
-                    Height: =67
-                    Text: ="Continue without Control Selection"
-                    Width: =Parent.Width - 88
-                    X: =88
-                    ZIndex: =2
-
-                "'ROS-HM-AB-BTN-AddButton_3' As button":
-                    Fill: =RGBA(255, 255, 255, 0)
-                    Height: =67
-                    HoverFill: =
-                    OnSelect: |-
-                        =UpdateContext(
-                            {
-                                GeneratedID: Text(
-                                    RoundUp(
-                                        Rand() * 100000,
-                                        0
-                                    ),
-                                    "00000"
-                                )
-                            }
-                        );
-                        Set(
-                            NewRiskID,
-                            "ID" & GeneratedID
-                        );
-                        If(
-                            RStatus_DC.Selected.Value = "Closed",
-                            If(
-                                (!IsBlank(RName_DC.Text) && !IsBlank(ReasonForRiskClosure_DC.Text) && !IsBlank(RCause_DC.Text) && !IsBlank(RDescription_DC.Text) && !IsBlank(ROwner_DC.Text)),
-                                Patch(
-                                    RiskManagementTable,
-                                    Defaults(RiskManagementTable),// Retain existing values in the record
-                                    {
-                                        RiskID: "ID" & GeneratedID,
-                                        'Risk Name': RName_DC.Text,
-                                        'Risk Description': RDescription_DC.Text,
-                                        'Risk Confidentiality': RConfidentiality_DC.Selected.Value,
-                                        'Risk Department Level I': RDepLevel1_DC.Selected.Value,
-                                        'Risk Owner': ROwner_DC.Text,
-                                        'Risk Cause': RCause_DC.Text,
-                                        'Risk Group': RGroup_DC.Selected.Value,
-                                        'Risk Type Level I': RTypeLevel1_DC.Selected.Value,
-                                        'Risk Type Level II': RTypeLevel2_DC.Selected.Value,
-                                        'Inherent Risk Likelihood': InherentRiskLikelihood_DC.Selected.Value,
-                                        'Inherent Risk Severity': InherentRiskSeverity_DC.Selected.Value,
-                                        'Inherent Risk Level of Concern': InherentRiskLevelOfConcern_DC.Selected.Value,
-                                        'Residual Risk Likelihood': ResidualRiskLikelihood_DC.Selected.Value,
-                                        'Residual Risk Severity': ResidualRiskSeverity_DC.Selected.Value,
-                                        'Residual Risk Level of Concern': ResidualRiskLevelOfConcern_DC.Selected.Value,
-                                        'Risk Status': RStatus_DC.Selected.Value,
-                                        'Reason for Risk Closure': ReasonForRiskClosure_DC.Text,
-                                        'Risk Taxonomy Level I': RTaxLevel1_DC.Selected.Value,
-                                        'Risk Taxonomy Level II': RTaxLevel2_DC.Selected.Value,
-                                        'Risk Taxonomy Level III': RTaxLevel3_DC.Selected.Value,
-                                        'Risk Flow BO': RFlowBO_DC.Selected.Value,
-                                        'Risk Flow SPOC': RFlowSPOC_DC.Selected.Value,
-                                        'Risk Flow RO': RFlowRO_DC.Selected.Value,
-                                        'Risk Flow Status': "BO",
-                                        'Risk Date of Creation': Now(),
-                                        'Risk Date of Last Modification': Now(),
-                                        'Risk Who Last Modifier': User().FullName       
-                                    }
-                                );
-                                UpdateContext({MoreInformationRequested: false});
-                                UpdateContext({EditOption: false});
-                                UpdateContext({ViewOption: true});
-                                UpdateContext({ROAddRisk: false}),
-                                Notify("Fill in all required fields")
-                            ),
-                            If(
-                                (!IsBlank(RName_DC.Text) && !IsBlank(RCause_DC.Text) && !IsBlank(RDescription_DC.Text) && !IsBlank(ROwner_DC.Text)),
-                                Patch(
-                                    RiskManagementTable,
-                                    Defaults(RiskManagementTable),// Retain existing values in the record
-                                    {
-                                       RiskID: "ID" & GeneratedID,
-                                        'Risk Name': RName_DC.Text,
-                                        'Risk Description': RDescription_DC.Text,
-                                        'Risk Confidentiality': RConfidentiality_DC.Selected.Value,
-                                        'Risk Department Level I': RDepLevel1_DC.Selected.Value,
-                                        'Risk Owner': ROwner_DC.Text,
-                                        'Risk Cause': RCause_DC.Text,
-                                        'Risk Group': RGroup_DC.Selected.Value,
-                                        'Risk Type Level I': RTypeLevel1_DC.Selected.Value,
-                                        'Risk Type Level II': RTypeLevel2_DC.Selected.Value,
-                                        'Inherent Risk Likelihood': InherentRiskLikelihood_DC.Selected.Value,
-                                        'Inherent Risk Severity': InherentRiskSeverity_DC.Selected.Value,
-                                        'Inherent Risk Level of Concern': InherentRiskLevelOfConcern_DC.Selected.Value,
-                                        'Residual Risk Likelihood': ResidualRiskLikelihood_DC.Selected.Value,
-                                        'Residual Risk Severity': ResidualRiskSeverity_DC.Selected.Value,
-                                        'Residual Risk Level of Concern': ResidualRiskLevelOfConcern_DC.Selected.Value,
-                                        'Risk Status': RStatus_DC.Selected.Value,
-                                        'Risk Taxonomy Level I': RTaxLevel1_DC.Selected.Value,
-                                        'Risk Taxonomy Level II': RTaxLevel2_DC.Selected.Value,
-                                        'Risk Taxonomy Level III': RTaxLevel3_DC.Selected.Value,
-                                        'Risk Flow BO': RFlowBO_DC.Selected.Value,
-                                        'Risk Flow SPOC': RFlowSPOC_DC.Selected.Value,
-                                        'Risk Flow RO': RFlowRO_DC.Selected.Value,
-                                        'Risk Flow Status': "BO",
-                                        'Risk Date of Creation': Now(),
-                                        'Risk Date of Last Modification': Now(),
-                                        'Risk Who Last Modifier': User().FullName
-                                    }
-                                );
-                                UpdateContext({MoreInformationRequested: false});
-                                UpdateContext({EditOption: false});
-                                UpdateContext({ViewOption: true});
-                                UpdateContext({ROAddRisk: false}),
-                                Notify("Fill in all required fields")
-                            )
-                        )
-                    Text: =
-                    Width: =Parent.Width
-                    ZIndex: =3
-
     RiskDataTable As dataTable.datatable:
         BorderStyle: =BorderStyle.Solid
         BorderThickness: =2
@@ -1706,7 +1594,7 @@ RiskManagementScreen As screen:
             	SearchOption,
             	Filter(
                     RiskManagementTable, 
-                    StartsWith(Text(RiskID), 'ROS-OC-SO-INP-SearchInput'.Text) Or 
+                    StartsWith(Text('RiskID'), 'ROS-OC-SO-INP-SearchInput'.Text) Or 
                     StartsWith(Text('Risk Taxonomy Level I'), 'ROS-OC-SO-INP-SearchInput'.Text) Or 
                     StartsWith(Text('Risk Taxonomy Level II'), 'ROS-OC-SO-INP-SearchInput'.Text) Or
                     StartsWith(Text('Risk Taxonomy Level III'), 'ROS-OC-SO-INP-SearchInput'.Text) Or
@@ -1879,60 +1767,6 @@ RiskManagementScreen As screen:
             X: =0
             Y: =0
             ZIndex: =27
-
-    Circle1 As circle:
-        Height: =70
-        Visible: =ViewOption
-        Width: =70
-        X: =1286
-        Y: =688
-        ZIndex: =7
-
-    Circle1_1 As circle:
-        Height: =70
-        Visible: =ViewOption
-        Width: =70
-        X: =1286
-        Y: =608
-        ZIndex: =8
-
-    Icon1 As icon.Edit:
-        Color: =RGBA(255, 255, 255, 1)
-        Height: =70
-        Icon: =Icon.Edit
-        OnSelect: |-
-            =UpdateContext({MoreInformationRequested: false});
-            UpdateContext({EditOption: true});
-            UpdateContext({ViewOption: false});
-            UpdateContext({ROAddRisk: false});
-        PaddingBottom: =15
-        PaddingLeft: =15
-        PaddingRight: =15
-        PaddingTop: =15
-        Visible: =ViewOption
-        Width: =70
-        X: =1286
-        Y: =608
-        ZIndex: =9
-
-    Icon2 As icon.More:
-        Color: =RGBA(255, 255, 255, 1)
-        Height: =70
-        Icon: =Icon.More
-        OnSelect: |-
-            =UpdateContext({MoreInformationRequested: true});
-            UpdateContext({EditOption: false});
-            UpdateContext({ViewOption: false});
-            UpdateContext({ROAddRisk: false});
-        PaddingBottom: =15
-        PaddingLeft: =15
-        PaddingRight: =15
-        PaddingTop: =15
-        Visible: =ViewOption
-        Width: =70
-        X: =1286
-        Y: =688
-        ZIndex: =10
 
     Form1 As form:
         DataSource: =RiskManagementTable
@@ -2139,23 +1973,23 @@ RiskManagementScreen As screen:
                 Y: =DataCardKey38.Y
                 ZIndex: =4
 
-        "'Risk Name_DataCard3' As typedDataCard.textualEditCard":
+        "'Risk Taxonomy Level II_DataCard2' As typedDataCard.allowedValuesStringEditCard":
+            AllowedValues: =DataSourceInfo([@RiskManagementTable], DataSourceInfo.AllowedValues, "Risk Taxonomy Level II")
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Risk Name"
-            Default: =ThisItem.'Risk Name'
+            DataField: ="Risk Taxonomy Level II"
+            Default: =ThisItem.'Risk Taxonomy Level II'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@RiskManagementTable],DataSourceInfo.DisplayName,"Risk Name")
+            DisplayName: =DataSourceInfo([@RiskManagementTable],DataSourceInfo.DisplayName,"Risk Taxonomy Level II")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@RiskManagementTable], DataSourceInfo.MaxLength, "Risk Name")
             Required: =false
-            Update: =RName_DC.Text
+            Update: =RTaxLevel2_DC.Selected.Value
             Width: =426
-            X: =0
-            Y: =1
+            X: =1
+            Y: =8
             ZIndex: =1
 
-            DataCardKey12 As label:
+            DataCardKey4 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -2165,24 +1999,18 @@ RiskManagementScreen As screen:
                 Y: =10
                 ZIndex: =1
 
-            RName_DC As text:
+            RTaxLevel2_DC As dropdown:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
-                DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
+                Items: =Parent.AllowedValues
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey12.Y + DataCardKey12.Height + 5
+                Y: =DataCardKey4.Y + DataCardKey4.Height + 5
                 ZIndex: =2
 
-            ErrorMessage12 As label:
+            ErrorMessage4 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -2194,17 +2022,17 @@ RiskManagementScreen As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =RName_DC.Y + RName_DC.Height
+                Y: =RTaxLevel2_DC.Y + RTaxLevel2_DC.Height
                 ZIndex: =3
 
-            StarVisible12 As label:
+            StarVisible4 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 0, 0, 1)
-                Height: =DataCardKey12.Height
+                Height: =DataCardKey4.Height
                 Text: ="*"
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey12.Y
+                Y: =DataCardKey4.Y
                 ZIndex: =4
 
         "'Risk Status_DataCard2' As typedDataCard.allowedValuesStringEditCard":
@@ -2335,6 +2163,136 @@ RiskManagementScreen As screen:
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey11.Y
+                ZIndex: =4
+
+        "'Risk Name_DataCard3' As typedDataCard.textualEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Risk Name"
+            Default: =ThisItem.'Risk Name'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@RiskManagementTable],DataSourceInfo.DisplayName,"Risk Name")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@RiskManagementTable], DataSourceInfo.MaxLength, "Risk Name")
+            Required: =false
+            Update: =RName_DC.Text
+            Width: =426
+            X: =0
+            Y: =1
+            ZIndex: =1
+
+            DataCardKey12 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            RName_DC As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisplayMode: =Parent.DisplayMode
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey12.Y + DataCardKey12.Height + 5
+                ZIndex: =2
+
+            ErrorMessage12 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =RName_DC.Y + RName_DC.Height
+                ZIndex: =3
+
+            StarVisible12 As label:
+                Align: =Align.Center
+                Color: =RGBA(255, 0, 0, 1)
+                Height: =DataCardKey12.Height
+                Text: ="*"
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey12.Y
+                ZIndex: =4
+
+        "'Risk Flow Status_DataCard2' As typedDataCard.allowedValuesStringEditCard":
+            AllowedValues: =DataSourceInfo([@RiskManagementTable], DataSourceInfo.AllowedValues, "Risk Flow Status")
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Risk Flow Status"
+            Default: =ThisItem.'Risk Flow Status'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@RiskManagementTable],DataSourceInfo.DisplayName,"Risk Flow Status")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =RFlowStatus_DC.Selected.Value
+            Width: =426
+            X: =2
+            Y: =8
+            ZIndex: =1
+
+            DataCardKey6 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            RFlowStatus_DC As dropdown:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DisplayMode: =Parent.DisplayMode
+                Items: =Parent.AllowedValues
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey6.Y + DataCardKey6.Height + 5
+                ZIndex: =2
+
+            ErrorMessage6 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =RFlowStatus_DC.Y + RFlowStatus_DC.Height
+                ZIndex: =3
+
+            StarVisible6 As label:
+                Align: =Align.Center
+                Color: =RGBA(255, 0, 0, 1)
+                Height: =DataCardKey6.Height
+                Text: ="*"
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey6.Y
                 ZIndex: =4
 
         "'Risk Flow SPOC_DataCard2' As typedDataCard.allowedValuesStringEditCard":
@@ -3058,6 +3016,68 @@ RiskManagementScreen As screen:
                 Y: =DataCardKey1.Y
                 ZIndex: =4
 
+        "'Inherent Risk Likelihood_DataCard2' As typedDataCard.allowedValuesStringEditCard":
+            AllowedValues: =DataSourceInfo([@RiskManagementTable], DataSourceInfo.AllowedValues, "Inherent Risk Likelihood")
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Inherent Risk Likelihood"
+            Default: =ThisItem.'Inherent Risk Likelihood'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@RiskManagementTable],DataSourceInfo.DisplayName,"Inherent Risk Likelihood")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =InherentRiskLikelihood_DC.Selected.Value
+            Width: =426
+            X: =0
+            Y: =9
+            ZIndex: =1
+
+            DataCardKey8 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            InherentRiskLikelihood_DC As dropdown:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DisplayMode: =Parent.DisplayMode
+                Items: =Parent.AllowedValues
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey8.Y + DataCardKey8.Height + 5
+                ZIndex: =2
+
+            ErrorMessage8 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =InherentRiskLikelihood_DC.Y + InherentRiskLikelihood_DC.Height
+                ZIndex: =3
+
+            StarVisible8 As label:
+                Align: =Align.Center
+                Color: =RGBA(255, 0, 0, 1)
+                Height: =DataCardKey8.Height
+                Text: ="*"
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey8.Y
+                ZIndex: =4
+
         "'Reason for Risk Closure_DataCard1' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Reason for Risk Closure"
@@ -3125,6 +3145,68 @@ RiskManagementScreen As screen:
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey28.Y
+                ZIndex: =4
+
+        "'Inherent Risk Level of Concern_DataCard2' As typedDataCard.allowedValuesStringEditCard":
+            AllowedValues: =DataSourceInfo([@RiskManagementTable], DataSourceInfo.AllowedValues, "Inherent Risk Level of Concern")
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Inherent Risk Level of Concern"
+            Default: =ThisItem.'Inherent Risk Level of Concern'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@RiskManagementTable],DataSourceInfo.DisplayName,"Inherent Risk Level of Concern")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =InherentRiskLevelOfConcern_DC.Selected.Value
+            Width: =426
+            X: =2
+            Y: =6
+            ZIndex: =1
+
+            DataCardKey2 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            InherentRiskLevelOfConcern_DC As dropdown:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DisplayMode: =Parent.DisplayMode
+                Items: =Parent.AllowedValues
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey2.Y + DataCardKey2.Height + 5
+                ZIndex: =2
+
+            ErrorMessage2 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =InherentRiskLevelOfConcern_DC.Y + InherentRiskLevelOfConcern_DC.Height
+                ZIndex: =3
+
+            StarVisible2 As label:
+                Align: =Align.Center
+                Color: =RGBA(255, 0, 0, 1)
+                Height: =DataCardKey2.Height
+                Text: ="*"
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey2.Y
                 ZIndex: =4
 
         "'Risk Taxonomy Level I_DataCard2' As typedDataCard.allowedValuesStringEditCard":
@@ -3251,192 +3333,6 @@ RiskManagementScreen As screen:
                 Y: =DataCardKey17.Y
                 ZIndex: =4
 
-        "'Risk Type Level II_DataCard12' As typedDataCard.allowedValuesStringEditCard":
-            AllowedValues: =DataSourceInfo([@RiskManagementTable], DataSourceInfo.AllowedValues, "Risk Type Level II")
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Risk Type Level II"
-            Default: =ThisItem.'Risk Type Level II'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@RiskManagementTable],DataSourceInfo.DisplayName,"Risk Type Level II")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =RTypeLevel2_DC.Selected.Value
-            Width: =426
-            X: =0
-            Y: =8
-            ZIndex: =1
-
-            DataCardKey22 As label:
-                AutoHeight: =true
-                Height: =34
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            RTypeLevel2_DC As dropdown:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DisplayMode: =Parent.DisplayMode
-                Items: =Parent.AllowedValues
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey22.Y + DataCardKey22.Height + 5
-                ZIndex: =2
-
-            ErrorMessage20 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =RTypeLevel2_DC.Y + RTypeLevel2_DC.Height
-                ZIndex: =3
-
-            StarVisible20 As label:
-                Align: =Align.Center
-                Color: =RGBA(255, 0, 0, 1)
-                Height: =DataCardKey22.Height
-                Text: ="*"
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey22.Y
-                ZIndex: =4
-
-        "'Risk Taxonomy Level II_DataCard2' As typedDataCard.allowedValuesStringEditCard":
-            AllowedValues: =DataSourceInfo([@RiskManagementTable], DataSourceInfo.AllowedValues, "Risk Taxonomy Level II")
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Risk Taxonomy Level II"
-            Default: =ThisItem.'Risk Taxonomy Level II'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@RiskManagementTable],DataSourceInfo.DisplayName,"Risk Taxonomy Level II")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =RTaxLevel2_DC.Selected.Value
-            Width: =426
-            X: =1
-            Y: =8
-            ZIndex: =1
-
-            DataCardKey4 As label:
-                AutoHeight: =true
-                Height: =34
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            RTaxLevel2_DC As dropdown:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DisplayMode: =Parent.DisplayMode
-                Items: =Parent.AllowedValues
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey4.Y + DataCardKey4.Height + 5
-                ZIndex: =2
-
-            ErrorMessage4 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =RTaxLevel2_DC.Y + RTaxLevel2_DC.Height
-                ZIndex: =3
-
-            StarVisible4 As label:
-                Align: =Align.Center
-                Color: =RGBA(255, 0, 0, 1)
-                Height: =DataCardKey4.Height
-                Text: ="*"
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey4.Y
-                ZIndex: =4
-
-        "'Inherent Risk Level of Concern_DataCard2' As typedDataCard.allowedValuesStringEditCard":
-            AllowedValues: =DataSourceInfo([@RiskManagementTable], DataSourceInfo.AllowedValues, "Inherent Risk Level of Concern")
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Inherent Risk Level of Concern"
-            Default: =ThisItem.'Inherent Risk Level of Concern'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@RiskManagementTable],DataSourceInfo.DisplayName,"Inherent Risk Level of Concern")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =InherentRiskLevelOfConcern_DC.Selected.Value
-            Width: =426
-            X: =2
-            Y: =6
-            ZIndex: =1
-
-            DataCardKey2 As label:
-                AutoHeight: =true
-                Height: =34
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            InherentRiskLevelOfConcern_DC As dropdown:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DisplayMode: =Parent.DisplayMode
-                Items: =Parent.AllowedValues
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey2.Y + DataCardKey2.Height + 5
-                ZIndex: =2
-
-            ErrorMessage2 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =InherentRiskLevelOfConcern_DC.Y + InherentRiskLevelOfConcern_DC.Height
-                ZIndex: =3
-
-            StarVisible2 As label:
-                Align: =Align.Center
-                Color: =RGBA(255, 0, 0, 1)
-                Height: =DataCardKey2.Height
-                Text: ="*"
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey2.Y
-                ZIndex: =4
-
         "'Inherent Risk Severity_DataCard2' As typedDataCard.allowedValuesStringEditCard":
             AllowedValues: =DataSourceInfo([@RiskManagementTable], DataSourceInfo.AllowedValues, "Inherent Risk Severity")
             BorderStyle: =BorderStyle.Solid
@@ -3499,23 +3395,23 @@ RiskManagementScreen As screen:
                 Y: =DataCardKey20.Y
                 ZIndex: =4
 
-        "'Risk Flow Status_DataCard2' As typedDataCard.allowedValuesStringEditCard":
-            AllowedValues: =DataSourceInfo([@RiskManagementTable], DataSourceInfo.AllowedValues, "Risk Flow Status")
+        "'Risk Type Level II_DataCard12' As typedDataCard.allowedValuesStringEditCard":
+            AllowedValues: =DataSourceInfo([@RiskManagementTable], DataSourceInfo.AllowedValues, "Risk Type Level II")
             BorderStyle: =BorderStyle.Solid
-            DataField: ="Risk Flow Status"
-            Default: =ThisItem.'Risk Flow Status'
+            DataField: ="Risk Type Level II"
+            Default: =ThisItem.'Risk Type Level II'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@RiskManagementTable],DataSourceInfo.DisplayName,"Risk Flow Status")
+            DisplayName: =DataSourceInfo([@RiskManagementTable],DataSourceInfo.DisplayName,"Risk Type Level II")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =RFlowStatus_DC.Selected.Value
+            Update: =RTypeLevel2_DC.Selected.Value
             Width: =426
-            X: =2
+            X: =0
             Y: =8
             ZIndex: =1
 
-            DataCardKey6 As label:
+            DataCardKey22 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -3525,7 +3421,7 @@ RiskManagementScreen As screen:
                 Y: =10
                 ZIndex: =1
 
-            RFlowStatus_DC As dropdown:
+            RTypeLevel2_DC As dropdown:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
@@ -3533,10 +3429,10 @@ RiskManagementScreen As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey6.Y + DataCardKey6.Height + 5
+                Y: =DataCardKey22.Y + DataCardKey22.Height + 5
                 ZIndex: =2
 
-            ErrorMessage6 As label:
+            ErrorMessage20 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -3548,78 +3444,62 @@ RiskManagementScreen As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =RFlowStatus_DC.Y + RFlowStatus_DC.Height
+                Y: =RTypeLevel2_DC.Y + RTypeLevel2_DC.Height
                 ZIndex: =3
 
-            StarVisible6 As label:
+            StarVisible20 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 0, 0, 1)
-                Height: =DataCardKey6.Height
+                Height: =DataCardKey22.Height
                 Text: ="*"
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey6.Y
+                Y: =DataCardKey22.Y
                 ZIndex: =4
 
-        "'Inherent Risk Likelihood_DataCard2' As typedDataCard.allowedValuesStringEditCard":
-            AllowedValues: =DataSourceInfo([@RiskManagementTable], DataSourceInfo.AllowedValues, "Inherent Risk Likelihood")
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Inherent Risk Likelihood"
-            Default: =ThisItem.'Inherent Risk Likelihood'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@RiskManagementTable],DataSourceInfo.DisplayName,"Inherent Risk Likelihood")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =InherentRiskLikelihood_DC.Selected.Value
-            Width: =426
-            X: =0
-            Y: =9
+    "'MOREINFO-BUTTON' As groupContainer.manualLayoutContainer":
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Height: =70
+        Width: =70
+        X: =1286
+        Y: =688
+        ZIndex: =14
+
+        Circle1 As circle:
+            Height: =70
+            Visible: =ViewOption
+            Width: =70
             ZIndex: =1
 
-            DataCardKey8 As label:
-                AutoHeight: =true
-                Height: =34
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
+    "'EDIT-BUTTON' As groupContainer.manualLayoutContainer":
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Height: =70
+        Visible: |-
+            =And(
+                ViewOption,
+                Or(
+                    And(
+                        RiskDataTable.Selected.'Risk Flow Status' = "BO",
+                        RiskDataTable.Selected.'Risk Flow BO' = Lower(User().Email)
+                    ),
+                    And(
+                        RiskDataTable.Selected.'Risk Flow Status' = "SPOC",
+                        RiskDataTable.Selected.'Risk Flow SPOC' = Lower(User().Email)
+                    ),
+                    And(
+                        RiskDataTable.Selected.'Risk Flow Status' = "RO",
+                        RiskDataTable.Selected.'Risk Flow RO' = Lower(User().Email)
+                    )
+                )
+            )
+        Width: =70
+        X: =1286
+        Y: =608
+        ZIndex: =15
 
-            InherentRiskLikelihood_DC As dropdown:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DisplayMode: =Parent.DisplayMode
-                Items: =Parent.AllowedValues
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey8.Y + DataCardKey8.Height + 5
-                ZIndex: =2
-
-            ErrorMessage8 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =InherentRiskLikelihood_DC.Y + InherentRiskLikelihood_DC.Height
-                ZIndex: =3
-
-            StarVisible8 As label:
-                Align: =Align.Center
-                Color: =RGBA(255, 0, 0, 1)
-                Height: =DataCardKey8.Height
-                Text: ="*"
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey8.Y
-                ZIndex: =4
+        Circle1_1 As circle:
+            Height: =70
+            Visible: =ViewOption
+            Width: =70
+            ZIndex: =1
 
