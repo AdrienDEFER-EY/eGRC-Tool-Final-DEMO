@@ -7862,7 +7862,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey6",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8136,7 +8136,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey8",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -15584,7 +15584,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage6",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -15865,7 +15865,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage8",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -16883,7 +16883,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Inherent Risk Level of Concern_DataCard2",
-      "ParentIndex": 17,
+      "ParentIndex": 24,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -17043,7 +17043,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Inherent Risk Likelihood_DataCard2",
-      "ParentIndex": 1,
+      "ParentIndex": 27,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -17203,7 +17203,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Inherent Risk Severity_DataCard2",
-      "ParentIndex": 19,
+      "ParentIndex": 25,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -17692,7 +17692,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "InherentRiskLikelihood_DC",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -19745,7 +19745,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Reason for Risk Closure_DataCard1",
-      "ParentIndex": 25,
+      "ParentIndex": 19,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -20329,7 +20329,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Residual Risk Level of Concern_DataCard2",
-      "ParentIndex": 16,
+      "ParentIndex": 18,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -20489,7 +20489,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Residual Risk Likelihood_DataCard2",
-      "ParentIndex": 24,
+      "ParentIndex": 17,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -20649,7 +20649,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Residual Risk Severity_DataCard2",
-      "ParentIndex": 15,
+      "ParentIndex": 16,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -22713,7 +22713,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "RFlowStatus_DC",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -23329,7 +23329,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Risk Cause_DataCard1",
-      "ParentIndex": 14,
+      "ParentIndex": 15,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -23641,7 +23641,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Risk Date of Creation_DataCard2",
-      "ParentIndex": 23,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -23943,7 +23943,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Risk Department Level I_DataCard2",
-      "ParentIndex": 22,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -24103,7 +24103,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Risk Description_DataCard1",
-      "ParentIndex": 11,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -24263,7 +24263,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Risk Flow BO_DataCard2",
-      "ParentIndex": 21,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -24423,7 +24423,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Risk Flow RO_DataCard2",
-      "ParentIndex": 9,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -24583,7 +24583,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Risk Flow SPOC_DataCard2",
-      "ParentIndex": 8,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -24743,7 +24743,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Risk Flow Status_DataCard2",
-      "ParentIndex": 0,
+      "ParentIndex": 26,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -24903,7 +24903,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Risk Group_DataCard2",
-      "ParentIndex": 26,
+      "ParentIndex": 21,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -25055,7 +25055,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Risk ID_DataCard3",
-      "ParentIndex": 10,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -25309,7 +25309,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Risk Name_DataCard3",
-      "ParentIndex": 5,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -25568,7 +25568,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Risk Owner_DataCard1",
-      "ParentIndex": 7,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -25728,7 +25728,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Risk Status_DataCard2",
-      "ParentIndex": 6,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -25987,7 +25987,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Risk Taxonomy Level I_DataCard2",
-      "ParentIndex": 18,
+      "ParentIndex": 20,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -26246,7 +26246,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Risk Taxonomy Level II_DataCard2",
-      "ParentIndex": 27,
+      "ParentIndex": 23,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -26519,7 +26519,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Risk Taxonomy Level III_DataCard2",
-      "ParentIndex": 4,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -26679,7 +26679,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Risk Type Level I_DataCard2",
-      "ParentIndex": 3,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -26839,7 +26839,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Risk Type Level II_DataCard12",
-      "ParentIndex": 20,
+      "ParentIndex": 22,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -26991,7 +26991,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Risk Who Last Modifier_DataCard2",
-      "ParentIndex": 2,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -73945,7 +73945,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible6",
-      "ParentIndex": 3,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -74233,7 +74233,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible8",
-      "ParentIndex": 3,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
