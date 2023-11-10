@@ -1556,6 +1556,140 @@ RiskManagementScreen As screen:
                     Width: =Parent.Width
                     ZIndex: =3
 
+            "'ROS-HM-CON-ContinueWithoutCS' As groupContainer.manualLayoutContainer":
+                Height: =67
+                Visible: =If(ROAddRisk, true, false)
+                Width: =Parent.Width
+                Y: =701
+                ZIndex: =5
+
+                "'CNRS-HM-AB-ICO-ContinueWithoutCSButtonIcon' As icon.CheckBadge":
+                    Height: =67
+                    Icon: =Icon.CheckBadge
+                    PaddingBottom: =10
+                    PaddingLeft: =10
+                    PaddingRight: =10
+                    PaddingTop: =10
+                    X: =12
+                    ZIndex: =1
+
+                "'ROS-HM-AB-LBL-AddButtonLabel_3' As label":
+                    Height: =67
+                    Text: ="Continue without Control Selection"
+                    Width: =Parent.Width - 88
+                    X: =88
+                    ZIndex: =2
+
+                "'ROS-HM-AB-BTN-AddButton_3' As button":
+                    Fill: =RGBA(255, 255, 255, 0)
+                    Height: =67
+                    HoverFill: =
+                    OnSelect: |-
+                        =UpdateContext(
+                            {
+                                GeneratedID: Text(
+                                    RoundUp(
+                                        Rand() * 100000,
+                                        0
+                                    ),
+                                    "00000"
+                                )
+                            }
+                        );
+                        Set(
+                            NewRiskID,
+                            "ID" & GeneratedID
+                        );
+                        If(
+                            RStatus_DC.Selected.Value = "Closed",
+                            If(
+                                (!IsBlank(RName_DC.Text) && !IsBlank(ReasonForRiskClosure_DC.Text) && !IsBlank(RCause_DC.Text) && !IsBlank(RDescription_DC.Text) && !IsBlank(ROwner_DC.Text)),
+                                Patch(
+                                    RiskManagementTable,
+                                    Defaults(RiskManagementTable),// Retain existing values in the record
+                                    {
+                                        'RiskID': "ID" & GeneratedID,
+                                        'Risk Name': RName_DC.Text,
+                                        'Risk Description': RDescription_DC.Text,
+                                        'Risk Confidentiality': RConfidentiality_DC.Selected.Value,
+                                        'Risk Department Level I': RDepLevel1_DC.Selected.Value,
+                                        'Risk Owner': ROwner_DC.Text,
+                                        'Risk Cause': RCause_DC.Text,
+                                        'Risk Group': RGroup_DC.Selected.Value,
+                                        'Risk Type Level I': RTypeLevel1_DC.Selected.Value,
+                                        'Risk Type Level II': RTypeLevel2_DC.Selected.Value,
+                                        'Inherent Risk Likelihood': InherentRiskLikelihood_DC.Selected.Value,
+                                        'Inherent Risk Severity': InherentRiskSeverity_DC.Selected.Value,
+                                        'Inherent Risk Level of Concern': InherentRiskLevelOfConcern_DC.Selected.Value,
+                                        'Residual Risk Likelihood': ResidualRiskLikelihood_DC.Selected.Value,
+                                        'Residual Risk Severity': ResidualRiskSeverity_DC.Selected.Value,
+                                        'Residual Risk Level of Concern': ResidualRiskLevelOfConcern_DC.Selected.Value,
+                                        'Risk Status': RStatus_DC.Selected.Value,
+                                        'Reason for Risk Closure': ReasonForRiskClosure_DC.Text,
+                                        'Risk Taxonomy Level I': RTaxLevel1_DC.Selected.Value,
+                                        'Risk Taxonomy Level II': RTaxLevel2_DC.Selected.Value,
+                                        'Risk Taxonomy Level III': RTaxLevel3_DC.Selected.Value,
+                                        'Risk Flow BO': RFlowBO_DC.Selected.Value,
+                                        'Risk Flow SPOC': RFlowSPOC_DC.Selected.Value,
+                                        'Risk Flow RO': RFlowRO_DC.Selected.Value,
+                                        'Risk Flow Status': "BO",
+                                        'Risk Date of Creation': Now(),
+                                        'Risk Date of Last Modification': Now(),
+                                        'Risk Who Last Modifier': User().FullName       
+                                    }
+                                );
+                                UpdateContext({MoreInformationRequested: false});
+                                UpdateContext({EditOption: false});
+                                UpdateContext({ViewOption: true});
+                                UpdateContext({ROAddRisk: false}),
+                                Notify("Fill in all required fields")
+                            ),
+                            If(
+                                (!IsBlank(RName_DC.Text) && !IsBlank(RCause_DC.Text) && !IsBlank(RDescription_DC.Text) && !IsBlank(ROwner_DC.Text)),
+                                Patch(
+                                    RiskManagementTable,
+                                    Defaults(RiskManagementTable),// Retain existing values in the record
+                                    {
+                                       'RiskID': "ID" & GeneratedID,
+                                        'Risk Name': RName_DC.Text,
+                                        'Risk Description': RDescription_DC.Text,
+                                        'Risk Confidentiality': RConfidentiality_DC.Selected.Value,
+                                        'Risk Department Level I': RDepLevel1_DC.Selected.Value,
+                                        'Risk Owner': ROwner_DC.Text,
+                                        'Risk Cause': RCause_DC.Text,
+                                        'Risk Group': RGroup_DC.Selected.Value,
+                                        'Risk Type Level I': RTypeLevel1_DC.Selected.Value,
+                                        'Risk Type Level II': RTypeLevel2_DC.Selected.Value,
+                                        'Inherent Risk Likelihood': InherentRiskLikelihood_DC.Selected.Value,
+                                        'Inherent Risk Severity': InherentRiskSeverity_DC.Selected.Value,
+                                        'Inherent Risk Level of Concern': InherentRiskLevelOfConcern_DC.Selected.Value,
+                                        'Residual Risk Likelihood': ResidualRiskLikelihood_DC.Selected.Value,
+                                        'Residual Risk Severity': ResidualRiskSeverity_DC.Selected.Value,
+                                        'Residual Risk Level of Concern': ResidualRiskLevelOfConcern_DC.Selected.Value,
+                                        'Risk Status': RStatus_DC.Selected.Value,
+                                        'Risk Taxonomy Level I': RTaxLevel1_DC.Selected.Value,
+                                        'Risk Taxonomy Level II': RTaxLevel2_DC.Selected.Value,
+                                        'Risk Taxonomy Level III': RTaxLevel3_DC.Selected.Value,
+                                        'Risk Flow BO': RFlowBO_DC.Selected.Value,
+                                        'Risk Flow SPOC': RFlowSPOC_DC.Selected.Value,
+                                        'Risk Flow RO': RFlowRO_DC.Selected.Value,
+                                        'Risk Flow Status': "BO",
+                                        'Risk Date of Creation': Now(),
+                                        'Risk Date of Last Modification': Now(),
+                                        'Risk Who Last Modifier': User().FullName
+                                    }
+                                );
+                                UpdateContext({MoreInformationRequested: false});
+                                UpdateContext({EditOption: false});
+                                UpdateContext({ViewOption: true});
+                                UpdateContext({ROAddRisk: false}),
+                                Notify("Fill in all required fields")
+                            )
+                        )
+                    Text: =
+                    Width: =Parent.Width
+                    ZIndex: =3
+
     RiskDataTable As dataTable.datatable:
         BorderStyle: =BorderStyle.Solid
         BorderThickness: =2
@@ -1572,7 +1706,7 @@ RiskManagementScreen As screen:
             	SearchOption,
             	Filter(
                     RiskManagementTable, 
-                    StartsWith(Text('Risk ID'), 'ROS-OC-SO-INP-SearchInput'.Text) Or 
+                    StartsWith(Text('RiskID'), 'ROS-OC-SO-INP-SearchInput'.Text) Or 
                     StartsWith(Text('Risk Taxonomy Level I'), 'ROS-OC-SO-INP-SearchInput'.Text) Or 
                     StartsWith(Text('Risk Taxonomy Level II'), 'ROS-OC-SO-INP-SearchInput'.Text) Or
                     StartsWith(Text('Risk Taxonomy Level III'), 'ROS-OC-SO-INP-SearchInput'.Text) Or
@@ -1637,7 +1771,7 @@ RiskManagementScreen As screen:
             LayoutHeight: =Parent.Height
             OnSelect: =false
             Order: =1
-            Text: =ThisItem.'Risk ID'
+            Text: =ThisItem.'RiskID'
             Width: =105
             X: =0
             Y: =0
@@ -1845,6 +1979,44 @@ RiskManagementScreen As screen:
         Y: =76
         ZIndex: =11
 
+        "'Risk Who Last Modifier_DataCard2' As typedDataCard.textualViewCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Risk Who Last Modifier"
+            Default: =ThisItem.'Risk Who Last Modifier'
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@RiskManagementTable],DataSourceInfo.DisplayName,"Risk Who Last Modifier")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Visible: =If(ROAddRisk, false, true)
+            Width: =426
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            DataCardKey33 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue31 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey33.Y + DataCardKey33.Height + 5
+                ZIndex: =2
+
         "'Risk Type Level I_DataCard2' As typedDataCard.allowedValuesStringEditCard":
             AllowedValues: =DataSourceInfo([@RiskManagementTable], DataSourceInfo.AllowedValues, "Risk Type Level I")
             BorderStyle: =BorderStyle.Solid
@@ -1906,44 +2078,6 @@ RiskManagementScreen As screen:
                 Wrap: =false
                 Y: =DataCardKey23.Y
                 ZIndex: =4
-
-        "'Risk Who Last Modifier_DataCard2' As typedDataCard.textualViewCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Risk Who Last Modifier"
-            Default: =ThisItem.'Risk Who Last Modifier'
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@RiskManagementTable],DataSourceInfo.DisplayName,"Risk Who Last Modifier")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =false
-            Visible: =If(ROAddRisk, false, true)
-            Width: =426
-            X: =0
-            Y: =0
-            ZIndex: =1
-
-            DataCardKey33 As label:
-                AutoHeight: =true
-                Height: =34
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue31 As label:
-                AutoHeight: =true
-                DisplayMode: =Parent.DisplayMode
-                Height: =27
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey33.Y + DataCardKey33.Height + 5
-                ZIndex: =2
 
         "'Risk Taxonomy Level III_DataCard2' As typedDataCard.allowedValuesStringEditCard":
             AllowedValues: =DataSourceInfo([@RiskManagementTable], DataSourceInfo.AllowedValues, "Risk Taxonomy Level III")
@@ -2466,9 +2600,9 @@ RiskManagementScreen As screen:
         "'Risk ID_DataCard3' As typedDataCard.textualViewCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Risk ID"
-            Default: =ThisItem.'Risk ID'
+            Default: =ThisItem.'RiskID'
             DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@RiskManagementTable],DataSourceInfo.DisplayName,"Risk ID")
+            DisplayName: =DataSourceInfo([@RiskManagementTable],DataSourceInfo.DisplayName,"RiskID")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
@@ -2936,7 +3070,8 @@ RiskManagementScreen As screen:
                 Y: =DataCardKey49.Y + DataCardKey49.Height + 5
                 ZIndex: =2
 
-        "'Residual Risk Level of Concern_DataCard1' As typedDataCard.textualEditCard":
+        "'Residual Risk Level of Concern_DataCard2' As typedDataCard.allowedValuesStringEditCard":
+            AllowedValues: =DataSourceInfo([@RiskManagementTable], DataSourceInfo.AllowedValues, "Residual Risk Level of Concern")
             BorderStyle: =BorderStyle.Solid
             DataField: ="Residual Risk Level of Concern"
             Default: =ThisItem.'Residual Risk Level of Concern'
@@ -2944,15 +3079,14 @@ RiskManagementScreen As screen:
             DisplayName: =DataSourceInfo([@RiskManagementTable],DataSourceInfo.DisplayName,"Residual Risk Level of Concern")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@RiskManagementTable], DataSourceInfo.MaxLength, "Residual Risk Level of Concern")
             Required: =false
-            Update: =ResidualRiskLevelOfConcern_DC.Text
+            Update: =ResidualRiskLevelOfConcern_DC.Selected.Value
             Width: =426
             X: =2
             Y: =6
             ZIndex: =1
 
-            DataCardKey27 As label:
+            DataCardKey1 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -2962,24 +3096,18 @@ RiskManagementScreen As screen:
                 Y: =10
                 ZIndex: =1
 
-            ResidualRiskLevelOfConcern_DC As text:
+            ResidualRiskLevelOfConcern_DC As dropdown:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
-                DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
+                Items: =Parent.AllowedValues
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey27.Y + DataCardKey27.Height + 5
+                Y: =DataCardKey1.Y + DataCardKey1.Height + 5
                 ZIndex: =2
 
-            ErrorMessage27 As label:
+            ErrorMessage1 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -2994,14 +3122,14 @@ RiskManagementScreen As screen:
                 Y: =ResidualRiskLevelOfConcern_DC.Y + ResidualRiskLevelOfConcern_DC.Height
                 ZIndex: =3
 
-            StarVisible27 As label:
+            StarVisible1 As label:
                 Align: =Align.Center
-                Height: =DataCardKey27.Height
+                Height: =DataCardKey1.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey27.Y
+                Y: =DataCardKey1.Y
                 ZIndex: =4
 
         "'Inherent Risk Likelihood_DataCard2' As typedDataCard.allowedValuesStringEditCard":
@@ -3110,7 +3238,8 @@ RiskManagementScreen As screen:
                 Y: =DataCardKey28.Y
                 ZIndex: =4
 
-        "'Inherent Risk Level of Concern_DataCard1' As typedDataCard.textualEditCard":
+        "'Inherent Risk Level of Concern_DataCard2' As typedDataCard.allowedValuesStringEditCard":
+            AllowedValues: =DataSourceInfo([@RiskManagementTable], DataSourceInfo.AllowedValues, "Inherent Risk Level of Concern")
             BorderStyle: =BorderStyle.Solid
             DataField: ="Inherent Risk Level of Concern"
             Default: =ThisItem.'Inherent Risk Level of Concern'
@@ -3118,15 +3247,14 @@ RiskManagementScreen As screen:
             DisplayName: =DataSourceInfo([@RiskManagementTable],DataSourceInfo.DisplayName,"Inherent Risk Level of Concern")
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@RiskManagementTable], DataSourceInfo.MaxLength, "Inherent Risk Level of Concern")
             Required: =false
-            Update: =InherentRiskLevelOfConcern_DC.Text
+            Update: =InherentRiskLevelOfConcern_DC.Selected.Value
             Width: =426
             X: =2
             Y: =7
             ZIndex: =1
 
-            DataCardKey31 As label:
+            DataCardKey2 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
@@ -3136,24 +3264,18 @@ RiskManagementScreen As screen:
                 Y: =10
                 ZIndex: =1
 
-            InherentRiskLevelOfConcern_DC As text:
+            InherentRiskLevelOfConcern_DC As dropdown:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
-                DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
+                Items: =Parent.AllowedValues
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey31.Y + DataCardKey31.Height + 5
+                Y: =DataCardKey2.Y + DataCardKey2.Height + 5
                 ZIndex: =2
 
-            ErrorMessage31 As label:
+            ErrorMessage2 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -3168,14 +3290,14 @@ RiskManagementScreen As screen:
                 Y: =InherentRiskLevelOfConcern_DC.Y + InherentRiskLevelOfConcern_DC.Height
                 ZIndex: =3
 
-            StarVisible31 As label:
+            StarVisible2 As label:
                 Align: =Align.Center
-                Height: =DataCardKey31.Height
+                Height: =DataCardKey2.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey31.Y
+                Y: =DataCardKey2.Y
                 ZIndex: =4
 
         "'Risk Taxonomy Level I_DataCard2' As typedDataCard.allowedValuesStringEditCard":
@@ -3425,129 +3547,4 @@ RiskManagementScreen As screen:
                 Wrap: =false
                 Y: =DataCardKey22.Y
                 ZIndex: =4
-
-    "'CNRS-HM-CON-ContinueWithoutCS' As groupContainer.manualLayoutContainer":
-        Height: =67
-        Visible: =If(ROAddRisk, true, false)
-        Width: =Parent.Width
-        Y: =701
-        ZIndex: =12
-
-        "'CNRS-HM-AB-ICO-ContinueWithoutCSButtonIcon' As icon.CheckBadge":
-            Height: =67
-            Icon: =Icon.CheckBadge
-            PaddingBottom: =10
-            PaddingLeft: =10
-            PaddingRight: =10
-            PaddingTop: =10
-            X: =12
-            ZIndex: =1
-
-        "'ROS-HM-AB-LBL-AddButtonLabel_3' As label":
-            Height: =67
-            Text: ="Continue without Control Selection"
-            Width: =Parent.Width - 88
-            X: =88
-            ZIndex: =2
-
-        "'ROS-HM-AB-BTN-AddButton_3' As button":
-            Fill: =RGBA(255, 255, 255, 0)
-            Height: =67
-            HoverFill: =
-            OnSelect: |-
-                =UpdateContext(
-                    {
-                        GeneratedID: Text(
-                            RoundUp(
-                                Rand() * 100000,
-                                0
-                            ),
-                            "00000"
-                        )
-                    }
-                );
-                Set(
-                    NewRiskID,
-                    "ID" & GeneratedID
-                );
-                If(
-                    RStatus_DC.Selected.Value = "Closed",
-                    If(
-                        (!IsBlank(RName_DC.Text) && !IsBlank(ReasonForRiskClosure_DC.Text) && !IsBlank(RCause_DC.Text) && !IsBlank(RDescription_DC.Text) && !IsBlank(ResidualRiskLevelOfConcern_DC.Text) && !IsBlank(InherentRiskLevelOfConcern_DC.Text) && !IsBlank(ROwner_DC.Text)),
-                        Patch(
-                            RiskManagementTable,
-                            Defaults(RiskManagementTable),// Retain existing values in the record
-                            {
-                                'Risk ID': "ID" & GeneratedID,
-                                'Risk Name': RName_DC.Text,
-                                'Risk Department Level I': ResidualRiskSeverity_DC.Selected.Value,
-                                'Reason for Risk Closure': DataCardValue5_1.Text,
-                                'Risk Cause': DataCardValue6_1.Text,
-                                'Risk Confidentiality': RFlowRO_DC.Selected.Value,
-                                'Risk Description': DataCardValue8_1.Text,
-                                'Risk Group': DataCardValue55.Selected.Value,
-                                'Risk Level of Concern': DataCardValue11_1.Text,
-                                'Inherent Risk Likelihood': RFlowBO_DC.Selected.Value,
-                                'Residual Risk Likelihood': RFlowBO_DC.Selected.Value,
-                                'Risk Owner': ROwner_DC.Text,
-                                'Inherent Risk Severity': DataCardValue16_1.Text,
-                                'Residual Risk Severity': DataCardValue16_1.Text,
-                                'Risk Status': RDepLevel1_DC.Selected.Value,
-                                'Risk Type Level I': DataCardValue50.Selected.Value,
-                                'Risk Type Level II': DataCardValue51.Selected.Value,
-                                'Risk Taxonomy Level I': Dropdown_taxLevel0.Selected.Value,
-                                'Risk Taxonomy Level II': Dropdown_taxLevel1.Selected.Value,
-                                'Risk Taxonomy Level III': Dropdown_taxLevel2.Selected.Value,
-                                'Risk Flow BO': 'RO-InputEmail_1'.Selected.Value,
-                                'Risk Flow SPOC': 'SPOC-InputEmail_1'.Selected.Value,
-                                'Risk Flow RO': 'BO-InputEmail_1'.Selected.Value,
-                                'Risk Date of Creation': Now(),
-                                'Risk Date of Last Modification': Now(),
-                                'Risk Who Last Modifier': User().FullName,
-                                'Risk Flow Status': "BO"
-                            }
-                        );
-                        Navigate('Risk Overview Screen'),
-                        Notify("Fill in all required fields")
-                    ),
-                    If(
-                        (!IsBlank(RName_DC.Text) && !IsBlank(RCause_DC.Text) && !IsBlank(RDescription_DC.Text) && !IsBlank(ResidualRiskLevelOfConcern_DC.Text) && !IsBlank(InherentRiskLevelOfConcern_DC.Text) && !IsBlank(ROwner_DC.Text)),
-                        Patch(
-                            RiskManagementTable,
-                            Defaults(RiskManagementTable),// Retain existing values in the record
-                            {
-                                RiskID: "ID" & GeneratedID,
-                                'Risk Name': DataCardValue14_1.Text,
-                                'Department L1': ResidualRiskSeverity_DC.Selected.Value,
-                                'Reason for Risk Closure': DataCardValue5_1.Text,
-                                'Risk Cause': DataCardValue6_1.Text,
-                                'Risk Confidentiality': RFlowRO_DC.Selected.Value,
-                                'Risk Description': DataCardValue8_1.Text,
-                                'Risk Group': DataCardValue55.Selected.Value,
-                                'Risk Level of Concern': DataCardValue11_1.Text,
-                                'Risk Likelihood': RFlowBO_DC.Selected.Value,
-                                'Risk Owner': ROwner_DC.Text,
-                                'Risk Severity': DataCardValue16_1.Text,
-                                'Risk Status': RDepLevel1_DC.Selected.Value,
-                                'Risk Type Level I': DataCardValue50.Selected.Value,
-                                'Risk Type Level II': DataCardValue51.Selected.Value,
-                                RiskTaxonomyLevel1: Dropdown_taxLevel0.Selected.Value,
-                                RiskTaxonomyLevel2: Dropdown_taxLevel1.Selected.Value,
-                                RiskTaxonomyLevel3: Dropdown_taxLevel2.Selected.Value,
-                                RiskOwner2: 'RO-InputEmail_1'.Selected.Value,
-                                RiskSPOC: 'SPOC-InputEmail_1'.Selected.Value,
-                                RiskBusinessOwner: 'BO-InputEmail_1'.Selected.Value,
-                                'Date Created': Now(),
-                                'Date Last Modified': Now(),
-                                'Who Last Modified': User().FullName,
-                                RiskStatus2: "BO"
-                            }
-                        );
-                        UpdateContext({ROAddRisk: false}),
-                        Notify("Fill in all required fields")
-                    )
-                )
-            Text: =
-            Width: =Parent.Width
-            ZIndex: =3
 
